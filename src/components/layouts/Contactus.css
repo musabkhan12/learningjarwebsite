@@ -1,0 +1,172 @@
+/* .main{
+    background-color: black;
+} */
+
+
+/* //////// css for map svg /////// */
+.world-map{
+    width: 100% ;
+max-width : 1100px ;
+margin : 0 anuto ;
+padding : 1em ;
+position : relative ;
+}
+
+/* //// css for india location //// */
+.india{
+    display: inline-block;
+    white-space: nowrap;
+    position: absolute;
+    left: 2.5em;
+    top: 53%;
+    transform: translateY(-50%);
+    background: black;
+    color: white;
+    border-radius: 1em;
+    padding: 0.3em 0.6em;
+    font-size: inherit;
+    
+    }
+    .class1{
+        left: 59.4%;
+        position: absolute;
+        top: 57%;
+    }
+    /* //////// css fro blink ////////// */
+    .blink {
+        width: 12px;
+        height:12px;
+        background-color: red;
+        border-radius: 100px;
+        margin: 20px;
+        animation-name: blink;
+        animation-duration: 1.0s;
+        animation-iteration-count: infinite;
+      }
+      
+      @keyframes blink {
+        50% {opacity: 0;}
+      }
+      /* @media only screen and (max-width:320px){
+       .class1{
+        left: 190.4%;
+        position: absolute;
+        top: 57%;
+       }
+      }
+      @media only screen and (min-width: 321px) and (max-width:373px) {
+       .class1{
+        left: 166%;
+        position: absolute;
+        top: 57%;
+       }
+      }
+      @media only screen and (min-width:374px) and (max-width : 426px) {
+        .class1{
+            left: 147%;
+            position: absolute;
+            top: 57%;
+           }
+      }
+          /* // css for tablets / */
+    @media only screen and (max-width: 768px) and (min-width: 427px) {
+        .class{
+            left: 147.4%;
+        position: absolute;
+        top: 57%;}
+    }
+    
+    /* // css for laptops and 4k // */
+    /* @media only screen and (min-width: 760px) and (max-width:  2560px) {
+        .class{
+            left: 130.4%;
+        position: absolute;
+        top: 57%;}
+    
+    } */ 
+    .yellow{
+        width: 50px;
+        top: 50%
+    }
+
+
+    .mobileboxx{
+     display: flex;
+     justify-content: center;
+     flex-wrap: wrap;
+     align-items: center;
+     position: relative;
+    }
+    .mobileboxximg{
+        width: 100%;
+        height: 609px;
+    }
+    .cliq{
+        left: 44%;
+        top: 14%;
+        position: absolute;
+    }
+    .boxxcontentmobile{
+        z-index: 1;
+        background: rgba(0,0,0,0.6);
+        box-sizing: border-box;
+        position: absolute;
+        color: white;
+        top: 0;
+        text-align: center;
+      height: 33.33%;
+        width: 100%;
+        left: -100%;
+        transition: all 0.98s;
+      }
+      .boxxcontent1mobile{
+        left: 0%;
+      }
+      .boxxcontent22mobile{
+        z-index: 1;
+        background: rgba(0,0,0,0.6);
+        box-sizing: border-box;
+        position: absolute;
+        color: white;
+        top: 50%;
+        text-align: center;
+        height: 33.33%;
+        width: 100%;
+        right: -100%;
+        transition: all 0.98s;
+      }
+      .boxxcontent2mobile{
+         right: 0%;
+         top: 33.33%;
+         /*// this is changing  the are you student */
+      }
+      .boxxcontent33mobile{
+        z-index: 1;
+        background: rgba(0,0,0,0.6);
+        box-sizing: border-box;
+        position: absolute;
+        color: white;
+        top: 50%;
+        text-align: center;
+        height: 33.33%;
+        width: 100%;
+        right: -100%;
+        transition: all 0.98s;
+      }
+      .boxxcontent3mobile{
+         right: 0%;
+         top: 66.66%;
+         /*// this is changing  the are you student */
+      }
+    .teacherimg{
+        width: 108%;
+        height: 613px;
+    }
+    .studentimg{
+        width: 108%;
+        height: 609px;
+    }
+    .parentimg{
+        width: 108%;
+        height: 609px;
+    }

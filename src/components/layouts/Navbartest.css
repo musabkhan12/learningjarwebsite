@@ -1,0 +1,41 @@
+
+*{
+    padding: 0;
+    margin:0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+nav{
+
+    height: 80px;
+}
+/* label{
+    position: absolute;
+    left: 4%;
+    top: 2%;
+color: rgb(12, 12, 12);
+font-weight: 900;
+font-size: xx-large;
+text-transform: uppercase;
+font-style: italic;
+letter-spacing: 0.05em;
+font-family: "Avenir Next", sans-serif;
+} */
+nav ul{
+    float: right;
+    margin-right: 2%;
+    color: white;
+    padding-top: 1.5%;
+    padding-right: 1.8%;
+    font-size: larger;
+    font-weight: 700;
+}
+nav ul li a{
+    background-color:white;
+    color: black;
+}
+nav ul li a:hover{
+    color: black;
+    background-color: white;
+}

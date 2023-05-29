@@ -1,0 +1,582 @@
+/* here in body in overflow-x i hide the horizontal scroolvar  */
+body {
+  overflow-x: hidden; /* Hide horizontal scrollbar */
+}
+html {
+  scroll-behavior: smooth;
+}
+/* this css fro three sections students teachers and for parents */
+.boxx{
+  /* width:100%; */
+  /* margin-bottom: 200px; */
+  position: relative;
+  overflow-y: hidden;
+  overflow-x: hidden;
+  background-color: #FFBB01;
+}
+.boxx img{
+ width: 33.33%;
+  
+}
+.cliq{
+  position: absolute;
+}
+.cliq2{
+
+  position: absolute;
+}
+.cliq3{
+
+  position: absolute;
+}
+.boxxcontent{
+  z-index: 1;
+  background: rgba(0,0,0,0.6);
+  box-sizing: border-box;
+  position: absolute;
+  color: white;
+  top: 0;
+  text-align: center;
+height: 100%;
+  width: 100%;
+  left: -100%;
+  transition: all 0.98s;
+}
+.boxxcontent1{
+  left: 0%;
+}
+.boxxcontent22{
+  z-index: -1;
+  background: rgba(0,0,0,0.6);
+  box-sizing: border-box;
+  position: absolute;
+  color: white;
+  top: 0;
+  text-align: center;
+   height: 96%;
+   margin-left: 39.33%;
+   width: 19.33%;
+  transition: all 1.2s;
+}
+.boxxcontent2{
+    
+  margin-left: 0%;
+  width: 100%;
+  z-index: 1;
+   /*// this is changing  the are you student */
+}
+.boxxcontent33{
+  z-index: 1;
+  background: rgba(0,0,0,0.6);
+  box-sizing: border-box;
+  position: absolute;
+  color: white;
+  top: 0;
+  text-align: center;
+  height: 100%;
+  width: 100%;
+  right: -100%;
+  transition: all 0.98s;
+}
+.boxxcontent3{
+  right: 0%;
+   /*// this   is changing  the are you student */
+
+}
+/* ////////////////////// End //////////////////// */
+/* this css is for the automatic slider ie carausol  */
+.slider{
+
+    height: 250px;
+    margin: auto;
+    position : relative ;
+    width: 90%;
+    display : grid;
+    align-items : center
+    
+  
+}
+.slide-track{
+  display : flex;
+   width : calc(250px * 18) ;
+  animation: scroll 10s linear infinite;
+  }
+  .slide{
+    height:200px;
+    width : 250px;
+    display: flex;
+    align-items : center ;
+    padding : 15px;
+    perspective: 100px;
+
+    }
+img{
+  width: 100%;
+  transition: transform 1s;
+}
+   .slide::before,
+    .slide::after{
+      /* background: linear-gradient(to right, rgba(255,255,255,1) 0% , rgba(255, 255, 255 , 0) 10%); */
+      content: '';
+      height: 100%;
+      position: absolute;
+      width: 15%;
+      z-index: 2;
+    } 
+.imagecara:hover{
+  transform: translateZ(20px);
+}  
+@keyframes scroll{
+0%{
+  transform: translateX(0);
+}
+100%{
+ transform: translateX(calc( -100px * 9));
+}
+}
+
+/* ////////////////////// End //////////////////// */
+
+/* this css is for features cards  */
+.blob{
+position: absolute;
+height: 80%;
+z-index: -1;
+}
+.features{
+  background: linear-gradient(
+    to bottom,
+    #ffbb01 10%,
+    white 90%,                                                                 
+    white 50%,
+    white 100%
+);
+/* height: 602px; */
+margin-bottom: 200px;
+}
+.blobfeature{
+    /* this is inwork */
+  position: absolute;
+  top: 1263px;
+  left: 80%;
+  width: 47%;
+}
+.blobfeature2{
+    /* this is inwork */
+  position: absolute;
+  left: -9%;
+  top: 579px;
+  width: 99%;
+  
+}
+.blobfeature3{
+  /* this is inwork */
+  position: absolute;
+}
+.blobfeaturewhite{
+  left: 80%;
+  width: 36%;
+  position: absolute;
+}
+.blobfeatureblue{
+  left: 80%;
+  width: 36%;
+  position: absolute;
+}
+.featuresheader{
+  text-align: center;
+  padding:65px;
+  color: white;
+    text-align: center;
+    padding: 65px;
+    text-shadow: 5px 6px black;
+}
+.featuresdiv{
+display: flex;
+justify-content: center;
+align-items: center;
+flex-wrap: wrap;
+}
+.featuresubdivfirst{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin: 10px;
+  color: black;
+  font-variant: all-petite-caps;
+  overflow: scroll;
+  width: 350px;
+  height: 360px;
+  position: relative;
+ background-color: white; 
+  border-radius: 20px;
+  perspective: 200px;
+  top: -44px;
+  /* border-bottom-left-radius: 160px;
+  border-bottom-right-radius: 160px; */
+}
+.featuresubdivmiddle{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin: 10px;
+  color: black;
+  font-variant: all-petite-caps;
+  overflow: scroll;
+  width: 350px;
+  height: 360px;
+  position: relative;
+ background-color: white; 
+  border-radius: 20px;
+  perspective: 200px;
+  /* border-bottom-left-radius: 160px;
+  border-bottom-right-radius: 160px; */
+}
+.featuresubdivlast{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin: 10px;
+  color: black;
+  font-variant: all-petite-caps;
+  overflow: scroll;
+  width: 350px;
+  height: 360px;
+  position: relative;
+ background-color: white; 
+  border-radius: 20px;
+  perspective: 200px;
+  top: 44px;
+  /* border-bottom-left-radius: 160px;
+  border-bottom-right-radius: 160px; */
+}
+.middlefeature:hover{
+  transform: translateY(-20px);
+  transition: all 1.2s;
+}
+.featuresubdivfirst:hover{
+ transform: translateY(20px);
+ transition: all 1.2s;
+  /* height: 420px; */
+}
+.featuresubdivlast:hover{
+ transform: translateY(-20px);
+ transition: all 1.2s;
+  /* height: 420px; */
+}
+.contenttext{
+  top: 31%;
+  /* position: relative; */
+  /* margin-top: -5px; */
+  margin-left: 4%;
+  margin-right: 4%;
+  /* margin: 24px; */
+  text-align: justify;
+}
+.contentheader{
+  padding-left: 3%;
+}
+.icon{
+  position: relative;
+  width: 40%;
+  height: 120px;
+  background-color: white;
+  left: 31%;
+  box-shadow: none;
+  border-bottom-left-radius: 160px;
+  border-bottom-right-radius: 160px;
+}
+.shape1{
+  position: relative;
+  width: 8%;
+  height: 41px;
+  left: 23.08%;
+  top: -23.14%;
+  border-top-right-radius: 62px;
+  box-shadow: 18px -19px 0 15px white;
+}
+.shape2{
+  position: relative;
+  width: 8%;
+  height: 41px;
+  left: 70.98%;
+  top: -30.99%;
+  border-top-left-radius: 105px;
+  box-shadow: -18px -18px 0 15px white;
+}
+.featureimage{
+  width: 70%;
+  position: absolute;
+  left: 16%;
+  border-radius: 60px;
+  z-index: 2;
+}
+.cardcontent{
+  position: absolute;
+  top: 25%;
+  margin-top: -18px;
+
+}
+.featuresubdivfirst::after{
+  background:linear-gradient(90deg, transparent, rgba(0, 0, 0, 0.2)) ;
+}
+.featuresubdivmiddle::after{
+  background:linear-gradient(90deg, transparent, rgba(0, 0, 0, 0.2)) ;
+}
+.featuresubdivlast::after{
+  background:linear-gradient(90deg, transparent, rgba(0, 0, 0, 0.2)) ;
+}
+.featuresubdivfirst::-webkit-scrollbar{
+  display: none;
+}
+.featuresubdivmiddle::-webkit-scrollbar{
+  display: none;
+}
+.featuresubdivlast::-webkit-scrollbar{
+  display: none;
+}
+.featuresubdivfirst:hover{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 1.99);
+}
+.featuresubdivmiddle:hover{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 1.99);
+}
+.featuresubdivlast:hover{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 1.99);
+}
+.feature1{
+  height:20px;
+  width : 20px
+}
+.feature2{
+  height:20px;
+  width : 20px
+}
+.feature3{
+  height:20px;
+  width : 20px
+}
+.reveal{
+  position: relative;
+  transform: translateY(290px);
+  opacity: 0;
+  transition: all 3s ease-in-out;
+}
+.reveal.active{
+  transform: translateX(0px);
+  opacity: 1;
+}
+
+.reveal1{
+  position: relative;
+  transform: translateY(290px);
+  opacity: 0;
+  transition: all 3s ease-in-out;
+}
+.reveal1.active{
+  transform: translateX(0px);
+  opacity: 1;
+}
+
+
+/* this css for benifits animation */
+.animation1{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.animation1img{
+  /* width: 900px; */
+  
+  width: 50%;
+}
+.showanime{
+  position: relative;
+  transform: translateX(590px);
+  opacity: 0;
+  transition: all 3s ease-in-out;
+}
+.showanime.active{
+  transform: translateY(0px);
+  opacity: 1;
+}
+.showanimetitle{
+  position: relative;
+  margin-bottom: 40px;
+  margin-top: 40px;
+  transform: translateX(-290px);
+  opacity: 0;
+  transition: all 3s ease-in-out;
+  /* padding-bottom: 119px; */
+}
+.showtitleunderlinetop {
+	border-bottom: 5px solid #030202;
+	border-right: 55px solid transparent;
+	height: 0;
+	width:100%;
+}
+.showtitleunderlinebottom {
+	border-bottom: 5px solid #030202;
+	border-right: 55px solid transparent;
+	height: 0;
+	width:100%;
+}
+.showtitleunderline {
+	border-bottom: 5px solid #030202;
+	border-right: 55px solid transparent;
+	height: 0;
+	width:100%;
+}
+.showanimetitle.active{
+  transform: translateY(0px);
+  opacity: 1;
+}
+.benifitlist{
+font-variant: all-petite-caps;
+    font-size: 120%;
+    padding: 2px;
+    margin-top: 5px;
+    font-weight: bold;
+    padding-bottom: 13px;
+    /* padding-left: 60px; */
+}
+.showanimelist1{
+  position: relative;
+  transform: translateX(-440px);
+  opacity: 0;
+  transition: all 3s ease-in-out;
+}
+.showanimelist1.active{
+  transform: translateY(0px);
+  opacity: 1;
+}
+.showanimelist2{
+  position: relative;
+  transform: translateX(-500px);
+  opacity: 0;
+  transition: all 3s ease-in-out;
+}
+.showanimelist2.active{
+  transform: translateY(0px);
+  opacity: 1;
+}
+.showanimelist3{
+  position: relative;
+  transform: translateX(-560px);
+  opacity: 0;
+  transition: all 3s ease-in-out;
+}
+.showanimelist3.active{
+  transform: translateY(0px);
+  opacity: 1;
+}
+.showanimelist4{
+  position: relative;
+  transform: translateX(-720px);
+  opacity: 0;
+  transition: all 3s ease-in-out;
+}
+.showanimelist4.active{
+  transform: translateY(0px);
+  opacity: 1;
+}
+.showanimelist5{
+  position: relative;
+  transform: translateX(-780px);
+  opacity: 0;
+  transition: all 3s ease-in-out;
+}
+.showanimelist5.active{
+  transform: translateY(0px);
+  opacity: 1;
+}
+.showanimelist6{
+  position: relative;
+  transform: translateX(-840px);
+  opacity: 0;
+  transition: all 3s ease-in-out;
+}
+.showanimelist6.active{
+  transform: translateY(0px);
+  opacity: 1;
+}
+.showanimelist7{
+  position: relative;
+  transform: translateX(-900px);
+  opacity: 0;
+  transition: all 3s ease-in-out;
+}
+.showanimelist7.active{
+  transform: translateY(0px);
+  opacity: 1;
+}
+.showanimelist8{
+  position: relative;
+  transform: translateX(-960px);
+  opacity: 0;
+  transition: all 3s ease-in-out;
+}
+.showanimelist8.active{
+  transform: translateY(0px);
+  opacity: 1;
+}
+/* media query  */
+@media only screen and (min-width:300px) and (max-width:426px){
+
+  .boxx{
+    display: none;
+  }
+}
+
+
+
+
+.swiper {
+  width: 240px;
+  height: 320px;
+}
+
+.swiper-slide {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 18px;
+  font-size: 22px;
+  font-weight: bold;
+  color: #fff;
+}
+
+.swiper-slide:nth-child(1n) {
+  background-image: url(../images/320-2.jpg);
+}
+
+.swiper-slide:nth-child(2n) {
+  background-image: url(../images/320-3.jpg);
+}
+
+.swiper-slide:nth-child(3n) {
+  background-color: rgb(10, 184, 111);
+}
+
+.swiper-slide:nth-child(4n) {
+  background-color: rgb(211, 122, 7);
+}
+
+.swiper-slide:nth-child(5n) {
+  background-color: rgb(118, 163, 12);
+}
+
+.swiper-slide:nth-child(6n) {
+  background-color: rgb(180, 10, 47);
+}
+
+.swiper-slide:nth-child(7n) {
+  background-color: rgb(35, 99, 19);
+}
+
+.swiper-slide:nth-child(8n) {
+  background-color: rgb(0, 68, 255);
+}
+
+.swiper-slide:nth-child(9n) {
+  background-color: rgb(218, 12, 218);
+}
+
+.swiper-slide:nth-child(10n) {
+  background-color: rgb(54, 94, 77);
+}
