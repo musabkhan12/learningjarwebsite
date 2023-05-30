@@ -516,12 +516,12 @@ font-variant: all-petite-caps;
   opacity: 1;
 }
 /* media query  */
-@media only screen and (min-width:300px) and (max-width:426px){
+/* @media only screen and (min-width:300px) and (max-width:426px){
 
   .boxx{
     display: none;
   }
-}
+} */
 
 
 

@@ -51,6 +51,7 @@ import blobfeaturewhite from "../blobs/blobanimationfeaturewhite.svg"
 import blobfeatureblue from "../blobs/blobanimationfeatureblue.svg"
 // import Footer from "./Footer";
 function Aboutus() {
+    // code js for three sections starts here
   function anim() {
     let on = document.getElementById("anime");
     on.classList.add("boxxcontent1");
@@ -85,8 +86,11 @@ function Aboutus() {
       // console.log(on[i].classList);
     }
   }
-  window.addEventListener("scroll", reveal);
 
+  // code js for three sections ends here
+
+
+  window.addEventListener("scroll", reveal);
   function reveal() {
     var reveal = document.querySelectorAll(".reveal");
     for (var i = 0; i < reveal.length; i++) {
@@ -254,30 +258,6 @@ function Aboutus() {
       }
     }
   }
-
-  const animi = document.getElementById("benifitsofonline")
-  if (animi) {
-    animi.addEventListener("mousemove" , mousemonitor);
-  }
-  function mousemonitor(e){
-    console.log("enter here")
-    var x = e.pageX;
-    // var y = e.pageY;
-    console.log(x);
-   var blob = document.getElementById("blobanimation")
-   
-    if(blob){
-      if(x < 100){blob.style.position = "-670%";}
-  
-    }
-
-  }
-  var musa = document.getElementById("blobanimation")
-  if(musa){
-    console.log(musa.classList , "musa")
-  }
-
-
 
   return (
     <div>
