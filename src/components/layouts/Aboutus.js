@@ -134,7 +134,7 @@ function Aboutus() {
     for (var i = 0; i < reveal.length; i++) {
       var windowweight = window.innerHeight;
       var revealtop = reveal[i].getBoundingClientRect().top;
-      var revelpoint = 30;
+      var revelpoint = 190;
       if (revealtop < windowweight - revelpoint) {
         reveal[i].classList.add("active");
       } else {
@@ -254,20 +254,7 @@ function Aboutus() {
       }
     }
   }
-  window.addEventListener("scroll" , revealanime11)
-  function revealanime11(){
-    var reveal = document.querySelectorAll(".showanimelist8");
-    for (var i = 0; i < reveal.length; i++) {
-      var windowweight = window.innerHeight;
-      var revealtop = reveal[i].getBoundingClientRect().top;
-      var revelpoint = 30;
-      if (revealtop < windowweight - revelpoint) {
-        reveal[i].classList.add("active");
-      } else {
-        reveal[i].classList.remove("active");
-      }
-    }
-  }
+
   const animi = document.getElementById("benifitsofonline")
   if (animi) {
     animi.addEventListener("mousemove" , mousemonitor);

@@ -31,6 +31,8 @@ function Contactus() {
   }
   return (
     <div >
+
+      
       <div class="mobileboxx">
         {/* this image is for teacher start here */}
          <div class="mobileboxximg">

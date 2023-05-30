@@ -5,11 +5,10 @@ function Navbartest(){
    return(
        <div >
            <nav>
-            <div>
+    
             <label >This is Testing</label>
-            </div>
-           
-     <div>
+
+   
      <ul>
                 <li>
                 <Link to='/'>Home</Link>
@@ -25,7 +24,7 @@ function Navbartest(){
                     <Link to='/contactus'>Contact Us</Link>
                 </li>
             </ul>
-     </div>
+    
         
            </nav>
        </div>
