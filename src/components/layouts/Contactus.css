@@ -668,3 +668,12 @@ position : relative ;
         width: 50px;
         top: 50%
     }
+
+
+
+    .displypdfs{
+     display: flex;
+     flex-wrap: wrap;
+     text-align: center;
+     align-items: center;
+    }

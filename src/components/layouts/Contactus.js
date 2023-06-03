@@ -1,4 +1,5 @@
 import React from "react";
+import Navbartest from "./Navbartest.js"
 import map from "../images/worldmap.png";
 import Lottie from 'lottie-react';
 
@@ -8,7 +9,8 @@ import Lottie from 'lottie-react';
  import animation1 from "../animation/animation1.json"
  import blob from "../blobs/blobanimation.svg"
 
- 
+ //pdf 
+//  import pdf from '../pdfs/dummy.pdf'
 
 // Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";
@@ -19,6 +21,7 @@ import "swiper/css/effect-cards";
 
 import "./Contactus.css";
 function Contactus() {
+  
   // from here the three section of mobile start 
   function anim() {
     let on = document.getElementById("anime");
@@ -128,7 +131,7 @@ function Contactus() {
     for (var i = 0; i < reveal.length; i++) {
       var windowweight = window.innerHeight;
       var revealtop = reveal[i].getBoundingClientRect().top;
-      var revelpoint = 190;
+      var revelpoint = 120;
       if (revealtop < windowweight - revelpoint) {
         reveal[i].classList.add("active");
       } else {
@@ -252,6 +255,7 @@ function Contactus() {
   // here benifits of online learning end
   return (
     <div >
+      <Navbartest></Navbartest>
         {/* this is three sections for moblies  strat from here */}
 
       <div class="mobileboxx">
@@ -434,6 +438,47 @@ function Contactus() {
       </div>
           {/*  here benifits of online learning end */}
 
+          <div id="benifitsofonline" class= "animation1">
+     <div >
+     {/* <div class="animation1img showanime" ><Lottie animationData={animation1} /> </div>   */}
+     <div>
+        <hr class="showtitleunderlinetop"/>
+      </div>
+      <div>
+      <h1 class="showanimetitle"> BENEFITS OF ONLINE LEARNING WITH US</h1>
+      </div>
+      <div>
+        <hr class="showtitleunderlinebottom"/>
+      </div>
+      <img id="blobanimation" class="blob" src={blob} alt="" />
+    <div>
+    <ul> 
+              <li class="benifitlist showanimelist1">&#x2022;<span></span> Tailor-made curriculum for (ICSE/ISC/CBSE/IB/IGCSE) Boards </li>
+              <li class="benifitlist showanimelist2">&#x2022;<span></span> Customized Sessions as per the need of the learner <br></br> Customized Sessions as per the need of the learner</li>
+              <li class="benifitlist showanimelist3">&#x2022;<span></span> 1 :1 online classes for each student and this is all</li>
+              <li class="benifitlist showanimelist4">&#x2022;<span></span> Providing Career Counseling Sessions as well</li>
+              <li class="benifitlist showanimelist5">&#x2022;<span></span> Weekly Online Assessments and Evaluations</li>
+              <li class="benifitlist showanimelist6">&#x2022;<span></span> Monthly Parent-Teachers Virtual Meets </li>
+              <li class="benifitlist showanimelist7">&#x2022;<span></span> Dedicated and well-trained teachers</li>
+              <li class="benifitlist showanimelist8">&#x2022;<span></span> Tech-based learning</li>
+            </ul>
+    </div>
+    <div>
+        <hr class="showtitleunderline"/>
+      </div>
+     </div>
+      </div>
+<div class="displypdfs" >
+  <div>
+  <a href={require('../pdfs/dummy.pdf')}>  <img class="pdficon" src={require('../pdfs/pdficon.gif')} alt="" /> <h1>  </h1> </a>
+  </div>
+  <div>
+  <object width="100%" height="100%" type="application/pdf" >
+
+  <a href={require('../pdfs/dummy.pdf')}>  pdfs </a>
+  </object>
+  </div>
+</div>
 
           {/* meet our admin team and teacher start from here */}
       <div>
