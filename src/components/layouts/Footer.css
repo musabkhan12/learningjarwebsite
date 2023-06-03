@@ -1,0 +1,17 @@
+.footer{
+    width: 100%;
+    /* background-color:  rgb(255,165,0); */
+    /* background-color: rgb(255,165,0) */
+    /* animation: animate 4s ease-in-out infinite; */
+}
+
+.footerheader{
+    color: black;
+}
+.bubble1{
+    width:20px;
+    color: black;
+}
+/* .animation{
+    width: 60%;
+} */

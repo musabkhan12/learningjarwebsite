@@ -1,0 +1,168 @@
+.maindiv{
+    display: flex;
+    line-height: 8%;
+}
+.logo h1{
+    position: absolute;
+    left:  8%;
+}
+.anchors {
+    display: flex;
+    width: 62%;
+    margin-left: 63%;
+    margin-top: 1%;
+ }
+ .navbarlaptop{
+    display: flex;
+  }
+  /* /// laptop tablet navbarlaptop css  /// */
+  .ullinks{
+    display: -webkit-box;
+  }
+  /* .Links2{
+    text-decoration: none;
+    color: black;
+  } */
+  .Link1{
+   padding: 0 0 0 20px;
+   font-size: large;
+   list-style-type: none;
+   
+  }
+  .Link2{
+   padding: 0 0 0 20px;
+   font-size: large;
+   list-style-type: none;
+  }
+  .Link3{
+   padding: 0 0 0 20px;
+   font-size: large;
+   list-style-type: none;
+  }
+/* .Links:hover{
+  transform: scale(1.1);
+  transition: 0.3s;
+} */
+.Link1:hover{
+  transform: scale(1.1);
+  transition: 0.3s;
+}
+.Link2:hover{
+  transform: scale(1.1);
+  transition: 0.3s;
+}
+.Link3:hover{
+  transform: scale(1.1);
+  transition: 0.3s;
+}
+ /* css for mobiles  for anchors in website */
+@media only screen and (max-width : 321px){
+    .navbarlaptop{
+      display: none;
+    }
+  }
+  @media only screen and (min-width : 322px) and (max-width:376px){
+
+    .navbarlaptop{
+      display: none;
+    }
+  }
+  @media only screen and (min-width:377px) and (max-width : 620px) {
+    .navbarlaptop{
+      display: none;
+    }
+  }
+ /* css for tablet  for anchors in website */
+    @media only screen and (max-width: 800px) and (min-width: 621px) {
+        .divlinks2{
+            margin-left: 115%;
+            padding-top: 3%;
+          }
+        
+      }
+
+
+ /* css for Laptop  for anchors in website */
+ @media only screen and (min-width: 801px) and (max-width:  2560px) {
+    .divlinks2{
+        margin-left:280%;
+        padding-top: 3%;
+    }
+  }
+
+
+
+  
+.navbar {
+  background-color: #f8f8f8;
+  height: 60px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+}
+
+.navbar-container {
+  display: flex;
+  align-items: center;
+}
+
+.navbar-logo {
+  font-size: 24px;
+  font-weight: bold;
+  text-decoration: none;
+  color: #333;
+  margin-right: 20px;
+}
+
+.navbar-menu {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.navbar-menu li {
+  margin-right: 15px;
+}
+
+.navbar-menu li a {
+  text-decoration: none;
+  color: #333;
+  font-size: 16px;
+}
+
+.navbar-toggle {
+  display: none;
+  cursor: pointer;
+}
+
+.bar {
+  display: block;
+  width: 25px;
+  height: 3px;
+  background-color: #333;
+  margin-bottom: 5px;
+}
+
+@media (max-width: 768px) {
+  .navbar-menu {
+    display: none;
+  }
+
+  .navbar-toggle {
+    display: block;
+  }
+
+  .navbar-toggle.active .bar:nth-child(2) {
+    opacity: 0;
+  }
+
+  .navbar-toggle.active .bar:nth-child(1) {
+    transform: rotate(45deg) translate(5px, 6px);
+  }
+
+  .navbar-toggle.active .bar:nth-child(3) {
+    transform: rotate(-45deg) translate(5px, -6px);
+  }
+}
