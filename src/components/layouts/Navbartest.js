@@ -4,6 +4,8 @@ import {Link} from "react-router-dom";
 function Navbartest(){
    return(
        <div >
+            <meta name="viewport" 
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0"></meta>
            <nav>
     
             <label >This is Testing</label>

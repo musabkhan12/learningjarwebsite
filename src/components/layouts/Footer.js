@@ -7,7 +7,10 @@ import Lottie from 'lottie-react'
 import animation from "../animation/animation.json"
 function Footer(){
    return(
+
        <div class="footer">
+            <meta name="viewport" 
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0"></meta>
        <div class="animation">
        <Lottie animationData={animation} />
         </div> 
