@@ -15,28 +15,16 @@ function mobileMenu() {
 }
    return(
        <div >
-         <header class="header">
-        <nav class="navbar">
-            <a href="#" class="nav-logo">Learning Jar</a>
-            <ul class="nav-menu">
-                <li class="nav-item">
-                <Link to='/'>Home</Link>
-                </li>
-                <li class="nav-item">
-                <Link to='/contactus'>Contact Us</Link>
-                </li>
-                <li class="nav-item">
-                    {/* <a href="/aboutus" class="nav-link">About</a> */}
-                    <Link to='/aboutus'>About</Link>
-                </li>
-             
-            </ul>
-            <div class="hamburger">
-                <span class="bar"></span>
-                <span class="bar"></span>
-                <span class="bar"></span>
-            </div>
-        </nav>
+<header class="header">
+  <a href="" class="logo">CSS Nav</a>
+  <input class="menu-btn" type="checkbox" id="menu-btn" />
+  <label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
+  <ul class="menu">
+    <li> <Link to='/'>Home</Link></li>
+    <li> <Link to='/aboutus'>About Us</Link></li>
+    <li> <Link to='/contactus'>Contact Us</Link></li>
+    <li> <Link to='/footer'>Footer</Link></li>
+  </ul>
 </header>
 
        </div>
