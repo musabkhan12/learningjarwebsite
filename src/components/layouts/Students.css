@@ -217,7 +217,10 @@ width : 20px
 
 
 /* / css for benifits of online starts from here / */
-
+.blob{
+    width: 73%;
+    height: 54%;
+}
 .reveal{
     position: relative;
     transform: translateY(290px);
