@@ -93,22 +93,18 @@
      top: 66.66%;
      /*// this is changing  the are you student */
   }
-/* .teacherimg{
-    width: 108%;
-    height: 613px;
+ .teacherimg{
+    width: 100vw;
+    height: 100vh;
 }
 .studentimg{
-    width: 108%;
-    height: 609px;
+    width: 100vw;
+    height: 100vh;
 }
 .parentimg{
-    width: 108%;
-    height: 609px;
-} */
-
-
-
-
+    width: 100vw;
+    height: 100vh;
+} 
 
 .boxx{
     /* width:100%; */
