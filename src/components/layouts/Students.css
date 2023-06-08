@@ -250,16 +250,14 @@ width : 20px
     .animation1img{
       /* width: 900px; */
       
-      width: 50%;
+      /* width: 50%; */
     }
-    .showanime{
+    .showanimestudent{
       position: relative;
-      transform: translateX(590px);
       opacity: 0;
-      transition: all 1.5s ease-in-out;
+      transition: all 4s ease-in-out;
     }
-    .showanime.active{
-      transform: translateY(0px);
+    .showanimestudent.active{
       opacity: 1;
     }
     .showanimetitle{

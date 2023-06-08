@@ -43,7 +43,7 @@ function Students(){
 
  window.addEventListener("scroll" , revealanime)
  function revealanime(){
-   var reveal = document.querySelectorAll(".showanime");
+   var reveal = document.querySelectorAll(".showanimestudent");
    for (var i = 0; i < reveal.length; i++) {
      var windowweight = window.innerHeight;
      var revealtop = reveal[i].getBoundingClientRect().top;
@@ -260,15 +260,15 @@ function Students(){
    <div>
    <div id="benifitsofonline" class= "animation1">
      <div >
-     <div>
+     {/* <div>
         <hr class="showtitleunderlinetop"/>
-      </div>
+      </div> */}
       <div>
       <h1 class="showanimetitle"> BENEFITS OF ONLINE LEARNING WITH US</h1>
       </div>
-      <div>
+      {/* <div>
         <hr class="showtitleunderlinebottom"/>
-      </div>
+      </div> */}
       <img id="blobanimation" class="blob" src={blob} alt="" />
     <div>
     <ul> 
@@ -282,11 +282,11 @@ function Students(){
               <li class="benifitlist showanimelist8"> Tech-based learning</li>
             </ul>
     </div>
-    <div>
+    {/* <div>
         <hr class="showtitleunderline"/>
-      </div>
+      </div> */}
      </div>
-     <div class="animation1img showanime" ><Lottie animationData={animation1} /> </div>  
+     <div class="animation1imgstudent showanimestudent" ><Lottie animationData={animation1} /> </div>  
          
       </div>
    </div>
