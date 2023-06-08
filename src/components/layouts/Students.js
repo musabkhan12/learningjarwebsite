@@ -271,8 +271,9 @@ function Students(){
       {/* <div>
         <hr class="showtitleunderlinebottom"/>
       </div> */}
-     <img id="blobanimation" class="blob" src={blob} alt="" /> 
+   
     <div>
+    <img id="blobanimation" class="blob" src={blob} alt="" /> 
     <ul> 
               <li class="benifitlist showanimelist1"> Tailor-made curriculum for (ICSE/ISC/CBSE/IB/IGCSE) Boards </li>
               <li class="benifitlist showanimelist2"> Customized Sessions as per the need of the learner <br></br> Customized Sessions as per the need of the learner</li>
