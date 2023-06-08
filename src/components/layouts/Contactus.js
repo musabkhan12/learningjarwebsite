@@ -255,6 +255,8 @@ function Contactus() {
   // here benifits of online learning end
   return (
     <div >
+      <meta name="viewport" 
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0"></meta>
       <Navbartest></Navbartest>
         {/* this is three sections for moblies  strat from here */}
 
