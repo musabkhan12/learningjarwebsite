@@ -24,6 +24,7 @@
     width: 100vw;
 
 } */
+
 /* css for features start from here  */
 .features{
     background: linear-gradient(
@@ -176,8 +177,6 @@ width : 20px
 }
 
 /* css for features end here  */
-
-
 .reveal{
     position: relative;
     transform: translateY(290px);
@@ -212,17 +211,177 @@ width : 20px
         top: 10%;
       }
     }
-  /* @media screen and (max-width: 600px) {
-    .animation1 {
-        display: flex;
-        flex-wrap: nowrap;
-        flex-direction: column;
-    }
+
+/* / css for features end here  / */
+
+
+
+/* / css for benifits of online starts from here / */
+
+.reveal{
+    position: relative;
+    transform: translateY(290px);
+    opacity: 0;
+    transition: all 3s ease-in-out;
   }
-  @media screen and (max-width: 601px) {
+  .reveal.active{
+    transform: translateX(0px);
+    opacity: 1;
+  }
+  
+  .reveal1{
+    position: relative;
+    transform: translateY(290px);
+    opacity: 0;
+    transition: all 3s ease-in-out;
+  }
+  .reveal1.active{
+    transform: translateX(0px);
+    opacity: 1;
+  }
+  
+  
   .animation1{
-    display: flex;
-    flex-wrap: nowrap;
-    flex-direction: row;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-wrap: wrap;
     }
-} */
+    .animation1img{
+      /* width: 900px; */
+      
+      width: 50%;
+    }
+    .showanime{
+      position: relative;
+      transform: translateX(590px);
+      opacity: 0;
+      transition: all 1.5s ease-in-out;
+    }
+    .showanime.active{
+      transform: translateY(0px);
+      opacity: 1;
+    }
+    .showanimetitle{
+      position: relative;
+      margin-bottom: 40px;
+      margin-top: 40px;
+      transform: translateX(-290px);
+      opacity: 0;
+      transition: all 1.5s ease-in-out;
+      /* padding-bottom: 119px; */
+    }
+    .showtitleunderlinetop {
+        border-bottom: 5px solid #030202;
+        border-right: 55px solid transparent;
+        height: 0;
+        width:100%;
+    }
+    .showtitleunderlinebottom {
+        border-bottom: 5px solid #030202;
+        border-right: 55px solid transparent;
+        height: 0;
+        width:100%;
+    }
+    .showtitleunderline {
+        border-bottom: 5px solid #030202;
+        border-right: 55px solid transparent;
+        height: 0;
+        width:100%;
+    }
+    .showanimetitle.active{
+      transform: translateY(0px);
+      opacity: 1;
+    }
+    .benifitlist{
+    font-variant: all-petite-caps;
+        font-size: 120%;
+        padding: 2px;
+        margin-top: 5px;
+        font-weight: bold;
+        padding-bottom: 13px;
+        /* padding-left: 60px; */
+    }
+    .showanimelist1{
+      position: relative;
+      transform: translateX(-440px);
+      opacity: 0;
+      transition: all 1.5s ease-in-out;
+    }
+    .showanimelist1.active{
+      transform: translateY(0px);
+      opacity: 1;
+    }
+    .showanimelist2{
+      position: relative;
+      transform: translateX(-500px);
+      opacity: 0;
+      transition: all 1.5s ease-in-out;
+    }
+    .showanimelist2.active{
+      transform: translateY(0px);
+      opacity: 1;
+    }
+    .showanimelist3{
+      position: relative;
+      transform: translateX(-560px);
+      opacity: 0;
+      transition: all 1.5s ease-in-out;
+    }
+    .showanimelist3.active{
+      transform: translateY(0px);
+      opacity: 1;
+    }
+    .showanimelist4{
+      position: relative;
+      transform: translateX(-720px);
+      opacity: 0;
+      transition: all 1.5s ease-in-out;
+    }
+    .showanimelist4.active{
+      transform: translateY(0px);
+      opacity: 1;
+    }
+    .showanimelist5{
+      position: relative;
+      transform: translateX(-780px);
+      opacity: 0;
+      transition: all 1.5s ease-in-out;
+    }
+    .showanimelist5.active{
+      transform: translateY(0px);
+      opacity: 1;
+    }
+    .showanimelist6{
+      position: relative;
+      transform: translateX(-840px);
+      opacity: 0;
+      transition: all 1.5s ease-in-out;
+    }
+    .showanimelist6.active{
+      transform: translateY(0px);
+      opacity: 1;
+    }
+    .showanimelist7{
+      position: relative;
+      transform: translateX(-900px);
+      opacity: 0;
+      transition: all 1.5s ease-in-out;
+    }
+    .showanimelist7.active{
+      transform: translateY(0px);
+      opacity: 1;
+    }
+    .showanimelist8{
+      position: relative;
+      transform: translateX(-960px);
+      opacity: 0;
+      transition: all 1.5s ease-in-out;
+    }
+    .showanimelist8.active{
+      transform: translateY(0px);
+      opacity: 1;
+    }
+  
+
+/* / css for benifits of online ends here / */

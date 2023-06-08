@@ -2,6 +2,10 @@ import React from "react";
 import Navbartest from "./Navbartest.js";
 import './Students.css'
 
+
+import Lottie from 'lottie-react';
+import animation1 from "../animation/animation1.json"
+import blob from "../blobs/blobanimation.svg"
 function Students(){
   // from here features start 
   window.addEventListener("scroll", reveal);
@@ -253,20 +257,21 @@ function Students(){
         </div>
  </div>
     
-   
-
-    {/* benifits of online */}
- 
-    {/* <div class="divbenifits">
-             
-      <div id="benifitsofonline" class= "animation1">
+   <div>
+   <div id="benifitsofonline" class= "animation1">
      <div >
+     <div>
+        <hr class="showtitleunderlinetop"/>
+      </div>
       <div>
       <h1 class="showanimetitle"> BENEFITS OF ONLINE LEARNING WITH US</h1>
       </div>
+      <div>
+        <hr class="showtitleunderlinebottom"/>
+      </div>
       <img id="blobanimation" class="blob" src={blob} alt="" />
     <div>
-             <ul> 
+    <ul> 
               <li class="benifitlist showanimelist1"> Tailor-made curriculum for (ICSE/ISC/CBSE/IB/IGCSE) Boards </li>
               <li class="benifitlist showanimelist2"> Customized Sessions as per the need of the learner <br></br> Customized Sessions as per the need of the learner</li>
               <li class="benifitlist showanimelist3"> 1 :1 online classes for each student and this is all</li>
@@ -277,12 +282,14 @@ function Students(){
               <li class="benifitlist showanimelist8"> Tech-based learning</li>
             </ul>
     </div>
-  <div class="animation1img showanime" ><Lottie animationData={animation1} /> </div>   
+    <div>
+        <hr class="showtitleunderline"/>
+      </div>
      </div>
-    
+     <div class="animation1img showanime" ><Lottie animationData={animation1} /> </div>  
          
-      </div> 
-    </div> */}
+      </div>
+   </div>
 
 
    </div>

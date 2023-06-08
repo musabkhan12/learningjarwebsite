@@ -1,11 +1,12 @@
 import React from "react";
 import Navbartest from "./Navbartest.js"
 import map from "../images/worldmap.png";
-import Lottie from 'lottie-react';
+
 
 
  import img2 from "../images/lucas-5tRmLGguL3Q-unsplash.jpg";
 
+ import Lottie from 'lottie-react';
  import animation1 from "../animation/animation1.json"
  import blob from "../blobs/blobanimation.svg"
 
