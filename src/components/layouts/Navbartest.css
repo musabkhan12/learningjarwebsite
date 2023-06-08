@@ -14,7 +14,8 @@ body {
     background-color: #fff;
     box-shadow: 1px 1px 4px 0 rgba(0,0,0,.1);
     position: fixed;
-    width: 100%;
+    width: 100vw;
+    top: 0%;
     z-index: 3;
   }
   
@@ -59,7 +60,7 @@ body {
   .header .menu-icon {
     cursor: pointer;
     display: inline-block;
-    float: right;
+    /* float: right; */
     padding: 28px 20px;
     position: relative;
     user-select: none;
@@ -100,7 +101,7 @@ body {
   }
   
   .header .menu-btn:checked ~ .menu {
-    max-height: 240px;
+    max-height: 324px;
   }
   
   .header .menu-btn:checked ~ .menu-icon .navicon {

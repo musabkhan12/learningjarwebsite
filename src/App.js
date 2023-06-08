@@ -5,6 +5,8 @@ import Contactus from './components/layouts/Contactus';
 import {  BrowserRouter,Route , Routes} from "react-router-dom";
 import Home from './components/layouts/Home';
 import Navbartest from './components/layouts/Navbartest';
+import Footer from "./components/layouts/Footer"
+import Students from './components/layouts/Students';
 
 function App() {
    
@@ -17,6 +19,8 @@ function App() {
     <Route path="/aboutus" element={<Aboutus/> } exact ></Route>
     <Route path="/contactus" element={<Contactus/>} exact >  </Route>
     <Route path="/navbartest" element={<Navbartest/>} exact >  </Route>
+    <Route path="/footer" element={<Footer/>} exact >  </Route>
+    <Route path="/students" element={<Students/>} exact >  </Route>
 </Routes>
 </BrowserRouter>
   </>

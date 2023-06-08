@@ -261,7 +261,7 @@ function Contactus() {
         {/* this is three sections for moblies  strat from here */}
 
       <div class="mobileboxx">
-        {/* this image is for teacher start here */}
+     
          <div class="mobileboxximg">
         <img class="teacherimg" src={img2} alt="Avatar" />
         <button class="cliq" onClick={anim}>
@@ -275,8 +275,7 @@ function Contactus() {
             <button onClick={anim2}>Back</button>
           </div>
         </div>
-        {/* teacher ends here */}
-      {/* this image is for students start here */}
+  
         <div class="mobileboxximg">
         <img class="teacherimg" src={img2} alt="Avatar" />
         <button class="cliq2" onClick={anim3}>
@@ -289,9 +288,7 @@ function Contactus() {
             <button onClick={anim4}>Back</button>
           </div>
         </div>
-        {/* students  ends here */}
-
-      {/* this image is for parent start here */}
+     
         <div class="mobileboxximg">
         <img class="teacherimg" src={img2} alt="Avatar" />
         <button class="cliq3" onClick={anim5}>
@@ -304,7 +301,7 @@ function Contactus() {
             <button onClick={anim6}>Back</button>
           </div>
         </div>
-           {/* parents ends here */}
+       
 
       </div>
 

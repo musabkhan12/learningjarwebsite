@@ -1,17 +1,190 @@
 .footer{
-    width: 100%;
-    /* background-color:  rgb(255,165,0); */
-    /* background-color: rgb(255,165,0) */
-    /* animation: animate 4s ease-in-out infinite; */
+    width: 100vw;
+}
+.navbar{
+    width: 100vw;
+}
+.mobilethreesection{
+    width: 100vw;
+}
+.laptopthreesection{
+    width: 100vw;
 }
 
-.footerheader{
-    color: black;
+
+
+
+@media only screen and (min-width: 600px){
+    .mobileboxx{
+        display: none;
 }
-.bubble1{
-    width:20px;
-    color: black;
 }
-/* .animation{
-    width: 60%;
+@media only screen and (max-width: 601px){
+    .boxx{
+        display: none;
+}
+}
+.mobileboxx{
+ /* display: flex; */
+ justify-content: center;
+ flex-wrap: wrap;
+ align-items: center;
+ position: relative;
+ /* overflow-x: hidden; */
+}
+.mobileboxximg{
+    width: 100vw;
+    height: 100vh;
+}
+.cliq{
+    left: 44%;
+    top: 14%;
+    position: absolute;
+}
+.boxxcontentmobile{
+    z-index: 1;
+    background: rgba(0,0,0,0.6);
+    box-sizing: border-box;
+    position: absolute;
+    color: white;
+    top: 0;
+    text-align: center;
+  height: 100vh;
+    width: 100vw;
+    left: -100%;
+    transition: all 0.98s;
+  }
+  .boxxcontent1mobile{
+    left: 0%;
+  }
+  .boxxcontent22mobile{
+    z-index: 1;
+    background: rgba(0,0,0,0.6);
+    box-sizing: border-box;
+    position: absolute;
+    color: white;
+    top: 50%;
+    text-align: center;
+    height: 100vh;
+    width: 100vw;
+    right: -100%;
+    transition: all 0.98s;
+  }
+  .boxxcontent2mobile{
+     right: 0%;
+     top: 33.33%;
+     /*// this is changing  the are you student */
+  }
+  .boxxcontent33mobile{
+    z-index: 1;
+    background: rgba(0,0,0,0.6);
+    box-sizing: border-box;
+    position: absolute;
+    color: white;
+    top: 50%;
+    text-align: center;
+    height: 100vh;
+    width: 100vw;
+    right: -100%;
+    transition: all 0.98s;
+  }
+  .boxxcontent3mobile{
+     right: 0%;
+     top: 66.66%;
+     /*// this is changing  the are you student */
+  }
+/* .teacherimg{
+    width: 108%;
+    height: 613px;
+}
+.studentimg{
+    width: 108%;
+    height: 609px;
+}
+.parentimg{
+    width: 108%;
+    height: 609px;
 } */
+
+
+
+
+
+.boxx{
+    /* width:100%; */
+    /* margin-bottom: 200px; */
+    /* position: relative; */
+    background-color: #FFBB01;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    position: relative;
+    height: 100vh;
+  }
+  .boxx img{
+   width: 33.33vw;
+   height: 100vh;
+  }
+  .cliqlap{
+    position: absolute;
+    top: 53%;
+  }
+  .cliq2lap{
+  
+    position: absolute;
+    top: 53%;
+  }
+  .cliq3lap{
+  
+    position: absolute;
+    top: 53%;
+  }
+  .boxxcontent{
+    z-index: 1;
+    background: rgba(0,0,0,0.6);
+    box-sizing: border-box;
+    position: absolute;
+    color: white;
+    top: 0;
+    text-align: center;
+  height: 100vh;
+    width: 100vw;
+    left: -100%;
+    transition: all 0.98s;
+  }
+  .boxxcontent1{
+    left: 0%;
+  }
+  .boxxcontent22{
+    z-index: -1;
+    background: rgba(0,0,0,0.6);
+    box-sizing: border-box;
+    position: absolute;
+    color: white;
+    top: 0;
+    text-align: center;
+     height: 100vh;
+     /* margin-left: 39.33%; */
+     /* width: 19.33%; */
+    transition: all 1.2s;
+  }
+  .boxxcontent2{
+      
+    margin-left: 0%;
+    width: 100vw;
+    z-index: 1;
+     /*// this is changing  the are you student */
+  }
+  .boxxcontent33{
+    z-index: 1;
+    background: rgba(0,0,0,0.6);
+    box-sizing: border-box;
+    position: absolute;
+    color: white;
+    top: 0;
+    text-align: center;
+    height: 100vh;
+    width: 100vw;
+    /* right: -100%; */
+    transition: all 0.98s;
+  }
