@@ -5,7 +5,7 @@ import './Students.css'
 
 import Lottie from 'lottie-react';
 import animation1 from "../animation/animation1.json"
-import blob from "../blobs/blobanimation.svg"
+// import blob from "../blobs/blobanimation.svg"
 function Students(){
   // from here features start 
   window.addEventListener("scroll", reveal);
@@ -186,6 +186,8 @@ function Students(){
 // js for benifits end //
     return(
    <div>
+     <meta name="viewport" 
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0"></meta>
     {/* navbar */}
     <div class="navbar">
     <Navbartest></Navbartest>
@@ -269,7 +271,7 @@ function Students(){
       {/* <div>
         <hr class="showtitleunderlinebottom"/>
       </div> */}
-      <img id="blobanimation" class="blob" src={blob} alt="" />
+      {/* <img id="blobanimation" class="blob" src={blob} alt="" /> */}
     <div>
     <ul> 
               <li class="benifitlist showanimelist1"> Tailor-made curriculum for (ICSE/ISC/CBSE/IB/IGCSE) Boards </li>
