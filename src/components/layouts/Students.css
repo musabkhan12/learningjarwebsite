@@ -389,7 +389,9 @@ width : 20px
 
 /* / css for benifits of online ends here / */
 
-
+.moon{
+position: absolute;
+}
 
 .blinker {
   width: 12px;
@@ -408,6 +410,9 @@ width : 20px
 
 .geomap{
   background-color: #ffbb01;
+      background-color: #ffbb01;
+    z-index: 1;
+    position: relative;
 }
  .blinker2{
   width: 12px;
