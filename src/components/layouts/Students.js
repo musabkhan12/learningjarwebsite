@@ -1,7 +1,9 @@
 import React from "react";
 import Navbartest from "./Navbartest.js";
+import geog from '../map/features.json'
 import './Students.css'
-
+import moon from '../blobs/Moon.svg'
+import { ComposableMap, Geographies, Geography , Marker } from "react-simple-maps";
 
 import Lottie from 'lottie-react';
 import animation1 from "../animation/animation1.json"
@@ -186,6 +188,7 @@ function Students(){
 // js for benifits end //
     return(
    <div>
+    <img src={moon}></img>
      <meta name="viewport" 
       content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0"></meta>
     {/* navbar */}
@@ -199,7 +202,7 @@ function Students(){
 
 <h1 class="featuresheader reveal1">Features</h1>
         <div class="featuresdiv reveal">
-          <div class="featuresubdivfirst">
+          <div class="featuresubdivfirst1">
             {/* <div>
               <img class="featureimage" src={feature2} alt="" />{" "}
             </div> */}
@@ -218,7 +221,7 @@ function Students(){
             </div>
           </div>
 
-          <div class="featuresubdivmiddle middlefeature">
+          <div class="featuresubdivmiddle1 middlefeature">
             {/* <div>
               <img class="featureimage" src={feature1} alt="" />
             </div> */}
@@ -236,7 +239,7 @@ function Students(){
               </h4>
             </div>
           </div>
-          <div class="featuresubdivlast">
+          <div class="featuresubdivlast1">
             {/* <div>
               <img class="featureimage" src={feature3} alt="" />
             </div> */}
@@ -295,6 +298,26 @@ function Students(){
    </div>
 
 
+   <div class="geomap">
+    <ComposableMap>
+      <Geographies geography={geog}>
+        {({ geographies }) =>
+          geographies.map((geo) => (
+            <Geography key={geo.rsmKey} geography={geo} />
+          ))
+        }
+      </Geographies>
+      <Marker coordinates={[-74.006, 40.7128]}>
+        {/* <circle r={8} fill="#F53" /> */}
+        <circle r={8} fill="red" class="blinker"/>
+        <text fill="orange">mumbai</text>
+      </Marker>
+    </ComposableMap>
+  
+  </div>
+   <div>
+        <p class="blinker2"></p>
+       </div>
    </div>
 )
 }

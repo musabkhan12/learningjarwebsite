@@ -29,7 +29,7 @@
 .features{
     background: linear-gradient(
       to bottom,
-      #ffbb01 10%,
+      rgb(255, 187, 0) 10%,
       white 90%,                                                                 
       white 50%,
       white 100%
@@ -54,24 +54,24 @@ justify-content: center;
 align-items: center;
 flex-wrap: wrap;
 } */
-.featuresubdivfirst{
-background-image: url(../images/320-2.jpg);
+.featuresubdivfirst1{
+/* background-image: url(../images/320-2.jpg); */
 box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 margin: 10px;
-color: black;
+color: rgb(0, 0, 0);
 font-variant: all-petite-caps;
 overflow: scroll;
 width: 350px;
 height: 360px;
 position: relative;
-background-color: white; 
+/* background:linear-gradient(330deg, rgba(161,164,255,1) 39%, rgba(255,255,255,1) 99%);;  */
 border-radius: 20px;
 perspective: 200px;
 top: -44px;
 /* border-bottom-left-radius: 160px;
 border-bottom-right-radius: 160px; */
 }
-.featuresubdivmiddle{
+.featuresubdivmiddle1{
 box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 margin: 10px;
 color: black;
@@ -80,13 +80,13 @@ overflow: scroll;
 width: 350px;
 height: 360px;
 position: relative;
-background-color: white; 
+/* background-color: white;  */
 border-radius: 20px;
 perspective: 200px;
 /* border-bottom-left-radius: 160px;
 border-bottom-right-radius: 160px; */
 }
-.featuresubdivlast{
+.featuresubdivlast1{
 box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 margin: 10px;
 color: black;
@@ -95,7 +95,9 @@ overflow: scroll;
 width: 350px;
 height: 360px;
 position: relative;
-background-color: white; 
+/* background-color:#ffce46; 
+ */
+ /* background: linear-gradient(124deg, rgba(255,206,70,1) 65%, rgba(139,139,139,1) 100%); */
 border-radius: 20px;
 perspective: 200px;
 top: 44px;
@@ -106,12 +108,12 @@ border-bottom-right-radius: 160px; */
 transform: translateY(-20px);
 transition: all 1.2s;
 }
-.featuresubdivfirst:hover{
+.featuresubdivfirst1:hover{
 transform: translateY(20px);
 transition: all 1.2s;
 /* height: 420px; */
 }
-.featuresubdivlast:hover{
+.featuresubdivlast1:hover{
 transform: translateY(-20px);
 transition: all 1.2s;
 /* height: 420px; */
@@ -136,31 +138,31 @@ top: 25%;
 margin-top: -18px;
 
 }
-.featuresubdivfirst::after{
+.featuresubdivfirst1::after{
 background:linear-gradient(90deg, transparent, rgba(0, 0, 0, 0.2)) ;
 }
-.featuresubdivmiddle::after{
+.featuresubdivmiddle1::after{
 background:linear-gradient(90deg, transparent, rgba(0, 0, 0, 0.2)) ;
 }
-.featuresubdivlast::after{
+.featuresubdivlast1::after{
 background:linear-gradient(90deg, transparent, rgba(0, 0, 0, 0.2)) ;
 }
-.featuresubdivfirst::-webkit-scrollbar{
+.featuresubdivfirst1::-webkit-scrollbar{
 display: none;
 }
-.featuresubdivmiddle::-webkit-scrollbar{
+.featuresubdivmiddle1::-webkit-scrollbar{
 display: none;
 }
-.featuresubdivlast::-webkit-scrollbar{
+.featuresubdivlast1::-webkit-scrollbar{
 display: none;
 }
-.featuresubdivfirst:hover{
+.featuresubdivfirst1:hover{
 box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 1.99);
 }
-.featuresubdivmiddle:hover{
+.featuresubdivmiddle1:hover{
 box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 1.99);
 }
-.featuresubdivlast:hover{
+.featuresubdivlast1:hover{
 box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 1.99);
 }
 .feature1{
@@ -386,3 +388,35 @@ width : 20px
   
 
 /* / css for benifits of online ends here / */
+
+
+
+.blinker {
+  width: 12px;
+  height:12px;
+  background-color: red;
+  border-radius: 100px;
+  margin: 20px;
+  animation-name: blink;
+  animation-duration: 1.0s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes blink {
+  50% {opacity: 0;}
+}
+
+.geomap{
+  background-color: #ffbb01;
+}
+ .blinker2{
+  width: 12px;
+  height:12px;
+  background-color: red;
+  animation-name: blinknext;
+  animation-duration: 1.0s;
+  animation-iteration-count: infinite;
+ }
+ @keyframes blinknext{
+  50% {padding: 2px;}
+ }
