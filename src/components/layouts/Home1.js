@@ -36,7 +36,7 @@ function Home1() {
     <div class="main">
           <meta name="viewport" 
       content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0"></meta>
-  <Navbartest></Navbartest>
+  {/* <Navbartest></Navbartest> */}
         <div class="three">
           <div class="boxtest">
           <img src={img2} alt="Avatar" class="testimage" />
