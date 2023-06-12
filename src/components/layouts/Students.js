@@ -188,7 +188,7 @@ function Students(){
 // js for benifits end //
     return(
    <div>
-    <img class="moon" src={moon}></img>
+    <img alt="" class="moon" src={moon} />
      <meta name="viewport" 
       content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0"></meta>
     {/* navbar */}
@@ -262,7 +262,7 @@ function Students(){
         </div>
  </div>
     
-   <div>
+   <div class="divbenifitsonline">
    <div id="benifitsofonline" class= "animation1">
      <div >
      {/* <div>

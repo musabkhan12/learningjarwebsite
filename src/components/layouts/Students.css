@@ -10,17 +10,18 @@
     width: 100vw;
 }
 .featuresdivmain{
-    background: linear-gradient(
-        to bottom,
-        #ffbb01 8%,
-        white 40%,                                                                 
-        white 67%,
-        white 44%
-    );
-    height: 86em;
+  background: linear-gradient(
+      to bottom,
+      #ffbb01 8%,
+      white 40%,                                                                 
+      white 67%,
+      white 44%
+  );
+  height: 90%;
 
 }
-@media screen and (min-width: 601px) {
+
+/* @media screen and (min-width: 1101px) {
   .featuresdivmain{
     background: linear-gradient(
         to bottom,
@@ -29,10 +30,23 @@
         white 67%,
         white 44%
     );
-    height: 48em;
+    height: 90%;
 
 }
   }
+@media screen and (max-width: 1100px) {
+  .featuresdivmain{
+    background: linear-gradient(
+        to bottom,
+        #ffbb01 8%,
+        white 40%,                                                                 
+        white 67%,
+        white 44%
+    );
+    height: 1200px;
+
+}
+  } */
 /* .divbenifits{
     width: 100vw;
 
@@ -232,6 +246,10 @@ width : 20px
 
 
 /* / css for benifits of online starts from here / */
+
+.divbenifitsonline{
+margin-top: 10%;
+}
 .blob{
     width: 73%;
     height: 54%;
