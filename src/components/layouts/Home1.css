@@ -2,10 +2,12 @@
   overflow: hidden;
   overflow-y: hidden;
   overflow-x: hidden;
+  width: 100vw;
 }
 .three{
   display: flex;
   height: 100vh;
+  width: 100vw;
 }
 
 .boxtest{
