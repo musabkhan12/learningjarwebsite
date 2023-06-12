@@ -41,7 +41,7 @@ function Home1() {
           <div class="boxtest">
           <img src={img2} alt="Avatar" class="testimage" />
                <div class="box1content1test">
-              <h1>Section 1</h1>
+              <h1>Section 11</h1>
             </div>
           </div>
            <div class="boxtest2">
