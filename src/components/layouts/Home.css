@@ -71,7 +71,22 @@
     color : black;
     background-color: white;
   }
-
+.img:hover{
+  .boxxcontent{
+    z-index: 1;
+    /* background: none; */
+    background-image: url(../images/375.jpg);
+    box-sizing: border-box;
+    position: absolute;
+    color: white;
+    top: 0;
+    text-align: center;
+    height: 100%;
+    width: 100%;
+    left: -100%;
+    transition: all 0.98s;
+  }
+}
   .boxxcontent{
     z-index: 1;
     /* background: none; */

@@ -119,7 +119,7 @@ function Footer() {
           <button class="cliqlap" onClick={animationteacher}>
             Click me
           </button>
-          <img src={img2} alt="Avatar" />
+          <img class="stud"  src={img2} alt="Avatar" />
           <div class="boxxcontent" id="animeteacher">
             <h1>are you student?</h1>
             <button onClick={animationteacher2}>Back</button>

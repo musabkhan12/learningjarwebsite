@@ -1,0 +1,109 @@
+
+.three{
+  display: flex;
+  height: 100vh;
+}
+
+.boxtest{
+ /* position: absolute;  */
+  width: 33.333%;
+  height: 100%;
+}
+.boxtest2{
+ /* position: absolute;  */
+
+  width: 33.333%;
+  height: 100%;
+}
+.boxtest3{
+ /* position: absolute;  */
+  width: 33.333%;
+  height: 100%;
+}
+
+.box1content1test{
+  background: rgba(0,0,0,0.6);
+  box-sizing: border-box;
+  color: white;
+  top: 0;
+  text-align: center;
+  padding-top: 190px;
+  /* left: 0; */
+  /* background-color: black; */
+  width: 100%;
+  left: -100%;
+  height: 100vh;
+  position: absolute;
+  /* left: -100; */
+
+  transition: all 0.98s;
+}
+
+.box1{
+ left: -100%;
+}
+
+ .boxtest:hover .box1content1test{
+  left: 0%;
+  z-index: 2;
+} 
+.testimage{
+  width: 100%;
+  height: 100vh;
+}
+.testimage2{
+  width: 100%;
+  height: 100vh;
+}
+.testimage3{
+  width: 100%;
+  height: 100vh;
+}
+/* .testimage:hover .box1content1test{
+  left: 0%;
+  z-index: 2;
+} */
+
+.box1content1test2{
+  /* z-index: 1; */
+  z-index: -1;
+  background: rgba(0,0,0,0.6);
+  box-sizing: border-box;
+  position: absolute;
+  padding-top: 190px;
+  color: white;
+  top: 0;
+  text-align: center;
+  height: 100vh;
+  width: 16.665vw;
+  /* right: -100%; */
+  left: 40.98%;
+  transition: all 0.98s;
+}
+
+.boxtest2:hover .box1content1test2{
+   left: 0;
+   width: 100%;
+    z-index: 2;
+} 
+.box1content1test3{
+  /* z-index: 1; */
+  /* z-index: -1; */
+  background: rgba(0,0,0,0.6);
+  box-sizing: border-box;
+  position: absolute;
+  color: white;
+  padding-top: 190px;
+  top: 0;
+  text-align: center;
+  height: 100vh;
+  width: 100vw;
+  /* right: -100%; */
+  right: -110%;
+  transition: all 0.98s;
+}
+
+.boxtest3:hover .box1content1test3{
+   right: 0;
+    z-index: 2;
+} 

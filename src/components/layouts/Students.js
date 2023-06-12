@@ -307,10 +307,10 @@ function Students(){
           ))
         }
       </Geographies>
-      <Marker coordinates={[-74.006, 40.7128]}>
+      <Marker coordinates={[74.006, 19.7128]}>
         {/* <circle r={8} fill="#F53" /> */}
-        <circle r={8} fill="red" class="blinker"/>
-        <text fill="orange">mumbai</text>
+        <circle r={4} fill="red" class="blinker"/>&#160;
+        <text class="mumbai" fill="white">mumbai</text>
       </Marker>
     </ComposableMap>
   

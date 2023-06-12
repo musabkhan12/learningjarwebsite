@@ -7,7 +7,7 @@ import Home from './components/layouts/Home';
 import Navbartest from './components/layouts/Navbartest';
 import Footer from "./components/layouts/Footer"
 import Students from './components/layouts/Students';
-
+import Home1 from './components/layouts/Home1';
 function App() {
    
   return (
@@ -21,6 +21,7 @@ function App() {
     <Route path="/navbartest" element={<Navbartest/>} exact >  </Route>
     <Route path="/footer" element={<Footer/>} exact >  </Route>
     <Route path="/students" element={<Students/>} exact >  </Route>
+    <Route path="/home1" element={<Home1/>} exact >  </Route>
 </Routes>
 </BrowserRouter>
   </>

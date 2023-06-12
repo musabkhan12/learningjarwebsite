@@ -51,7 +51,7 @@ function Home() {
           <button class="btnbef cliq" onClick={anim}>
             Click me
           </button>
-          <img src={img2} alt="Avatar" />
+          <img class="hoverit" src={img2} alt="Avatar" />
           <div class="boxxcontent" id="anime">
             <h1>are you student?</h1>
             <button onClick={anim2}>Back</button>
