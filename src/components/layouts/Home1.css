@@ -1,4 +1,5 @@
-.main{
+/* on hover three sections */
+/* .main{
   overflow: hidden;
   overflow-y: hidden;
   overflow-x: hidden;
@@ -14,14 +15,14 @@
 }
 
 .boxtest{
- /* position: absolute;  */
+
   width: 33.333vw;
   height: 100%;
   overflow-y: hidden;
   overflow-x: hidden;
 }
 .boxtest2{
- /* position: absolute;  */
+
 
   width: 33.333vw;
   height: 100%;
@@ -29,7 +30,7 @@
   overflow-x: hidden;
 }
 .boxtest3{
- /* position: absolute;  */
+
   width: 33.333vw;
   height: 100%;
   overflow-y: hidden;
@@ -43,13 +44,10 @@
   top: 0;
   text-align: center;
   padding-top: 190px;
-  /* left: 0; */
-  /* background-color: black; */
   width: 100%;
   left: -100%;
   height: 100vh;
   position: absolute;
-  /* left: -100; */
 
   transition: all 0.98s;
   overflow-y: hidden;
@@ -76,13 +74,8 @@
   width: 100%;
   height: 100vh;
 }
-/* .testimage:hover .box1content1test{
-  left: 0%;
-  z-index: 2;
-} */
 
 .box1content1test2{
-  /* z-index: 1; */
 
   z-index: -1;
   background: rgba(0,0,0,0.6);
@@ -94,7 +87,7 @@
   text-align: center;
   height: 100vh;
   width: 16.665vw;
-  /* right: -100%; */
+
   left: 40.98%;
   transition: all 0.98s;
   overflow-y: hidden;
@@ -107,7 +100,7 @@
     z-index: 2;
 } 
 .box1content1test3{
-  /* z-index: 1; */
+
   z-index: -1; 
   background: rgba(0,0,0,0.6);
   box-sizing: border-box;
@@ -118,7 +111,7 @@
   text-align: center;
   height: 100vh;
   width: 1vw;
-  /* right: -100%; */
+
    right: 0%;
   transition: all 0.98s;
   overflow-y: hidden;
@@ -129,4 +122,364 @@
    right: 0;
    width: 100vw;
     z-index: 2;
-} 
+}  */
+/* .container {
+    position: flex;
+    width: 50%;
+  }
+  
+  .image {
+    display: block;
+    width: 50%;
+    height: 90%;
+    margin: 0px;
+  }
+  
+  .overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #008CBA;
+    overflow: hidden;
+    width: 0;
+    height: 100%;
+    transition: .5s ease;
+  }
+  
+  .container:hover .overlay {
+    width: 20%;
+  }
+  
+  .text {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    white-space: nowrap;
+  } */
+
+  .main{
+    background-color: #04AA6D;
+  }
+  /* // navbarlaptop design // */
+  .navbarlaptop{
+    display: flex;
+  }
+  /* /// laptop tablet navbarlaptop css  /// */
+  .ullinks{
+    display: flex;
+  }
+  .Links2{
+    text-decoration: none;
+    color: black;
+  }
+  .Link1{
+   padding: 0 0 0 20px;
+   font-size: large;
+   list-style-type: none;
+   
+  }
+  .Link2{
+   padding: 0 0 0 20px;
+   font-size: large;
+   list-style-type: none;
+  }
+  .Link3{
+   padding: 0 0 0 20px;
+   font-size: large;
+   list-style-type: none;
+  }
+.Links:hover{
+  transform: scale(1.1);
+  transition: 0.3s;
+}
+.Link1:hover{
+  transform: scale(1.1);
+  transition: 0.3s;
+}
+.Link2:hover{
+  transform: scale(1.1);
+  transition: 0.3s;
+}
+.Link3:hover{
+  transform: scale(1.1);
+  transition: 0.3s;
+}
+  .navlaptop{
+    display: flex;
+  }
+  .Logo{
+    padding-left: 156px;
+    width: 100px;
+  }
+
+  /* /// hamburger menu css /// */
+  .hamicon{
+   padding-left: 300px;
+   }
+  .hamburgericon{
+    margin: 10px;
+    height: 38px;
+  }
+  .hamnav{
+    height: 59px;
+    /* text-decoration: none; */
+    text-align: center;
+     /* border: 20px; */
+  }
+  .div1 {
+    width: 35px;
+    height: 5px;
+    background-color: black;
+    margin: 6px 0;
+  }
+  .lines{
+    padding-left: 220px;
+  }
+  .Links{
+    text-decoration: none;
+    color: black;
+
+  }
+  .Link4{
+    list-style-type: none;
+  }
+  .Link5{
+    list-style-type: none;
+  }
+  .Link6{
+    list-style-type: none;
+  }
+
+
+
+
+
+
+
+  .imagecontainerlaptop{
+    display: flex;
+    height: 517px;
+  }
+  .imagemobile320{
+    width: 100%;
+    height: 720px;
+    display: flex;
+  }
+  .imagelaptop{
+    display: flex;
+    width: 33.33%;
+    height: 570px;
+  }
+  /* .imagelaptop1{
+    display: flex;
+    width: 33.33%;
+    height: 570px;
+  } */
+  .boxes{
+    display: flex;
+  }
+  .box1{
+    width: 33.33%;
+    position: relative;
+
+  }
+  .box1:hover .box1content1{
+    left: 0%;
+ padding: 102px;     /*// this is changing  the are you student */
+ 
+  }
+  .box1 img{
+    width: 100%;
+    height: 100%;
+  }
+  .box1content1{
+    background: rgba(0,0,0,0.6);
+    box-sizing: border-box;
+    position: absolute;
+    color: white;
+    top: 0;
+    text-align: center;
+    /* left: 0; */
+    /* background-color: black; */
+    height: 100%;
+    width: 100%;
+    /* left: -100; */
+    left: -100%;
+    transition: all 0.98s;
+
+  }
+  .box2{
+    width: 33.33%;
+    position: relative;
+    overflow: hidden;
+  }
+  .box2:hover .box2content2{
+    top: 0%;
+    padding: 102px; 
+  }
+  .box2 img{
+    width: 100%;
+    height: 100%;
+  }
+  .box2content2{
+    text-align: center;
+    background: rgba(0,0,0,0.6);
+    box-sizing: border-box;
+    position: absolute;
+    color: white;
+    top: -100%;
+    /* left: 0; */
+    /* background-color: black; */
+    height: 100%;
+    width: 100%;
+    /* left: -100; */
+     left: 0%; 
+    transition: all 0.9s;
+  }
+  .box3{
+    width: 33.33%;
+    position: relative;
+    overflow: hidden;
+  }
+  .box3:hover .box3content3{
+    right: 0%;
+    padding: 120px; 
+  }
+  .box3 img{
+    width: 100%;
+    height: 100%;
+  }
+  .box3content3{
+    text-align: center;
+    background: rgba(0,0,0,0.6);
+    box-sizing: border-box;
+    position: absolute;
+    color: white;
+    /* left: 0; */
+    /* background-color: black; */
+    height: 100%;
+    width: 100%;
+    right: -100%;
+     top: 0%; 
+    transition: all 0.9s;
+  }
+  /* .imagelaptop1:hover{
+  
+   transform: translatey(100px ); 
+  } */
+  /* // css for mobile small // */
+  @media only screen and (max-width : 321px){
+    .imagecontainerlaptop{
+      display: none;
+    }
+    .navbarlaptop{
+      display: none;
+    }
+  }
+  @media only screen and (min-width : 322px) and (max-width:376px){
+    .imagecontainerlaptop{
+      display: none;
+    }
+    .navbarlaptop{
+      display: none;
+    }
+  }
+  @media only screen and (min-width:377px) and (max-width : 426px) {
+    .imagecontainerlaptop{
+      display: none;
+    }
+    .navbarlaptop{
+      display: none;
+    }
+  }
+  
+/* @media only screen and (max-width: 760px)  {
+
+} */
+
+/* // css for laptops and 4k // */
+@media only screen and (min-width: 760px) and (max-width:  2560px) {
+  .hamburger-icon{
+    display: none;
+  }
+  .imagecontainermobile{
+    display: none;
+  }
+  .divlinks{
+    position: fixed;
+    margin-left: 43%;
+  }
+  .imagecontainerlaptop{
+    height: 709px;
+}
+}
+/* // css for tablets / */
+@media only screen and (max-width: 768px) and (min-width: 426px) {
+  .hamburger-icon{
+    display: none;
+  }  
+  .divlinks{
+      margin-left: 26%;
+    }
+    .imagecontainerlaptop{
+         height: 517px;
+    }
+}
+
+
+/* 
+position: absolute;
+left: 0px;
+top: 0px;
+z-index: -1; */
+
+/* Style the navigation menu */
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+  position: relative;
+}
+
+/* Hide the links inside the navigation menu (except for logo/home) */
+.topnav #myLinks {
+  display: none;
+}
+
+/* Style navigation menu links */
+.topnav a {
+  color: white;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  display: block;
+}
+
+/* Style the hamburger menu */
+.topnav a.icon {
+  background: black;
+  display: block;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+/* Add a grey background color on mouse-over */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Style the active link (or home/logo) */
+.active {
+  background-color: #04AA6D;
+  color: white;
+}
+
+
+   

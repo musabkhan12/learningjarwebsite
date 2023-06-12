@@ -37,7 +37,8 @@ function Home1() {
           <meta name="viewport" 
       content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0"></meta>
    <Navbartest></Navbartest> 
-        <div class="three">
+   {/* on hover three section  */}
+        {/* <div class="three">
           <div class="boxtest">
           <img src={img2} alt="Avatar" class="testimage" />
                <div class="box1content1test">
@@ -57,8 +58,31 @@ function Home1() {
             </div>
            </div>
   
+          </div> */}
+        <div>
+    
+        <div class="imagecontainerlaptop">
+          <div class="box1">
+            <img src={img2} alt="Avatar" class="imagelaptop1" />
+            <div class="box1content1">
+              <h1>are you student?</h1>
+            </div>
           </div>
-       
+          <div class="box2">
+            <img src={img2} alt="Avatar" class="imagelaptop1" />
+            <div class="box2content2">
+              <h1>are you Parents?</h1>
+            </div>
+          </div>
+          <div class="box3">
+            <img src={img2} alt="Avatar" class="imagelaptop1" />
+            <div class="box3content3">
+              <h1>are you Tutor?</h1>
+            </div>
+          </div>
+        </div>
+
+      </div>
     </div>
   );
 }
