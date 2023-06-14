@@ -22,8 +22,8 @@
     font-size: 50px;
     font-weight: 900;
     top: 80px;
-    left: -25px;
-    letter-spacing: 34px;
+    left: 34px;
+    letter-spacing: -2px;
     text-transform: uppercase;
   }
   p {
@@ -31,7 +31,6 @@
     -ms-user-select: none; /* IE 10 and IE 11 */
     user-select: none; /* Standard syntax */
     margin: 0px;
-    width: 80%;
     height: 50px;
     line-height: 48px;
     transition: all 0.5s ease-in-out;
