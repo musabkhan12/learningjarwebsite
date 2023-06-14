@@ -72,10 +72,10 @@ function Activity() {
   </div>
   <div class="perspective-line">
     <p>EASE TO</p>
-    <p>LEARN........</p>
+    <p>LEARN......</p>
   </div>
   <div class="perspective-line">
-    <p>LEARN........</p>
+    <p>LEARN......</p>
     <p></p>
   </div>
   </div>
