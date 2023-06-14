@@ -1,0 +1,66 @@
+@media  (max-width:600px) {
+  .boardtext{
+    position: absolute;
+    top: 44px;
+    height: 100%;
+    width: 100%;
+  }
+  .boardimg{
+
+      width: 100%;
+      z-index: -1;
+      position: absolute;
+      opacity: 0.4;
+    }
+  .perspective-text {
+    position: absolute;
+    color: rgb(0, 0, 0);
+    font-family: Arial;
+    font-size: 50px;
+    font-weight: 900;
+    top: 80px;
+    left: -25px;
+    letter-spacing: -2px;
+    text-transform: uppercase;
+  }
+  p {
+    margin: 0px;
+    width: 80%;
+    height: 50px;
+    line-height: 48px;
+    transition: all 0.5s ease-in-out;
+  }
+  .perspective-line {
+    height: 50px;
+    overflow: hidden;
+  
+  }
+  .perspective-line:nth-child(odd) {
+    transform: skew(60deg, -30deg) scaleY(0.667);
+  }
+  .perspective-line:nth-child(even) {
+    transform: skew(0deg, -30deg) scaleY(1.333);
+  }
+  .perspective-line {
+    position: relative;
+  }
+  
+  .perspective-line:nth-child(1) {
+    left: 29px;
+  }
+  .perspective-line:nth-child(2) {
+    left: 58px;
+  }
+  .perspective-line:nth-child(3) {
+    left: 87px;
+  }
+  .perspective-line:nth-child(4) {
+    left: 116px;
+  }
+  .perspective-line:nth-child(5) {
+    left: 145px;
+  }
+  .perspective-text:hover p{
+    transform: translate(0, -50px);
+  } 
+}

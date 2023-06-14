@@ -187,7 +187,7 @@ function Students(){
  // here benifits of online learning end
 // js for benifits end //
     return(
-   <div>
+   <div class="studentsdiv">
     <img alt="" class="moon" src={moon} />
      <meta name="viewport" 
       content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0"></meta>
