@@ -179,14 +179,17 @@
   }
   @keyframes run {
     0% {
-      left: 0;
-    }
-    50% {
-      left: 15%;
-    }
-    100% {
-      left: 0;    
-    }
+      /* left: 0; */
+      right: 20%;
+  }
+  
+  50% {
+      right: 12%;
+  }
+  100% {
+      /* left: 0; */
+      right: 20%;
+  }
   }
   .boardtext{
     position: absolute;
