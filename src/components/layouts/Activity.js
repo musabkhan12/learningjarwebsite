@@ -2,6 +2,14 @@ import React from "react";
 // import { useState } from "react";
 // import { Link } from "react-router-dom";
 import university from '../images/university.png'
+import bag from '../images/briefcase.svg'
+import envelope from '../images/envelope.svg'
+import briefcase from '../images/briefcase.svg'
+import flask from '../images/flask.svg'
+import like from '../images/like.svg'
+import worldwide from '../images/worldwide.svg'
+import loudspeaker from '../images/loudspeaker.svg'
+
 import Navbartest from './Navbartest'
 import boardimg from "../images/board.svg"
  import Lottie from 'lottie-react';
@@ -55,23 +63,30 @@ function Activity() {
    </div> */}
      
      <div class= "boardtext">
+      <img class ="envelope"  src={envelope} alt="" />
+      <img class ="briefcase"  src={briefcase} alt="" />
+      <img class ="flask"  src={flask} alt="" />
+      <img class ="likehand"  src={like} alt="" />
+      <img class ="worldwide"  src={worldwide} alt="" />
+      <img class ="loudspeaker"  src={loudspeaker} alt="" />
       <img class="boardimg" src={boardimg} alt="" />
      <div class="perspective-text">
 
   <div class="perspective-line">
+
     <p></p>
-    <p>LEARNING</p>
+    <p>TESTING </p><p></p> 
   </div>
   <div class="perspective-line">
-    <p>LEARNING</p>
-    <p>JARRRR</p>
+    <p>TESTING</p>
+    <p>DATA</p>
   </div>
   <div class="perspective-line">
-    <p>JARRRR</p>
-    <p>EASE TO</p>
+    <p>DATA</p>
+    <p>PRACTICE</p>
   </div>
   <div class="perspective-line">
-    <p>EASE TO</p>
+    <p> PRACTICE</p>
     <p>LEARN......</p>
   </div>
   <div class="perspective-line">

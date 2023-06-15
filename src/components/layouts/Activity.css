@@ -1,4 +1,151 @@
 @media  (max-width:650px) {
+  .envelope{
+    position: absolute;
+    top: 40%;
+    right: 20px;
+    width: 45px;
+    height: 82px;
+    animation: linear infinite;
+    animation-name: run;
+    animation-duration: 3.5s;
+    transform: rotate(45deg);
+  }
+  .briefcase{
+    position: absolute;
+    top: 40%;
+    right: 20px;
+    width: 45px;
+    height: 82px;
+    animation: linear infinite;
+    animation-name: run2;
+    animation-duration: 3.5s;
+    transform: rotate(45deg);
+  }
+  .flask{
+    position: absolute;
+    top: 6%;
+    right: 86%;
+    width: 45px;
+    height: 82px;
+    animation: ease-in infinite;
+    animation-name: run4;
+    animation-duration: 3.5s;
+    transform: rotate(-45deg);
+  }
+  .likehand{
+    position: absolute;
+    top: 16%;
+    left: 20px;
+    width: 45px;
+    height: 82px;
+    animation: ease-in-out infinite;
+    animation-duration: 3.5s;
+    animation-name: run3;
+    transform: rotate(-5deg);
+}
+.worldwide{
+  position: absolute;
+  top: 16%;
+  left: 356px;
+  width: 45px;
+  height: 60px;
+  animation: ease-in-out infinite;
+  animation-duration: 3.5s;
+  animation-name: run5;
+  transform: rotate(-5deg);
+}
+.loudspeaker{
+  position: absolute;
+  top: 7%;
+  right: 214px;
+  width: 45px;
+  height: 60px;
+  animation: ease-in-out infinite;
+  animation-duration: 3.5s;
+  animation-name: run6;
+  transform: rotate(91deg);
+}
+@keyframes run6 {
+  0% {
+    top: 0%;
+    rotate: 20deg;
+}
+
+50% {
+    top: 10%;
+    width: 68px;
+    rotate: -1deg;
+}
+100% {
+    top: 0%;
+    rotate: 20deg;
+}
+}
+@keyframes run5 {
+  0% {
+      transform: rotate(0deg) 
+            translateY(100px) rotate(0deg);
+  }
+
+  100% {
+      transform: rotate(360deg) 
+            translateY(100px) rotate(-360deg);
+  }
+}
+  @keyframes run4 {
+    0% {
+      rotate: 0deg;
+  }
+  35% {
+      rotate: 92deg;
+  }
+  75% {
+      rotate: -92deg;
+  }
+  
+  100% {
+      rotate: 0deg;
+  }
+  }
+  @keyframes run3 {
+    0% {
+      left: 35px;
+      top: 100px;
+  }
+  50% {
+      left: -11px;
+      top: 200px;
+  }
+  100% {
+      left: 35px;
+      top: 100px;
+  }
+  }
+  @keyframes run2 {
+    0% {
+      top: 0;
+      rotate: 358deg;
+  }
+  
+  50% {
+      top: 15%;
+      rotate: 211deg;
+  }
+  100% {
+      top: 0;
+  }
+  }
+  @keyframes run {
+    0% {
+      left: 0;
+    }
+    50% {
+      left: 15%;
+    }
+    100% {
+      left: 0;    
+    }
+  }
   .boardtext{
     position: absolute;
     top: 44px;
@@ -22,7 +169,7 @@
     font-size: 50px;
     font-weight: 900;
     top: 80px;
-    left: 34px;
+    left: 18px;
     letter-spacing: -2px;
     text-transform: uppercase;
   }
@@ -44,10 +191,10 @@
   
   }
   .perspective-line:nth-child(odd) {
-    transform: skew(60deg, -30deg) scaleY(0.667);
+    transform: skew(335deg, 182deg) scaleY(0.767);
   }
   .perspective-line:nth-child(even) {
-    transform: skew(0deg, -30deg) scaleY(1.333);
+    transform: skew(0deg, 2deg) scaleY(1.73);
   }
   .perspective-line {
     position: relative;

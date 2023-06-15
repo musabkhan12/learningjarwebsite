@@ -576,54 +576,53 @@ function Contactus() {
           <div>
             {" "}
             <p>
-              Ms. Ritika Tyagi, Founder-Director of LearningJar India is an
-              educator & trainer who is passionate about integrating technology
-              with education. She loves to mentor and help educators use
-              Educational Technology. She is a Google Certified Trainer &
-              Innovator, Apple Learning Leader, Kahoot Certified Teacher,
-              Nearpod Certified Educator, and UCLA certified Global Career
-              Counselor. She is also the Co-Leader of Global GEG and GEG Pune &
-              Maharashtra. She provides online/in-person training to schools and
-              teachers to help them learn Google & Apple Technology in the
-              classroom. She has been associated with various reputed schools
-              all over the country and has an experience of more than ten years
-              in the same field.
+              Lorem Ipsum is simply dummy text of the printing and typesetting
+              industry. Lorem Ipsum has been the industry's standard dummy text
+              ever since the 1500s, when an unknown printer took a galley of
+              type and scrambled it to make a type specimen book. It has
+              survived not only five centuries, but also the leap into
+              electronic typesetting, remaining essentially unchanged. It was
+              popularised in the 1960s with the release of Letraset sheets
+              containing Lorem Ipsum passages, and more recently with desktop
+              publishing software like Aldus PageMaker including versions of
+              Lorem Ipsum.
             </p>{" "}
           </div>
-        </section >
+        </section>
         <section class="section2">
-          <div> <p>
-              Ms. Ritika Tyagi, Founder-Director of LearningJar India is an
-              educator & trainer who is passionate about integrating technology
-              with education. She loves to mentor and help educators use
-              Educational Technology. She is a Google Certified Trainer &
-              Innovator, Apple Learning Leader, Kahoot Certified Teacher,
-              Nearpod Certified Educator, and UCLA certified Global Career
-              Counselor. She is also the Co-Leader of Global GEG and GEG Pune &
-              Maharashtra. She provides online/in-person training to schools and
-              teachers to help them learn Google & Apple Technology in the
-              classroom. She has been associated with various reputed schools
-              all over the country and has an experience of more than ten years
-              in the same field.
-            </p>{" "} </div>
+          <div>
+            {" "}
+            <p>
+              Lorem Ipsum is simply dummy text of the printing and typesetting
+              industry. Lorem Ipsum has been the industry's standard dummy text
+              ever since the 1500s, when an unknown printer took a galley of
+              type and scrambled it to make a type specimen book. It has
+              survived not only five centuries, but also the leap into
+              electronic typesetting, remaining essentially unchanged. It was
+              popularised in the 1960s with the release of Letraset sheets
+              containing Lorem Ipsum passages, and more recently with desktop
+              publishing software like Aldus PageMaker including versions of
+              Lorem Ipsum.
+            </p>{" "}
+          </div>
         </section>
         <section class="section3">
-          <div> <p>
-              Ms. Ritika Tyagi, Founder-Director of LearningJar India is an
-              educator & trainer who is passionate about integrating technology
-              with education. She loves to mentor and help educators use
-              Educational Technology. She is a Google Certified Trainer &
-              Innovator, Apple Learning Leader, Kahoot Certified Teacher,
-              Nearpod Certified Educator, and UCLA certified Global Career
-              Counselor. She is also the Co-Leader of Global GEG and GEG Pune &
-              Maharashtra. She provides online/in-person training to schools and
-              teachers to help them learn Google & Apple Technology in the
-              classroom. She has been associated with various reputed schools
-              all over the country and has an experience of more than ten years
-              in the same field.
-            </p>{" "} </div>
+          <div>
+            {" "}
+            <p>
+              Lorem Ipsum is simply dummy text of the printing and typesetting
+              industry. Lorem Ipsum has been the industry's standard dummy text
+              ever since the 1500s, when an unknown printer took a galley of
+              type and scrambled it to make a type specimen book. It has
+              survived not only five centuries, but also the leap into
+              electronic typesetting, remaining essentially unchanged. It was
+              popularised in the 1960s with the release of Letraset sheets
+              containing Lorem Ipsum passages, and more recently with desktop
+              publishing software like Aldus PageMaker including versions of
+              Lorem Ipsum.
+            </p>{" "}
+          </div>
         </section>
-  
       </section>
     </div>
   );
