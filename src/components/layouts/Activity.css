@@ -57,7 +57,7 @@
 .loudspeaker{
   position: absolute;
   top: 7%;
-  right: 273px;
+  right: 253px;
   width: 45px;
   height: 60px;
   animation: ease-in-out infinite;
@@ -67,7 +67,7 @@
 }
 .quantum{
   position: absolute;
-  top: 57%;
+  top: 267px;
   right: 273px;
   width: 33px;
   height: 60px;
