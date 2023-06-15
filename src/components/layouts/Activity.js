@@ -9,6 +9,7 @@ import flask from '../images/flask.svg'
 import like from '../images/like.svg'
 import worldwide from '../images/worldwide.svg'
 import loudspeaker from '../images/loudspeaker.svg'
+import quantum from '../images/quantum.svg'
 
 import Navbartest from './Navbartest'
 import boardimg from "../images/board.svg"
@@ -69,6 +70,7 @@ function Activity() {
       <img class ="likehand"  src={like} alt="" />
       <img class ="worldwide"  src={worldwide} alt="" />
       <img class ="loudspeaker"  src={loudspeaker} alt="" />
+      <img class ="quantum"  src={quantum} alt="" />
       <img class="boardimg" src={boardimg} alt="" />
      <div class="perspective-text">
 

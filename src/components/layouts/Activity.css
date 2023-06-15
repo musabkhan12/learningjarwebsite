@@ -57,13 +57,55 @@
 .loudspeaker{
   position: absolute;
   top: 7%;
-  right: 214px;
+  right: 273px;
   width: 45px;
   height: 60px;
   animation: ease-in-out infinite;
   animation-duration: 3.5s;
   animation-name: run6;
   transform: rotate(91deg);
+}
+.quantum{
+  position: absolute;
+  top: 57%;
+  right: 273px;
+  width: 33px;
+  height: 60px;
+  animation: ease-in-out infinite;
+  animation-duration: 3.5s;
+  animation-name: run7;
+  transform: rotate(91deg);
+}
+@keyframes run7 {
+  0% {
+    width: 0px;
+    rotate: 200deg;
+}
+
+10% {
+    width: 68px;
+    rotate: 400deg;
+}
+20% {
+    width: 48px;
+    rotate: 600deg;
+}
+40% {
+    width: 68px;
+    rotate: 800deg;
+}
+60% {
+    width: 48px;
+    rotate: 1000deg;
+}
+80% {
+    width: 68px;
+    rotate: 1000deg;
+}
+100% {
+    width: 0px;
+    rotate: 600deg;
+}
 }
 @keyframes run6 {
   0% {
@@ -72,7 +114,7 @@
 }
 
 50% {
-    top: 10%;
+    top: 5%;
     width: 68px;
     rotate: -1deg;
 }
