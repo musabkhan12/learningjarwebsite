@@ -11,6 +11,7 @@ import worldwide from '../images/worldwide.svg'
 import loudspeaker from '../images/loudspeaker.svg'
 import quantum from '../images/quantum.svg'
 import targetarrow from '../images/targetarrow.svg'
+import rocket from '../images/rocket.svg'
 
 import Navbartest from './Navbartest'
 import boardimg from "../images/board.svg"
@@ -73,6 +74,7 @@ function Activity() {
       <img class ="loudspeaker"  src={loudspeaker} alt="" />
       <img class ="quantum"  src={quantum} alt="" />
       <img class ="targetarrow"  src={targetarrow} alt="" />
+      <img class ="rocket"  src={rocket} alt="" />
       <img class="boardimg" src={boardimg} alt="" />
    
      <div class="perspective-text">
@@ -126,6 +128,69 @@ function Activity() {
   </div>
 
    </div>
+     </div>
+     <div>
+     <div class="featuresdivmain">
+
+<h1 class="featuresheader reveal1">Features</h1>
+        <div class="featuresdiv reveal">
+          <div class="featuresubdivfirst1">
+            {/* <div>
+              <img class="featureimage" src={feature2} alt="" />{" "}
+            </div> */}
+            <div class="cardcontent">
+              <h2 class="contentheader"> Teachers </h2>
+              <h4 class="contenttext">
+                {" "}
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+                enim ad minim veniam, quis nostrud exercitation ullamco laboris
+                nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
+                in reprehenderit in voluptate velit esse cillum dolore eu fugiat
+                nulla pariatur. Excepteur sint occaecat cupidatat non proident,
+                sunt in culpa qui officia deserunt mollit anim id est laborum.
+              </h4>
+            </div>
+          </div>
+
+          <div class="featuresubdivmiddle1 middlefeature">
+            {/* <div>
+              <img class="featureimage" src={feature1} alt="" />
+            </div> */}
+            <div class="cardcontent">
+              <h2 class="contentheader"> Teachers </h2>
+              <h4 class="contenttext">
+                {" "}
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+                enim ad minim veniam, quis nostrud exercitation ullamco laboris
+                nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
+                in reprehenderit in voluptate velit esse cillum dolore eu fugiat
+                nulla pariatur. Excepteur sint occaecat cupidatat non proident,
+                sunt in culpa qui officia deserunt mollit anim id est laborum.
+              </h4>
+            </div>
+          </div>
+          <div class="featuresubdivlast1">
+            {/* <div>
+              <img class="featureimage" src={feature3} alt="" />
+            </div> */}
+            <div class="cardcontent">
+              <h2 class="contentheader"> Teachers </h2>
+              <h4 class="contenttext">
+                {" "}
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+                enim ad minim veniam, quis nostrud exercitation ullamco laboris
+                nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
+                in reprehenderit in voluptate velit esse cillum dolore eu fugiat
+                nulla pariatur. Excepteur sint occaecat cupidatat non proident,
+                sunt in culpa qui officia deserunt mollit anim id est laborum.
+              </h4>
+            </div>
+          </div>
+        </div>
+ </div>
      </div>
    </div>
   );

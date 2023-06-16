@@ -4,7 +4,7 @@
   }
   .envelope{
     position: absolute;
-    top: 40%;
+    top: 300px;
     right: 20px;
     width: 45px;
     height: 82px;
@@ -82,6 +82,34 @@
 .targetarrow{
  display: none;
 
+}
+.rocket{
+  position: absolute;
+  top: 267px;
+  right: 273px;
+  width: 33px;
+  height: 60px;
+  animation: ease-in-out infinite;
+  animation-duration: 3.5s;
+  animation-name: run8;
+
+}
+@keyframes run8 {
+  0% {
+    left: 0px;
+    /* rotate: 30deg; */
+    top: 100px;
+}
+50% {
+    left: -11px;
+    rotate: 30deg;
+    top: 357px;
+}
+100% {
+    left: 435px;
+    /* rotate: 30deg; */
+    top: 100px;
+}
 }
 @keyframes run7 {
   0% {
@@ -275,7 +303,7 @@
 @media  (min-width:450px) and (max-width: 650px ) {
   .envelope{
     position: absolute;
-    top: 40%;
+    top: 289px;
     left: 1%;
     width: 45px;
     height: 82px;
@@ -352,7 +380,7 @@
 }
 .targetarrow{
   position: absolute;
-  top: 60%;
+  top: 328px;
   left:63%;
   width: 33px;
   height: 60px;
@@ -360,6 +388,34 @@
   animation-duration: 3.5s;
   animation-name: run8;
 
+}
+.rocket{
+  position: absolute;
+  top: 267px;
+  right: 273px;
+  width: 33px;
+  height: 60px;
+  animation: ease-in-out infinite;
+  animation-duration: 3.5s;
+  animation-name: run9;
+
+}
+@keyframes run9 {
+  0% {
+    left: 0px;
+    /* rotate: 30deg; */
+    top: 100px;
+}
+50% {
+    left: -11px;
+    rotate: 30deg;
+    top: 357px;
+}
+100% {
+  left: 886px;
+    /* rotate: 30deg; */
+    top: 100px;
+}
 }
 @keyframes run8 {
   0% {
@@ -591,7 +647,7 @@
     font-family: Arial;
     font-size: 8px;
     font-weight: 900;
-    top: 43%;
+    top: 250px;
     left: 18px;
     letter-spacing: -2px;
     text-transform: uppercase;
@@ -647,3 +703,6 @@
   } 
 }
 
+.featuresdivmain{
+  position: relative;
+}
