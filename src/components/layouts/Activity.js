@@ -10,6 +10,7 @@ import like from '../images/like.svg'
 import worldwide from '../images/worldwide.svg'
 import loudspeaker from '../images/loudspeaker.svg'
 import quantum from '../images/quantum.svg'
+import targetarrow from '../images/targetarrow.svg'
 
 import Navbartest from './Navbartest'
 import boardimg from "../images/board.svg"
@@ -71,6 +72,7 @@ function Activity() {
       <img class ="worldwide"  src={worldwide} alt="" />
       <img class ="loudspeaker"  src={loudspeaker} alt="" />
       <img class ="quantum"  src={quantum} alt="" />
+      <img class ="targetarrow"  src={targetarrow} alt="" />
       <img class="boardimg" src={boardimg} alt="" />
    
      <div class="perspective-text">
@@ -78,7 +80,7 @@ function Activity() {
   <div class="perspective-line">
 
     <p></p>
-    <p>TESTING </p><p></p> 
+    <p>TESTING </p>
   </div>
   <div class="perspective-line">
     <p>TESTING</p>
@@ -97,8 +99,35 @@ function Activity() {
     <p></p>
   </div>
    </div>
+   <div class="perspective-text2">
+   <div class="perspective-line2">
+    <h1 class="p2" ></h1>
+    <h1 class="p2">Education</h1>
+  </div>
+   <div class="perspective-line2">
+    <h1 class="p2">Education</h1>
+    <h1 class="p2">without</h1>
+  </div>
+   <div class="perspective-line2">
+    <h1 class="p2">without</h1>
+    <h1 class="p2">application</h1>
+  </div>
+   <div class="perspective-line2">
+    <h1 class="p2">application</h1>
+    <h1 class="p2">is just</h1>
+  </div>
+  <div class="perspective-line2">
+    <h1 class="p2">is just</h1>
+    <h1 class="p2">entertainment</h1>
+  </div>
+   <div class="perspective-line2">
+    <h1 class="p2">entertainment</h1>
+    <h1 class="p2"></h1>
+  </div>
+
+   </div>
      </div>
-    </div>
+   </div>
   );
 }
 
