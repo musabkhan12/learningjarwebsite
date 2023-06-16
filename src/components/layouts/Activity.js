@@ -72,6 +72,7 @@ function Activity() {
       <img class ="loudspeaker"  src={loudspeaker} alt="" />
       <img class ="quantum"  src={quantum} alt="" />
       <img class="boardimg" src={boardimg} alt="" />
+   
      <div class="perspective-text">
 
   <div class="perspective-line">
@@ -95,7 +96,7 @@ function Activity() {
     <p>LEARN......</p>
     <p></p>
   </div>
-  </div>
+   </div>
      </div>
     </div>
   );
