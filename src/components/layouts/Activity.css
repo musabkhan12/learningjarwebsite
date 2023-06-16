@@ -1,4 +1,7 @@
 @media  (max-width:449px) {
+  .perspective-text2{
+    display: none;
+  }
   .envelope{
     position: absolute;
     top: 40%;
@@ -75,6 +78,10 @@
   animation-duration: 3.5s;
   animation-name: run7;
   transform: rotate(91deg);
+}
+.targetarrow{
+ display: none;
+
 }
 @keyframes run7 {
   0% {
