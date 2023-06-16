@@ -97,18 +97,18 @@
 @keyframes run8 {
   0% {
     left: 0px;
-    /* rotate: 30deg; */
-    top: 100px;
+    rotate: 338deg;
+    top: -20px;
 }
 50% {
-    left: -11px;
+    left: 6px;
     rotate: 30deg;
-    top: 357px;
+    top: 257px;
 }
 100% {
     left: 435px;
     /* rotate: 30deg; */
-    top: 100px;
+    top: -20px;
 }
 }
 @keyframes run7 {
@@ -245,6 +245,7 @@
     user-select: none; /* Standard syntax */
     position: absolute;
     color: rgb(0, 0, 0);
+    z-index: 6;
     font-family: Arial;
     font-size: 50px;
     font-weight: 900;
@@ -403,18 +404,18 @@
 @keyframes run9 {
   0% {
     left: 0px;
-    /* rotate: 30deg; */
-    top: 100px;
+    rotate: 338deg;
+    top: -20px;
 }
 50% {
-    left: -11px;
+    left: 6px;
     rotate: 30deg;
-    top: 357px;
+    top: 257px;
 }
 100% {
-  left: 886px;
+    left: 435px;
     /* rotate: 30deg; */
-    top: 100px;
+    top: -20px;
 }
 }
 @keyframes run8 {
@@ -580,6 +581,7 @@
     user-select: none; /* Standard syntax */
     position: absolute;
     color: rgb(0, 0, 0);
+    z-index: 6;
     font-family: Arial;
     font-size: 50px;
     font-weight: 900;
@@ -644,6 +646,7 @@
     user-select: none; /* Standard syntax */
     position: absolute;
     color: rgb(0, 0, 0);
+    z-index: 6;
     font-family: Arial;
     font-size: 8px;
     font-weight: 900;
