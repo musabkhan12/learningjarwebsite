@@ -108,12 +108,11 @@ height: 100%;
     align-items : center ;
     padding : 15px;
     perspective: 100px;
-
     }
-img{
+/* img{
   width: 100%;
   transition: transform 1s;
-}
+} */
    .slide::before,
     .slide::after{
       /* background: linear-gradient(to right, rgba(255,255,255,1) 0% , rgba(255, 255, 255 , 0) 10%); */
