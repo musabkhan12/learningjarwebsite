@@ -1,13 +1,13 @@
 
 @media (min-width:651px) and (max-width:10000px){
   .featuresdivmain{
-    /* background: linear-gradient(
+    background: linear-gradient(
         to bottom,
-        #ffbb01 8%,
+       rgb(144,187,197) 8%,
         white 40%,                                                                 
         white 67%,
         white 44%
-    ); */
+    );
 
     height: 90%;
     
@@ -35,7 +35,6 @@ flex-wrap: nowrap;
     transform: scaleX(-1);
   }
   .boardlaptop2{
-
     margin-top: 107px;
     width: 50%;
     height: 100%;
@@ -43,7 +42,7 @@ flex-wrap: nowrap;
   .text{
     color: rgb(0, 0, 0);
   }
-  .perspective-text {
+  .perspective-text{
     -webkit-user-select: none; /* Safari */
     -ms-user-select: none; /* IE 10 and IE 11 */
     user-select: none; /* Standard syntax */
@@ -268,13 +267,13 @@ flex-wrap: nowrap;
 
 @media  (max-width:449px) {
   .featuresdivmain{
-    /* background: linear-gradient(
+    background: linear-gradient(
         to bottom,
-        #ffbb01 8%,
+       rgb(144,187,197) 8%,
         white 40%,                                                                 
         white 67%,
         white 44%
-    ); */
+    );
     margin-top: 420px;
     height: 90%;
     
@@ -586,13 +585,13 @@ flex-wrap: nowrap;
 }
 @media  (min-width:450px) and (max-width: 650px ) {
   .featuresdivmain{
-    /* background: linear-gradient(
-        to bottom,
-        #ffbb01 8%,
-        white 40%,                                                                 
-        white 67%,
-        white 44%
-    ); */
+    background: linear-gradient(
+      to bottom,
+     rgb(144,187,197) 8%,
+      white 40%,                                                                 
+      white 67%,
+      white 44%
+  );
     margin-top: 590px;
     height: 90%;
     
@@ -1043,13 +1042,13 @@ flex-wrap: nowrap;
 
 /* css for features start from here  */
 .features{
-  /* background: linear-gradient(
+  background: linear-gradient(
     to bottom,
-    rgb(255, 187, 0) 10%,
+    rgb(144,187,197) 10%,
     white 90%,                                                                 
     white 50%,
     white 100%
-); */
+);
 /* height: 602px; */
 margin-bottom: 200px; 
 display:block; height: 100%
@@ -1058,6 +1057,7 @@ display:block; height: 100%
 text-align: center;
 padding:65px;
 color: white;
+margin-top: 0%;
 text-align: center;
 padding: 65px;
 text-shadow: 5px 6px black;

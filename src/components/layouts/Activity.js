@@ -214,7 +214,7 @@ function Activity() {
           </div>
         </div>
       </div>
-      <div>
+
         <div class="featuresdivmain">
           <h1 class="featuresheader reveal1">Features</h1>
           <div class="featuresdiv reveal">
@@ -278,7 +278,7 @@ function Activity() {
             </div>
           </div>
         </div>
-      </div>
+  
     </div>
   );
 }
