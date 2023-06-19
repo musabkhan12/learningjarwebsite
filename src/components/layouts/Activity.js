@@ -13,6 +13,7 @@ import quantum from "../images/quantum.svg";
 import targetarrow from "../images/targetarrow.svg";
 import rocket from "../images/rocket.svg";
 
+import onetoone from '../images/one-to-one.png'
 
 import animation1  from '../animation/animation1.json'
 import Navbartest from "./Navbartest";
@@ -218,59 +219,58 @@ function Activity() {
         </div>
         <div class="boardlaptop2">
           <div class="text2">
-          <div class="perspective-text2">
-          <div class="perspective-line2">
-            <h1 class="p2"></h1>
-            <h1 class="p2">Education</h1>
-          </div>
-          <div class="perspective-line2">
-            <h1 class="p2">Education</h1>
-            <h1 class="p2">without</h1>
-          </div>
-          <div class="perspective-line2">
-            <h1 class="p2">without</h1>
-            <h1 class="p2">application</h1>
-          </div>
-          <div class="perspective-line2">
-            <h1 class="p2">application</h1>
-            <h1 class="p2">is just</h1>
-          </div>
-          <div class="perspective-line2">
-            <h1 class="p2">is just</h1>
-            <h1 class="p2">entertainment</h1>
-          </div>
-          <div class="perspective-line2">
-            <h1 class="p2">entertainment</h1>
-            <h1 class="p2"></h1>
-          </div>
-        </div>
+            <div class="perspective-text2">
+              <div class="perspective-line2">
+                <h1 class="p2"></h1>
+                <h1 class="p2">Education</h1>
+              </div>
+              <div class="perspective-line2">
+                <h1 class="p2">Education</h1>
+                <h1 class="p2">without</h1>
+              </div>
+              <div class="perspective-line2">
+                <h1 class="p2">without</h1>
+                <h1 class="p2">application</h1>
+              </div>
+              <div class="perspective-line2">
+                <h1 class="p2">application</h1>
+                <h1 class="p2">is just</h1>
+              </div>
+              <div class="perspective-line2">
+                <h1 class="p2">is just</h1>
+                <h1 class="p2">entertainment</h1>
+              </div>
+              <div class="perspective-line2">
+                <h1 class="p2">entertainment</h1>
+                <h1 class="p2"></h1>
+              </div>
+            </div>
           </div>
           <div class="text1">
-          <div class="perspective-text">
-          <div class="perspective-line">
-            <p></p>
-            <p>TESTING </p>
-          </div>
-          <div class="perspective-line">
-            <p>TESTING</p>
-            <p>DATA</p>
-          </div>
-          <div class="perspective-line">
-            <p>DATA</p>
-            <p>PRACTICE</p>
-          </div>
-          <div class="perspective-line">
-            <p> PRACTICE</p>
-            <p>LEARN......</p>
-          </div>
-          <div class="perspective-line">
-            <p>LEARN......</p>
-            <p></p>
+            <div class="perspective-text">
+              <div class="perspective-line">
+                <p class="LJETOLEARN"></p>
+                <p class="LJETOLEARN">TESTING </p>
+              </div>
+              <div class="perspective-line">
+                <p class="LJETOLEARN">TESTING</p>
+                <p class="LJETOLEARN">DATA</p>
+              </div>
+              <div class="perspective-line">
+                <p class="LJETOLEARN">DATA</p>
+                <p class="LJETOLEARN">PRACTICE</p>
+              </div>
+              <div class="perspective-line">
+                <p class="LJETOLEARN"> PRACTICE</p>
+                <p class="LJETOLEARN">LEARN......</p>
+              </div>
+              <div class="perspective-line">
+                <p class="LJETOLEARN">LEARN......</p>
+                <p class="LJETOLEARN"></p>
+              </div>
+            </div>
           </div>
         </div>
-          </div>
-        </div>
-
       </div>
       {/* <div class="board">
     <div class="boardtext">
@@ -361,104 +361,148 @@ function Activity() {
         </div>
       </div>
 
-        <div class="featuresdivmain">
-          <h1 class="featuresheader reveal1">Features</h1>
-          <div class="featuresdiv reveal">
-            <div class="featuresubdivfirst1">
-              {/* <div>
+      <div class="featuresdivmain">
+        <h1 class="featuresheader reveal1">Features</h1>
+        <div class="featuresdiv reveal">
+          <div class="featuresubdivfirst1">
+            {/* <div>
               <img class="featureimage" src={feature2} alt="" />{" "}
             </div> */}
-              <div class="cardcontent">
-                <h2 class="contentheader"> Teachers </h2>
-                <h4 class="contenttext">
-                  {" "}
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                  Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                  laboris nisi ut aliquip ex ea commodo consequat. Duis aute
-                  irure dolor in reprehenderit in voluptate velit esse cillum
-                  dolore eu fugiat nulla pariatur. Excepteur sint occaecat
-                  cupidatat non proident, sunt in culpa qui officia deserunt
-                  mollit anim id est laborum.
-                </h4>
-              </div>
+            <div class="cardcontent">
+              <h2 class="contentheader"> Teachers </h2>
+              <h4 class="contenttext">
+                {" "}
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+                enim ad minim veniam, quis nostrud exercitation ullamco laboris
+                nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
+                in reprehenderit in voluptate velit esse cillum dolore eu fugiat
+                nulla pariatur. Excepteur sint occaecat cupidatat non proident,
+                sunt in culpa qui officia deserunt mollit anim id est laborum.
+              </h4>
             </div>
+          </div>
 
-            <div class="featuresubdivmiddle1 middlefeature">
-              {/* <div>
+          <div class="featuresubdivmiddle1 middlefeature">
+            {/* <div>
               <img class="featureimage" src={feature1} alt="" />
             </div> */}
-              <div class="cardcontent">
-                <h2 class="contentheader"> Teachers </h2>
-                <h4 class="contenttext">
-                  {" "}
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                  Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                  laboris nisi ut aliquip ex ea commodo consequat. Duis aute
-                  irure dolor in reprehenderit in voluptate velit esse cillum
-                  dolore eu fugiat nulla pariatur. Excepteur sint occaecat
-                  cupidatat non proident, sunt in culpa qui officia deserunt
-                  mollit anim id est laborum.
-                </h4>
-              </div>
+            <div class="cardcontent">
+              <h2 class="contentheader"> Teachers </h2>
+              <h4 class="contenttext">
+                {" "}
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+                enim ad minim veniam, quis nostrud exercitation ullamco laboris
+                nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
+                in reprehenderit in voluptate velit esse cillum dolore eu fugiat
+                nulla pariatur. Excepteur sint occaecat cupidatat non proident,
+                sunt in culpa qui officia deserunt mollit anim id est laborum.
+              </h4>
             </div>
-            <div class="featuresubdivlast1">
-              {/* <div>
+          </div>
+          <div class="featuresubdivlast1">
+            {/* <div>
               <img class="featureimage" src={feature3} alt="" />
             </div> */}
-              <div class="cardcontent">
-                <h2 class="contentheader"> Teachers </h2>
-                <h4 class="contenttext">
-                  {" "}
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                  Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                  laboris nisi ut aliquip ex ea commodo consequat. Duis aute
-                  irure dolor in reprehenderit in voluptate velit esse cillum
-                  dolore eu fugiat nulla pariatur. Excepteur sint occaecat
-                  cupidatat non proident, sunt in culpa qui officia deserunt
-                  mollit anim id est laborum.
-                </h4>
-              </div>
+            <div class="cardcontent">
+              <h2 class="contentheader"> Teachers </h2>
+              <h4 class="contenttext">
+                {" "}
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+                enim ad minim veniam, quis nostrud exercitation ullamco laboris
+                nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
+                in reprehenderit in voluptate velit esse cillum dolore eu fugiat
+                nulla pariatur. Excepteur sint occaecat cupidatat non proident,
+                sunt in culpa qui officia deserunt mollit anim id est laborum.
+              </h4>
             </div>
           </div>
         </div>
-   
-        <div class="divbenifitsonline">
-   <div id="benifitsofonline" class= "animation1">
-     <div >
-      {/* <div>
+      </div>
+
+      <div class="divbenifitsonline">
+        <div id="benifitsofonline" class="animation1">
+          <div>
+            {/* <div>
         <hr class="showtitleunderlinetop"/>
       </div>  */}
-      <div>
-      <h1 class="showanimetitle"> BENEFITS OF ONLINE LEARNING WITH US</h1>
-      </div>
-       <div>
-        <hr class="showtitleunderlinebottom"/>
-      </div> 
-   
-    <div>
-   
-    <ul class="benifitslst"> 
-              <li class="benifitlist showanimelist1"> Tailor-made curriculum for (ICSE/ISC/CBSE/IB/IGCSE) Boards </li>
-              <li class="benifitlist showanimelist2"> Customized Sessions as per the need of the learner <br></br> Customized Sessions as per the need of the learner</li>
-              <li class="benifitlist showanimelist3"> 1 :1 online classes for each student and this is all</li>
-              <li class="benifitlist showanimelist4"> Providing Career Counseling Sessions as well</li>
-              <li class="benifitlist showanimelist5"> Weekly Online Assessments and Evaluations</li>
-              <li class="benifitlist showanimelist6"> Monthly Parent-Teachers Virtual Meets </li>
-              <li class="benifitlist showanimelist7"> Dedicated and well-trained teachers</li>
-              <li class="benifitlist showanimelist8"> Tech-based learning</li>
-            </ul>
-    </div>
-    {/* <div>
+            <div>
+              <h1 class="showanimetitle">
+                {" "}
+                BENEFITS OF ONLINE LEARNING WITH US
+              </h1>
+            </div>
+            <div>
+              <hr class="showtitleunderlinebottom" />
+            </div>
+
+            <div>
+              <ul class="benifitslst">
+                <li class="benifitlist showanimelist1">
+                  {" "}
+                  Tailor-made curriculum for (ICSE/ISC/CBSE/IB/IGCSE) Boards{" "}
+                </li>
+                <li class="benifitlist showanimelist2">
+                  {" "}
+                  Customized Sessions as per the need of the learner <br></br>{" "}
+                  Customized Sessions as per the need of the learner
+                </li>
+                <li class="benifitlist showanimelist3">
+                  {" "}
+                  1 :1 online classes for each student and this is all
+                </li>
+                <li class="benifitlist showanimelist4">
+                  {" "}
+                  Providing Career Counseling Sessions as well
+                </li>
+                <li class="benifitlist showanimelist5">
+                  {" "}
+                  Weekly Online Assessments and Evaluations
+                </li>
+                <li class="benifitlist showanimelist6">
+                  {" "}
+                  Monthly Parent-Teachers Virtual Meets{" "}
+                </li>
+                <li class="benifitlist showanimelist7">
+                  {" "}
+                  Dedicated and well-trained teachers
+                </li>
+                <li class="benifitlist showanimelist8"> Tech-based learning</li>
+              </ul>
+            </div>
+            {/* <div>
         <hr class="showtitleunderline"/>
       </div> */}
-     </div>
-     <div class="animation1imgstudent showanimestudent" ><Lottie animationData={animation1} /> </div>  
-         
+          </div>
+          <div class="animation1imgstudent showanimestudent">
+            <Lottie animationData={animation1} />{" "}
+          </div>
+        </div>
       </div>
-   </div>
+      <div class="flex-container">
+        <div class="flex-item-left">
+          <div class="left1">
+            <img class="onetooneimg" src={onetoone} alt="" />
+            <p class="textonetoone">
+              Our USP is our 1 to 1 classes for each student. The classes are
+              designed in such a way that learning becomes interactive and fun
+              and the bond is created between the student and teacher. Connect
+              with an experienced teacher with expertise in the subject you
+              need.
+            </p>
+          </div>
+          <div class="left2">left2 </div>
+          <div class="left3">left3 </div>
+        </div>
+        <div class="flex-item-center">center</div>
+        <div class="flex-item-right">
+          <div class="  right1">left1 </div>
+          <div class="right2">left2 </div>
+          <div class="right3">left3 </div>
+        </div>
+      </div>
     </div>
   );
 }
