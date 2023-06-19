@@ -13,6 +13,8 @@ import quantum from "../images/quantum.svg";
 import targetarrow from "../images/targetarrow.svg";
 import rocket from "../images/rocket.svg";
 
+
+import animation1  from '../animation/animation1.json'
 import Navbartest from "./Navbartest";
 import boardimg from "../images/board.svg";
 import Lottie from "lottie-react";
@@ -58,6 +60,150 @@ function Activity() {
     }
   }
   //  here js for features end  //
+
+  // css for benifits of online starts from here 
+  
+ window.addEventListener("scroll" , revealanime)
+ function revealanime(){
+   var reveal = document.querySelectorAll(".showanimestudent");
+   for (var i = 0; i < reveal.length; i++) {
+     var windowweight = window.innerHeight;
+     var revealtop = reveal[i].getBoundingClientRect().top;
+     var revelpoint = 190;
+     if (revealtop < windowweight - revelpoint) {
+       reveal[i].classList.add("active");
+     } else {
+       reveal[i].classList.remove("active");
+     }
+   }
+ }
+ window.addEventListener("scroll" , revealanime2)
+ function revealanime2(){
+   var reveal = document.querySelectorAll(".showanimetitle");
+   for (var i = 0; i < reveal.length; i++) {
+     var windowweight = window.innerHeight;
+     var revealtop = reveal[i].getBoundingClientRect().top;
+     var revelpoint = 120;
+     if (revealtop < windowweight - revelpoint) {
+       reveal[i].classList.add("active");
+     } else {
+       reveal[i].classList.remove("active");
+     }
+   }
+ }
+ window.addEventListener("scroll" , revealanime3)
+ function revealanime3(){
+   var reveal = document.querySelectorAll(".showanimelist1");
+   for (var i = 0; i < reveal.length; i++) {
+     var windowweight = window.innerHeight;
+     var revealtop = reveal[i].getBoundingClientRect().top;
+     var revelpoint = 30;
+     if (revealtop < windowweight - revelpoint) {
+       reveal[i].classList.add("active");
+     } else {
+       reveal[i].classList.remove("active");
+     }
+   }
+ }
+ window.addEventListener("scroll" , revealanime4)
+ function revealanime4(){
+   var reveal = document.querySelectorAll(".showanimelist2");
+   for (var i = 0; i < reveal.length; i++) {
+     var windowweight = window.innerHeight;
+     var revealtop = reveal[i].getBoundingClientRect().top;
+     var revelpoint = 30;
+     if (revealtop < windowweight - revelpoint) {
+       reveal[i].classList.add("active");
+     } else {
+       reveal[i].classList.remove("active");
+     }
+   }
+ }
+ window.addEventListener("scroll" , revealanime5)
+ function revealanime5(){
+   var reveal = document.querySelectorAll(".showanimelist3");
+   for (var i = 0; i < reveal.length; i++) {
+     var windowweight = window.innerHeight;
+     var revealtop = reveal[i].getBoundingClientRect().top;
+     var revelpoint = 30;
+     if (revealtop < windowweight - revelpoint) {
+       reveal[i].classList.add("active");
+     } else {
+       reveal[i].classList.remove("active");
+     }
+   }
+ }
+ window.addEventListener("scroll" , revealanime6)
+ function revealanime6(){
+   var reveal = document.querySelectorAll(".showanimelist4");
+   for (var i = 0; i < reveal.length; i++) {
+     var windowweight = window.innerHeight;
+     var revealtop = reveal[i].getBoundingClientRect().top;
+     var revelpoint = 30;
+     if (revealtop < windowweight - revelpoint) {
+       reveal[i].classList.add("active");
+     } else {
+       reveal[i].classList.remove("active");
+     }
+   }
+ }
+ window.addEventListener("scroll" , revealanime7)
+ function revealanime7(){
+   var reveal = document.querySelectorAll(".showanimelist5");
+   for (var i = 0; i < reveal.length; i++) {
+     var windowweight = window.innerHeight;
+     var revealtop = reveal[i].getBoundingClientRect().top;
+     var revelpoint = 30;
+     if (revealtop < windowweight - revelpoint) {
+       reveal[i].classList.add("active");
+     } else {
+       reveal[i].classList.remove("active");
+     }
+   }
+ }
+ window.addEventListener("scroll" , revealanime8)
+ function revealanime8(){
+   var reveal = document.querySelectorAll(".showanimelist6");
+   for (var i = 0; i < reveal.length; i++) {
+     var windowweight = window.innerHeight;
+     var revealtop = reveal[i].getBoundingClientRect().top;
+     var revelpoint = 30;
+     if (revealtop < windowweight - revelpoint) {
+       reveal[i].classList.add("active");
+     } else {
+       reveal[i].classList.remove("active");
+     }
+   }
+ }
+ window.addEventListener("scroll" , revealanime9)
+ function revealanime9(){
+   var reveal = document.querySelectorAll(".showanimelist7");
+   for (var i = 0; i < reveal.length; i++) {
+     var windowweight = window.innerHeight;
+     var revealtop = reveal[i].getBoundingClientRect().top;
+     var revelpoint = 30;
+     if (revealtop < windowweight - revelpoint) {
+       reveal[i].classList.add("active");
+     } else {
+       reveal[i].classList.remove("active");
+     }
+   }
+ }
+ window.addEventListener("scroll" , revealanime10)
+ function revealanime10(){
+   var reveal = document.querySelectorAll(".showanimelist8");
+   for (var i = 0; i < reveal.length; i++) {
+     var windowweight = window.innerHeight;
+     var revealtop = reveal[i].getBoundingClientRect().top;
+     var revelpoint = 30;
+     if (revealtop < windowweight - revelpoint) {
+       reveal[i].classList.add("active");
+     } else {
+       reveal[i].classList.remove("active");
+     }
+   }
+ }
+  // css for benifits of online End here 
 
   return (
     <div class="main">
@@ -278,7 +424,41 @@ function Activity() {
             </div>
           </div>
         </div>
-  
+   
+        <div class="divbenifitsonline">
+   <div id="benifitsofonline" class= "animation1">
+     <div >
+      {/* <div>
+        <hr class="showtitleunderlinetop"/>
+      </div>  */}
+      <div>
+      <h1 class="showanimetitle"> BENEFITS OF ONLINE LEARNING WITH US</h1>
+      </div>
+       <div>
+        <hr class="showtitleunderlinebottom"/>
+      </div> 
+   
+    <div>
+   
+    <ul class="benifitslst"> 
+              <li class="benifitlist showanimelist1"> Tailor-made curriculum for (ICSE/ISC/CBSE/IB/IGCSE) Boards </li>
+              <li class="benifitlist showanimelist2"> Customized Sessions as per the need of the learner <br></br> Customized Sessions as per the need of the learner</li>
+              <li class="benifitlist showanimelist3"> 1 :1 online classes for each student and this is all</li>
+              <li class="benifitlist showanimelist4"> Providing Career Counseling Sessions as well</li>
+              <li class="benifitlist showanimelist5"> Weekly Online Assessments and Evaluations</li>
+              <li class="benifitlist showanimelist6"> Monthly Parent-Teachers Virtual Meets </li>
+              <li class="benifitlist showanimelist7"> Dedicated and well-trained teachers</li>
+              <li class="benifitlist showanimelist8"> Tech-based learning</li>
+            </ul>
+    </div>
+    {/* <div>
+        <hr class="showtitleunderline"/>
+      </div> */}
+     </div>
+     <div class="animation1imgstudent showanimestudent" ><Lottie animationData={animation1} /> </div>  
+         
+      </div>
+   </div>
     </div>
   );
 }

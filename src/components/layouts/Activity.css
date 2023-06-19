@@ -1041,6 +1041,8 @@ flex-wrap: nowrap;
 } */
 
 /* css for features start from here  */
+
+
 .features{
   background: linear-gradient(
     to bottom,
@@ -1193,3 +1195,194 @@ width : 20px
 height:20px;
 width : 20px
 }
+
+
+/* css for benifits of online learning start from here  */
+
+
+.divbenifitsonline{
+  margin-top: 10%;
+  background: rgb(253,188,20);
+  clip-path: polygon(0 20%, 100% 0, 100% 80%, 0 100%);
+  padding: 10rem 2%;
+  padding-top: 2rem;
+  }
+  .blob{
+      width: 73%;
+      height: 54%;
+  }
+  .reveal{
+      position: relative;
+      transform: translateY(290px);
+      opacity: 0;
+      transition: all 3s ease-in-out;
+    }
+    .reveal.active{
+      transform: translateX(0px);
+      opacity: 1;
+    }
+    
+    .reveal1{
+      position: relative;
+      transform: translateY(290px);
+      opacity: 0;
+      transition: all 3s ease-in-out;
+    }
+    .reveal1.active{
+      transform: translateX(0px);
+      opacity: 1;
+    }
+    
+    
+    .animation1{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+      }
+      .animation1img{
+        /* width: 900px; */
+        
+        /* width: 50%; */
+      }
+      .showanimestudent{
+        position: relative;
+        transform: translateX(290px);
+        opacity: 0;
+        transition: all 4s ease-in-out;
+      }
+      .showanimestudent.active{
+        transform: translateX(0px);
+        opacity: 1;
+      }
+      .showanimetitle{
+        position: relative;
+        margin-bottom: 40px;
+        margin-top: 40px;
+        transform: translateX(-290px);
+        opacity: 0;
+        transition: all 1.5s ease-in-out;
+        /* padding-bottom: 119px; */
+      }
+      .showtitleunderlinetop {
+          border-bottom: 5px solid #030202;
+          border-right: 55px solid transparent;
+          height: 0;
+          width:100%;
+      }
+      .showtitleunderlinebottom {
+          border-bottom: 5px solid #030202;
+          border-right: 55px solid transparent;
+          height: 0;
+          width:90%;
+      }
+      .showtitleunderline {
+          border-bottom: 5px solid #030202;
+          border-right: 55px solid transparent;
+          height: 0;
+          width:100%;
+      }
+      .showanimetitle.active{
+        transform: translateY(0px);
+        opacity: 1;
+        color: rgb(0, 0, 0);
+        margin-top: 202px;
+        padding-left: 62px;
+        margin-bottom: 0px;
+      }
+      .benifitslst{
+        margin: 0px;
+        padding-left: 61px;
+      }
+      .benifitlist{
+        font-feature-settings: "pcap", "c2pc";
+        font-variant: all-petite-caps;
+        font-size: 120%;
+        font-weight: bold;
+        color: rgb(0, 0, 0);
+        margin: 0px;
+        padding: 6px;
+        /* padding-bottom: 13px; */
+        /* padding-left: 60px; */
+      }
+      .showanimelist1{
+        position: relative;
+        transform: translateX(-440px);
+        opacity: 0;
+        transition: all 1.5s ease-in-out;
+      }
+      .showanimelist1.active{
+        transform: translateY(0px);
+        opacity: 1;
+      }
+      .showanimelist2{
+        position: relative;
+        transform: translateX(-500px);
+        opacity: 0;
+        transition: all 1.5s ease-in-out;
+      }
+      .showanimelist2.active{
+        transform: translateY(0px);
+        opacity: 1;
+      }
+      .showanimelist3{
+        position: relative;
+        transform: translateX(-560px);
+        opacity: 0;
+        transition: all 1.5s ease-in-out;
+      }
+      .showanimelist3.active{
+        transform: translateY(0px);
+        opacity: 1;
+      }
+      .showanimelist4{
+        position: relative;
+        transform: translateX(-720px);
+        opacity: 0;
+        transition: all 1.5s ease-in-out;
+      }
+      .showanimelist4.active{
+        transform: translateY(0px);
+        opacity: 1;
+      }
+      .showanimelist5{
+        position: relative;
+        transform: translateX(-780px);
+        opacity: 0;
+        transition: all 1.5s ease-in-out;
+      }
+      .showanimelist5.active{
+        transform: translateY(0px);
+        opacity: 1;
+      }
+      .showanimelist6{
+        position: relative;
+        transform: translateX(-840px);
+        opacity: 0;
+        transition: all 1.5s ease-in-out;
+      }
+      .showanimelist6.active{
+        transform: translateY(0px);
+        opacity: 1;
+      }
+      .showanimelist7{
+        position: relative;
+        transform: translateX(-900px);
+        opacity: 0;
+        transition: all 1.5s ease-in-out;
+      }
+      .showanimelist7.active{
+        transform: translateY(0px);
+        opacity: 1;
+      }
+      .showanimelist8{
+        position: relative;
+        transform: translateX(-960px);
+        opacity: 0;
+        transition: all 1.5s ease-in-out;
+      }
+      .showanimelist8.active{
+        transform: translateY(0px);
+        opacity: 1;
+      }
+    
