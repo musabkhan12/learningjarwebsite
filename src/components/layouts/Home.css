@@ -75,7 +75,7 @@
   .boxxcontent{
     z-index: 1;
     /* background: none; */
-    background-image: url(../images/375.jpg);
+    background-image: url(../images/university.png);
     box-sizing: border-box;
     position: absolute;
     color: white;
@@ -90,7 +90,7 @@
   .boxxcontent{
     z-index: 1;
     /* background: none; */
-    background-image: url(../images/375.jpg);
+    background-image: url(../images/university.png);
     box-sizing: border-box;
     position: absolute;
     color: white;
@@ -107,7 +107,7 @@
   .boxxcontent22{
     z-index: -1;
     /* background: rgba(0,0,0,0.6); */
-    background-image: url(../images/425-500.jpg);
+    background-image: url(../images/university.png);
     box-sizing: border-box;
     position: absolute;
     color: white;
@@ -128,7 +128,7 @@
   .boxxcontent33{
     z-index: 1;
     /* background: rgba(0,0,0,0.6); */
-    background-image: url(../images/320-2.jpg);
+    background-image: url(../images/university.png);
     box-sizing: border-box;
     position: absolute;
     color: white;
@@ -144,3 +144,75 @@
      /*// this is changing  the are you student */
   
   }
+
+
+
+
+
+  /* //////// */
+  .card-holder{
+    height: 500px;
+  }
+  .bg-news {
+    height: 100%;
+    background: -webkit-linear-gradient(70deg, #ff6464 40%, #5ac8fa 40%);
+    background: -o-linear-gradient(70deg, #ff6464 40%, #5ac8fa 40%);
+    background: -moz-linear-gradient(70deg, #ff6464 40%, #5ac8fa 40%);
+    background: linear-gradient(70deg, #ff6464 40%, #5ac8fa 40%);
+  }
+
+  .swiper {
+    width: 240px;
+    height: 320px;
+  }
+  
+  .swiper-slide {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 18px;
+    font-size: 22px;
+    font-weight: bold;
+    color: #fff;
+  }
+  
+  .swiper-slide:nth-child(1n) {
+    background-image: url(../images/320-2.jpg);
+  }
+  
+  .swiper-slide:nth-child(2n) {
+    background-image: url(../images/320-3.jpg);
+  }
+  
+  .swiper-slide:nth-child(3n) {
+    background-color: rgb(10, 184, 111);
+  }
+  
+  .swiper-slide:nth-child(4n) {
+    background-color: rgb(211, 122, 7);
+  }
+  
+  .swiper-slide:nth-child(5n) {
+    background-color: rgb(118, 163, 12);
+  }
+  
+  .swiper-slide:nth-child(6n) {
+    background-color: rgb(180, 10, 47);
+  }
+  
+  .swiper-slide:nth-child(7n) {
+    background-color: rgb(35, 99, 19);
+  }
+  
+  .swiper-slide:nth-child(8n) {
+    background-color: rgb(0, 68, 255);
+  }
+  
+  .swiper-slide:nth-child(9n) {
+    background-color: rgb(218, 12, 218);
+  }
+  
+  .swiper-slide:nth-child(10n) {
+    background-color: rgb(54, 94, 77);
+  }
+  

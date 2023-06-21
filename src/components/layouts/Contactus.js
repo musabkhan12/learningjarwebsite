@@ -21,6 +21,7 @@ import "swiper/css";
 import "swiper/css/effect-cards";
 
 import "./Contactus.css";
+
 function Contactus() {
   
   // from here the three section of mobile start 
@@ -531,7 +532,7 @@ function Contactus() {
       <div>
         <h1 class="teamheader"> MEET OUR TEAM </h1>
         <div class="ourteam">
-          <div class="admins">
+          {/* <div class="admins">
             <Swiper
               effect={"cards"}
               grabCursor={true}
@@ -544,8 +545,8 @@ function Contactus() {
               <SwiperSlide>ADMIN 4</SwiperSlide>
               <SwiperSlide>ADMIN 5</SwiperSlide>
             </Swiper>
-          </div>
-          <div class="teachers">
+          </div> */}
+          {/* <div class="teachers">
             <Swiper
               effect={"cards"}
               grabCursor={true}
@@ -558,7 +559,7 @@ function Contactus() {
               <SwiperSlide>ADMIN 4</SwiperSlide>
               <SwiperSlide>ADMIN 5</SwiperSlide>
             </Swiper>
-          </div>
+          </div> */}
         </div>
         {/* meet our admin team and teacher end here  */}
 

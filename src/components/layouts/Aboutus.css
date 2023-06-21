@@ -541,11 +541,11 @@ font-variant: all-petite-caps;
 }
 
 .swiper-slide:nth-child(1n) {
-  background-image: url(../images/320-2.jpg);
+ background-color: #030202;
 }
 
 .swiper-slide:nth-child(2n) {
-  background-image: url(../images/320-3.jpg);
+background-color: #FFBB01;
 }
 
 .swiper-slide:nth-child(3n) {

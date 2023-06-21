@@ -1,19 +1,13 @@
 import React from "react";
 // import { useState } from "react";
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
 import "./Home1.css";
 // import img from "../images/425-500.jpg";
-import image3201 from "../images/320.jpg"
-import image3202 from "../images/320-2.jpg"
-import image3203 from "../images/320-3.jpg"
-// import image3751 from "../images/375.jpg"
-// import image3752 from "../images/375-2.jpg"
-// import image3753 from "../images/375-3.jpg"
-// import image4251 from "../images/425.jpg"
-// import image4252 from "../images/425-3.jpg"
-// import image4253 from "../images/425-3.jpg"
-import img2 from "../images/lucas-5tRmLGguL3Q-unsplash.jpg";
+import university from "../images/university.png"
+import lucas from "../images/lucas-5tRmLGguL3Q-unsplash.jpg"
+
 import Navbartest from "./Navbartest";
+
 // import logo from "../images/Logo.png";
 // import hamburger from "../images/hamburger.png";
 <link
@@ -63,19 +57,19 @@ function Home1() {
     
         <div class="imagecontainerlaptop">
           <div class="box1">
-            <img src={img2} alt="Avatar" class="imagelaptop1" />
+            <img src={university} alt="Avatar" class="imagelaptop1" />
             <div class="box1content1">
               <h1>are you student?</h1>
             </div>
           </div>
           <div class="box2">
-            <img src={img2} alt="Avatar" class="imagelaptop1" />
+            <img src={lucas} alt="Avatar" class="imagelaptop1" />
             <div class="box2content2">
               <h1>are you Parents?</h1>
             </div>
           </div>
           <div class="box3">
-            <img src={img2} alt="Avatar" class="imagelaptop1" />
+            <img src={university} alt="Avatar" class="imagelaptop1" />
             <div class="box3content3">
               <h1>are you Tutor?</h1>
             </div>

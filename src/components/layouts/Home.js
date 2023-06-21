@@ -3,6 +3,16 @@ import "./Home.css";
 import img2 from "../images/lucas-5tRmLGguL3Q-unsplash.jpg";
 import Navbartest from "./Navbartest";
 // import Navbar from "./Navbar";
+
+// Import Swiper React components
+import { Swiper, SwiperSlide } from "swiper/react";
+
+// Import Swiper styles
+import "swiper/css";
+import "swiper/css/effect-cards";
+
+// import required modules
+import { EffectCards } from "swiper";
 function Home() {
     function anim() {
         let on = document.getElementById("anime");
@@ -74,6 +84,21 @@ function Home() {
           </div>
         </div>
             </div>
+
+            <Swiper
+        effect={"cards"}
+        grabCursor={true}
+    
+        modules={[EffectCards]}
+        className="mySwiper"
+      >
+        <SwiperSlide>ADMIN</SwiperSlide>
+        <SwiperSlide>ADMIN 2</SwiperSlide>
+        <SwiperSlide>ADMIN 3</SwiperSlide>
+        <SwiperSlide>ADMIN 4</SwiperSlide>
+        <SwiperSlide>ADMIN 5</SwiperSlide>
+
+      </Swiper>
         </div>
   );
 }

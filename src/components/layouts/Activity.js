@@ -1,25 +1,27 @@
 import React from "react";
 // import { useState } from "react";
 // import { Link } from "react-router-dom";
-import university from "../images/university.png";
-import bag from "../images/briefcase.svg";
-import envelope from "../images/envelope.svg";
-import briefcase from "../images/briefcase.svg";
-import flask from "../images/flask.svg";
-import like from "../images/like.svg";
-import worldwide from "../images/worldwide.svg";
-import loudspeaker from "../images/loudspeaker.svg";
-import quantum from "../images/quantum.svg";
-import targetarrow from "../images/targetarrow.svg";
-import rocket from "../images/rocket.svg";
+// import university from "../images/university.png";
+// import bag from "../images/briefcase.svg";
+// import envelope from "../images/envelope.svg";
+// import briefcase from "../images/briefcase.svg";
+// import flask from "../images/flask.svg";
+// import like from "../images/like.svg";
+// import worldwide from "../images/worldwide.svg";
+// import loudspeaker from "../images/loudspeaker.svg";
+// import quantum from "../images/quantum.svg";
+// import targetarrow from "../images/targetarrow.svg";
+// import rocket from "../images/rocket.svg";
 
 import onetoone from '../images/one-to-one.png'
+import useoftech from '../images/useoftech.png'
+import one100 from '../images/100.png'
 
 import animation1  from '../animation/animation1.json'
 import Navbartest from "./Navbartest";
 import boardimg from "../images/board.svg";
 import Lottie from "lottie-react";
-// import anim from '../animation/animation.json'
+ import anim from '../animation/animation.json'
 // import anim1 from '../animation/animation1.json'
 // import anim2 from '../animation/animation2.json'
 // import anim3 from '../animation/animation3.json'
@@ -481,26 +483,100 @@ function Activity() {
           </div>
         </div>
       </div>
-      <div class="flex-container">
-        <div class="flex-item-left">
-          <div class="left1">
-            <img class="onetooneimg" src={onetoone} alt="" />
-            <p class="textonetoone">
-              Our USP is our 1 to 1 classes for each student. The classes are
-              designed in such a way that learning becomes interactive and fun
-              and the bond is created between the student and teacher. Connect
-              with an experienced teacher with expertise in the subject you
-              need.
-            </p>
+      <div>
+        <h1 class="titlewhy">WHY BOB WORLD?</h1>
+        <div class="flex-container">
+          <div class="flex-item-left">
+            <div class="left1">
+              <img class="onetooneimg" src={onetoone} alt="" />
+              <p class="textonetoone">
+                <span class="onetooneheader">1 TO 1 CLASSES : </span>
+                Our USP is our 1 to 1 classes for each student. The classes are
+                designed in such a way that learning becomes interactive and fun
+                and the bond is created between the student and teacher. Connect
+                with an experienced teacher with expertise in the subject you
+                need.
+              </p>
+            </div>
+            <div class="left2">
+              <img class="useoftechimg" src={useoftech} alt="" />
+
+              <p class="textuseoftech">
+                <span class="useoftechheader">USE OF TECHNOLOGY : </span>
+                Our 1:1 classes are a blend of traditional way of learning along
+                with use of technology. We use different learning platforms like
+                Quizizz, Kahoot, Nearpod, etc. to make our classes different.
+                This mode of learning prepare students for future and make
+                classes 100% engaging. Tutors are put through rigorous
+                development programs by our trainers from time to time. It is
+                mandatory for the tutors to update their knowledge with the
+                latest trends in online tutoring and research.
+              </p>
+            </div>
+            <div class="left3">
+              <img class="onehundperimg" src={one100} alt="" />
+
+              <p class="textonehundper">
+                <span class="onehundperheader">SATISFACTION IS GUARANTEED : </span>
+                Learning Jar ensures that your ward gets a perfect classroom
+                experience. Teachers are not only professional but also
+                passionate about teaching. Students get perfectly customized
+                classes according to their needs.
+              </p>
+            </div>
           </div>
-          <div class="left2">left2 </div>
-          <div class="left3">left3 </div>
+          <div class="flex-item-right">
+            <div class="flexrightimg">
+              <Lottie animationData={anim}></Lottie>
+            </div>
+          </div>
         </div>
-        <div class="flex-item-center">center</div>
+        <div class="flex-container">
         <div class="flex-item-right">
-          <div class="  right1">left1 </div>
-          <div class="right2">left2 </div>
-          <div class="right3">left3 </div>
+            <div class="flexrightimg">
+              <Lottie animationData={anim}></Lottie>
+            </div>
+          </div>
+          <div class="flex-item-left">
+            <div class="left1">
+              <img class="onetooneimg" src={onetoone} alt="" />
+              <p class="textonetoone">
+                <span class="onetooneheader">1 TO 1 CLASSES : </span>
+                Our USP is our 1 to 1 classes for each student. The classes are
+                designed in such a way that learning becomes interactive and fun
+                and the bond is created between the student and teacher. Connect
+                with an experienced teacher with expertise in the subject you
+                need.
+              </p>
+            </div>
+            <div class="left2">
+              <img class="useoftechimg" src={useoftech} alt="" />
+
+              <p class="textuseoftech">
+                <span class="useoftechheader">USE OF TECHNOLOGY : </span>
+                Our 1:1 classes are a blend of traditional way of learning along
+                with use of technology. We use different learning platforms like
+                Quizizz, Kahoot, Nearpod, etc. to make our classes different.
+                This mode of learning prepare students for future and make
+                classes 100% engaging. Tutors are put through rigorous
+                development programs by our trainers from time to time. It is
+                mandatory for the tutors to update their knowledge with the
+                latest trends in online tutoring and research.
+              </p>
+            </div>
+            <div class="left3">
+              <img class="onehundperimg" src={one100} alt="" />
+
+              <p class="textonehundper">
+                <span class="onehundperheader">SATISFACTION IS GUARANTEED : </span>
+                Learning Jar ensures that your ward gets a perfect classroom
+                experience. Teachers are not only professional but also
+                passionate about teaching. Students get perfectly customized
+                classes according to their needs.
+              </p>
+            </div>
+          </div>
+      
         </div>
       </div>
     </div>

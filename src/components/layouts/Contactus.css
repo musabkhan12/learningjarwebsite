@@ -207,7 +207,7 @@ align-items: center;
 flex-wrap: wrap;
 }
 .featuresubdivfirst{
-    background-image: url(../images/320-2.jpg);
+    background-image: url(../images/university.png);
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   margin: 10px;
   color: black;
@@ -570,11 +570,11 @@ flex-wrap: wrap;
   }
   
   .swiper-slide:nth-child(1n) {
-    background-image: url(../images/320-2.jpg);
+    background-color: #FFBB01;
   }
   
   .swiper-slide:nth-child(2n) {
-    background-image: url(../images/320-3.jpg);
+    background-color: blue
   }
   
   .swiper-slide:nth-child(3n) {

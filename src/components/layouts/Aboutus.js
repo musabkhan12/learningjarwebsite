@@ -8,9 +8,9 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/effect-cards";
 
-
 // import required modules
 import { EffectCards } from "swiper";
+
 import "./Aboutus.css";
 
 // this is for animation lottie
@@ -517,7 +517,7 @@ function Aboutus() {
       </div>
 
 
-<Swiper
+      <Swiper
         effect={"cards"}
         grabCursor={true}
         modules={[EffectCards]}
