@@ -264,7 +264,23 @@ flex-wrap: nowrap;
  display: none;
 }
 }
-
+@media  (min-width:0px) and (max-width:370px) { 
+  .perspective-text {
+    -webkit-user-select: none;
+    user-select: none;
+    position: absolute;
+    color: rgb(0, 0, 0);
+    z-index: 6;
+    font-family: Arial;
+    font-size: 43px;
+    font-weight: 900;
+    top: 36px;
+    color: black;
+    left: -30px;
+    letter-spacing: -2px;
+    text-transform: uppercase
+  }
+}
 @media  (max-width:449px) {
   .featuresdivmain{
     background: linear-gradient(
@@ -522,21 +538,21 @@ flex-wrap: nowrap;
       opacity: 0.4;
     }
   .perspective-text {
-    -webkit-user-select: none; /* Safari */
-    -ms-user-select: none; /* IE 10 and IE 11 */
-    user-select: none; /* Standard syntax */
+    -webkit-user-select: none;
+    user-select: none;
     position: absolute;
     color: rgb(0, 0, 0);
     z-index: 6;
     font-family: Arial;
-    font-size: 50px;
+    font-size: 43px;
     font-weight: 900;
-    top: 80px;
-    left: 18px;
+    top: 36px;
+    color: black;
+    left: -10px;
     letter-spacing: -2px;
-    text-transform: uppercase;
+    text-transform: uppercase
   }
-  p.LJETOLEARN {
+  p.LJETOLEARN{
     -webkit-user-select: none; /* Safari */
     -ms-user-select: none; /* IE 10 and IE 11 */
     user-select: none; /* Standard syntax */
@@ -580,7 +596,7 @@ flex-wrap: nowrap;
   }
   .perspective-text:hover p{
     transform: translate(0, -50px);
-    color: rgb(242, 182, 72) ;
+
   } 
 }
 @media  (min-width:450px) and (max-width: 650px ) {
@@ -1204,7 +1220,7 @@ width : 20px
 .divbenifitsonline{
   margin-top: 10%;
   /* background: rgb(253,188,20); */
-  background: linear-gradient(176deg,rgb(253,188,20) 85%,rgb(0,40,72) 17%);
+  background: linear-gradient(176deg,rgb(242,128,14) 85%,rgb(144,187,197) 17%);
   padding: 0rem 0%;
   padding-top: 0rem;
   }
@@ -1391,20 +1407,26 @@ width : 20px
     
 
       /* from here css for benifits of online learning start */
+
+      .whylj{
+       background:  linear-gradient(187deg,rgb(144,187,197) 92%,rgb(242,128,14) 38%)
+      }
       .flex-container {
         display: flex;
         flex-direction: row;
         font-size: 30px;
         text-align: center;
-       background: rgb(0,40,72);
+
        margin-top: -0.7%;
       }
       .titlewhy{
-        background: rgb(0,40,72);
+        background: rgb(144,187,197);
         margin: -1px;
-        padding-bottom: 40px;
+
+        font-weight: 900;
+        padding-bottom: 60px;
         text-align: center;
-        color: white;
+        color: rgb(0, 0, 0);
       }
 
       .flex-item-left {
@@ -1429,14 +1451,21 @@ width : 20px
 .left3::-webkit-scrollbar{
   display: none;
   }
+.left4::-webkit-scrollbar{
+  display: none;
+  }
+  
 
 
       /* Responsive layout - makes a one column-layout instead of two-column layout */
 
       /* this is for mobile */
+
+    
       @media (max-width: 800px) {
         .flex-container {
           flex-direction: column;
+          padding-bottom: 30px;
         }
   .left1{
     overflow: scroll;
@@ -1451,7 +1480,8 @@ width : 20px
     /* margin: 60px; */
     margin-right: 10px;
     margin-left: 10px;
-    margin-bottom: 30px;
+    margin-bottom: 60px;
+    margin-top: 60px;
   }
   .left2{
     overflow: scroll;
@@ -1466,11 +1496,12 @@ width : 20px
     /* margin: 60px; */
     margin-right: 10px;
     margin-left: 10px;
-    margin-bottom: 30px;
+    margin-bottom: 60px;
+    margin-top: 60px;
   }
   .left3{
     overflow: scroll;
-    border-color: #ffffff;
+    border-color: rgb(242,128,14);
     border-style: solid;
     margin-left: 110px;
     height: 100px;
@@ -1481,12 +1512,32 @@ width : 20px
     /* margin: 60px; */
     margin-right: 10px;
     margin-left: 10px;
-    margin-bottom: 30px;
+    margin-bottom: 60px;
+    margin-top: 60px;
+  }
+  .left4{
+    overflow: scroll;
+    border-color: rgb(0, 0, 0);
+    border-style: solid;
+    margin-left: 110px;
+    height: 100px;
+    border-top-right-radius: 65px;
+    border-top-left-radius: 65px;
+    border-bottom-right-radius: 65px;
+    border-bottom-left-radius: 65px;
+    /* margin: 60px; */
+    margin-right: 10px;
+    margin-left: 10px;
+    margin-bottom: 60px;
+    margin-top: 60px;
   }
       }
 
-      /* this is for tablets and mobile */
+      /* this is for tablets and laptop */
       @media (min-width: 800px){
+        .flex-container {
+          padding-bottom: 120px;
+        }
         .flexrightimg{
           margin-top: 100px;
         }
@@ -1504,17 +1555,16 @@ width : 20px
           margin-left: 16px;
         }
         .useoftechheader{
-          color: white;
+          color: rgb(0, 0, 0);
           font-size: 22px;
         }
         .onetooneheader{
 
-          color: white;
+          color: rgb(0, 0, 0);
           font-size: 22px;
         }
         .onehundperheader{
-
-          color: white;
+          color: rgb(0, 0, 0);
           font-size: 22px;
         }
         .left2{
@@ -1534,9 +1584,24 @@ width : 20px
         }
         .left3{
           overflow: scroll;
-          border-color: #ffffff;
+          border-color:rgb(242,128,14);
           border-style: solid;
-        
+          
+          margin-left: 110px;
+          height: 100px;
+          border-top-right-radius: 65px;
+          border-top-left-radius: 65px;
+          border-bottom-right-radius: 65px;
+          border-bottom-left-radius: 65px;
+                   /* margin: 60px; */
+                   margin-top: 60px;
+                   margin-left: 16px;
+        }
+        .left4{
+          overflow: scroll;
+          border-color:rgb(6, 6, 6);
+          border-style: solid;
+          
           margin-left: 110px;
           height: 100px;
           border-top-right-radius: 65px;
@@ -1549,28 +1614,28 @@ width : 20px
         }
       }
       p.textonetoone{
-        font-size: 19px;
+        font-size: 14px;
         font-weight: 600;
         line-height: 19px;
         margin: 12px;
         text-align: justify;
-        color: white;
+        color: rgb(0, 0, 0);
       }
       p.textuseoftech{
-        font-size: 19px;
+        font-size: 14px;
         font-weight: 600;
         line-height: 19px;
         margin: 12px;
         text-align: justify;
-        color: white;
+        color: rgb(0, 0, 0);
       }
       p.textonehundper{
-        font-size: 19px;
+        font-size: 14px;
         font-weight: 600;
         line-height: 19px;
         margin: 12px;
         text-align: justify;
-        color: white;
+        color: rgb(0, 0, 0);
       }
       .onetooneimg{
         width: 71px;
@@ -1589,7 +1654,7 @@ width : 20px
         margin-top: 11px;
         margin-left: 12px;
         float: left;
-        border-color: #ffffff;
+        border-color:rgb(11,162,233);
         border-style: solid;
         border-radius: 360%;
         background-color: white;
@@ -1600,7 +1665,18 @@ width : 20px
         margin-top: 11px;
         margin-left: 12px;
         float: left;
-        border-color: #ffffff;
+        border-color:rgb(242,128,14);
+        border-style: solid;
+        border-radius: 360%;
+        background-color: white;
+      }
+      .affordimg{
+        width: 71px;
+        height: 67px;
+        margin-top: 11px;
+        margin-left: 12px;
+        float: left;
+        border-color:rgb(0, 0, 0);
         border-style: solid;
         border-radius: 360%;
         background-color: white;

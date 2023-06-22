@@ -16,17 +16,21 @@ import React from "react";
 import onetoone from '../images/one-to-one.png'
 import useoftech from '../images/useoftech.png'
 import one100 from '../images/100.png'
+import onlinesafe from '../images/onlinesafe.jpg'
+import personalize from '../images/personalaize.png'
+import time from '../images/time.png'
 
 import animation1  from '../animation/animation1.json'
 import Navbartest from "./Navbartest";
+import Footer from "./Footer";
 import boardimg from "../images/board.svg";
 import Lottie from "lottie-react";
  import anim from '../animation/animation.json'
-// import anim1 from '../animation/animation1.json'
-// import anim2 from '../animation/animation2.json'
-// import anim3 from '../animation/animation3.json'
-// import anim4 from '../animation/animation4.json'
-// import anim5 from '../animation/animation5.json'
+ import anim1 from '../animation/animation1.json'
+  import anim2 from '../animation/animation2.json'
+ import anim3 from '../animation/animation3.json'
+ import anim4 from '../animation/animation4.json'
+ import anim5 from '../animation/animation5.json'
 import anim6 from "../animation/animation6.json";
 // import anim7 from '../animation/animationor.json'
 // import satisfaction from '../animation/satisfaction.json'
@@ -274,32 +278,6 @@ function Activity() {
           </div>
         </div>
       </div>
-      {/* <div class="board">
-    <div class="boardtext">
-    <div class="perspective-text">
-  <div class="perspective-line">
-    <p></p>
-    <p>LEARNING</p>
-  </div>
-  <div class="perspective-line">
-    <p>LEARNING</p>
-    <p>JARRRRRRRR</p>
-  </div>
-  <div class="perspective-line">
-    <p>JARRRRRRRR</p>
-    <p>EASE TO</p>
-  </div>
-  <div class="perspective-line">
-    <p>EASE TO</p>
-    <p>LEARN........</p>
-  </div>
-  <div class="perspective-line">
-    <p>LEARN........</p>
-    <p></p>
-  </div>
-    </div>
-    </div>
-   </div> */}
 
       <div class="boardtext">
         {/* <img class="envelope" src={envelope} alt="" />
@@ -315,24 +293,24 @@ function Activity() {
 
         <div class="perspective-text">
           <div class="perspective-line">
-            <p></p>
-            <p>TESTING </p>
+            <p class="LJETOLEARN"></p>
+            <p class="LJETOLEARN">TESTING </p>
           </div>
           <div class="perspective-line">
-            <p>TESTING</p>
-            <p>DATA</p>
+            <p class="LJETOLEARN">TESTING</p>
+            <p class="LJETOLEARN">DATA</p>
           </div>
           <div class="perspective-line">
-            <p>DATA</p>
-            <p>PRACTICE</p>
+            <p class="LJETOLEARN">DATA</p>
+            <p class="LJETOLEARN">PRACTICE</p>
           </div>
           <div class="perspective-line">
-            <p> PRACTICE</p>
-            <p>LEARN......</p>
+            <p class="LJETOLEARN"> PRACTICE</p>
+            <p class="LJETOLEARN">LEARN......</p>
           </div>
           <div class="perspective-line">
-            <p>LEARN......</p>
-            <p></p>
+            <p class="LJETOLEARN">LEARN......</p>
+            <p class="LJETOLEARN"></p>
           </div>
         </div>
         <div class="perspective-text2">
@@ -483,7 +461,9 @@ function Activity() {
           </div>
         </div>
       </div>
-      <div>
+
+
+      <div class="whylj">
         <h1 class="titlewhy">WHY BOB WORLD?</h1>
         <div class="flex-container">
           <div class="flex-item-left">
@@ -517,7 +497,9 @@ function Activity() {
               <img class="onehundperimg" src={one100} alt="" />
 
               <p class="textonehundper">
-                <span class="onehundperheader">SATISFACTION IS GUARANTEED : </span>
+                <span class="onehundperheader">
+                  SATISFACTION <br /> IS GUARANTEED :{" "}
+                </span>
                 Learning Jar ensures that your ward gets a perfect classroom
                 experience. Teachers are not only professional but also
                 passionate about teaching. Students get perfectly customized
@@ -532,53 +514,61 @@ function Activity() {
           </div>
         </div>
         <div class="flex-container">
-        <div class="flex-item-right">
+          <div class="flex-item-right">
             <div class="flexrightimg">
-              <Lottie animationData={anim}></Lottie>
+              <Lottie animationData={anim3}></Lottie>
             </div>
           </div>
           <div class="flex-item-left">
             <div class="left1">
-              <img class="onetooneimg" src={onetoone} alt="" />
+              <img class="onetooneimg" src={time} alt="" />
               <p class="textonetoone">
-                <span class="onetooneheader">1 TO 1 CLASSES : </span>
-                Our USP is our 1 to 1 classes for each student. The classes are
-                designed in such a way that learning becomes interactive and fun
-                and the bond is created between the student and teacher. Connect
-                with an experienced teacher with expertise in the subject you
-                need.
+                <span class="onetooneheader">
+                  CLASSES AS PER YOUR SCHEDULE :{" "}
+                </span>
+                Students can take classes according to their schedule. Classes
+                can be taken at any time of the day. In Learning Jar tutors take
+                sessions 24*6 hours and pay accordingly.
               </p>
             </div>
             <div class="left2">
-              <img class="useoftechimg" src={useoftech} alt="" />
+              <img class="useoftechimg" src={personalize} alt="" />
 
               <p class="textuseoftech">
-                <span class="useoftechheader">USE OF TECHNOLOGY : </span>
-                Our 1:1 classes are a blend of traditional way of learning along
-                with use of technology. We use different learning platforms like
-                Quizizz, Kahoot, Nearpod, etc. to make our classes different.
-                This mode of learning prepare students for future and make
-                classes 100% engaging. Tutors are put through rigorous
-                development programs by our trainers from time to time. It is
-                mandatory for the tutors to update their knowledge with the
-                latest trends in online tutoring and research.
+                <span class="useoftechheader">PERSONALISED LEARNING : </span>
+                All the classes are given in the online mode as per the
+                requirement of the students. Time-to-time doubt-clearing
+                sessions are also held. We make sure students feel comfortable
+                and reach their potential.
               </p>
             </div>
             <div class="left3">
-              <img class="onehundperimg" src={one100} alt="" />
+              <img class="onehundperimg" src={onlinesafe} alt="" />
 
               <p class="textonehundper">
-                <span class="onehundperheader">SATISFACTION IS GUARANTEED : </span>
-                Learning Jar ensures that your ward gets a perfect classroom
-                experience. Teachers are not only professional but also
-                passionate about teaching. Students get perfectly customized
-                classes according to their needs.
+                <span class="onehundperheader">ONLINE SAFETY : </span>
+                Learning Jar prioritizes online safety for all kids. Regular
+                inspection is done for all classes. All our tutors have been
+                thoroughly screened and provide a safe environment.
+              </p>
+            </div>
+            <div class="left4">
+              <img class="affordimg" src={time} alt="" />
+              <p class="textonetoone">
+                <span class="onetooneheader">
+                  CLASSES AS PER YOUR SCHEDULE :{" "}
+                </span>
+                Students can take classes according to their schedule. Classes
+                can be taken at any time of the day. In Learning Jar tutors take
+                sessions 24*6 hours and pay accordingly.
               </p>
             </div>
           </div>
-      
         </div>
+    
       </div>
+
+    <Footer></Footer>
     </div>
   );
 }

@@ -1,191 +1,140 @@
-.footer{
-    width: 100vw;
-}
-.navbar{
-    width: 100vw;
-}
-.mobilethreesection{
-    width: 100vw;
-}
-.laptopthreesection{
-    width: 100vw;
+
+/* css for tablets and laptop */
+@media (min-width:801px) {
+  .footer{
+    display: flex;
+    height: 260px;
+    background: rgb(242,128,14);
+    padding-top: 150px;
+    }
+    
+  .footer1{
+    flex-direction: column;
+    display: flex;
+    background: rgb(144,187,197);
+    height: 100%;
+    width: 33.33%;
+  }
+  .subfooter1-1{
+    display: flex;
+    flex-direction: row;
+ 
+    height: 100%;
+    width: 100%;
+  }
+  .subfooter1-2{
+    display: flex;
+
+    height: 100%;
+    width:100%;
+  }
+  .subfooter1-3{
+    display: flex;
+
+    height: 100%;
+    width:100%;
+  }
+  .footer2{
+    background: rgb(144,187,197);
+    height: 100%;
+    width: 33.33%;
+  }
+  .footer3{
+    background: rgb(144,187,197);
+    height: 100%;
+    width: 33.33%;
+  }
+  .ljimg{
+    position: absolute;
+    width: 33.33%;
+    z-index: 2;
+    height: 325px;
+    /* top: 18px; */
+    padding-bottom: 4%;
+    padding: -33px;
+    
+  }
 }
 
+/* this is for mobiles */
+@media (max-width: 800px){
+  .footer{
+    flex-direction: column;
+    display: flex;
+    height: 200px;
+    background: rgb(242,128,14); 
+    padding-top: 150px;
+    }
+    
+  .footer1{
+    flex-direction: column;
+    display: flex;
+     background: rgb(144,187,197);
+     height: 50%;
+    width:100%;
+  }
+  .subfooter1-1{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 60%;
+    padding-left: 40%;
+  }
+  .mailtext{
+    font-size: 17px;
+    padding-top: 0px;
+    margin: 0px;
+    padding-left: 8%;
 
+  }
+  .mobiletext{
 
+    font-size: 17px;
+    padding-top: 0px;
+    margin: 0px;
+    padding-left: 8%;
 
-@media only screen and (min-width: 600px){
-    .mobileboxx{
-        display: none;
-}
-}
-@media only screen and (max-width: 601px){
-    .boxx{
-        display: none;
-}
-}
-.mobileboxx{
- /* display: flex; */
- justify-content: center;
- flex-wrap: wrap;
- align-items: center;
- position: relative;
- /* overflow-x: hidden; */
-}
-.mobileboxximg{
-    width: 100vw;
-    height: 100vh;
-}
-.cliq{
-    left: 44%;
-    top: 14%;
-    position: absolute;
-}
-.boxxcontentmobile{
-    z-index: 1;
-    background: rgba(0,0,0,0.6);
-    box-sizing: border-box;
-    position: absolute;
-    color: white;
-    top: 0;
-    text-align: center;
-  height: 100vh;
-    width: 100vw;
-    left: -100%;
-    transition: all 0.98s;
   }
-  .boxxcontent1mobile{
-    left: 0%;
+  .contactustext{
+    font-size: 16px;
+    letter-spacing: 0.1em;
+    padding-top: 0px;
+    /* padding-left: 36px; */
+    width: 125px;
+    margin-left: 15%;
+    border-bottom: 3px solid rgb(242,128,14);
   }
-  .boxxcontent22mobile{
-    z-index: 1;
-    background: rgba(0,0,0,0.6);
-    box-sizing: border-box;
-    position: absolute;
-    color: white;
-    top: 50%;
-    text-align: center;
-    height: 100vh;
-    width: 100vw;
-    right: -100%;
-    transition: all 0.98s;
-  }
-  .boxxcontent2mobile{
-     right: 0%;
-     top: 33.33%;
-     /*// this is changing  the are you student */
-  }
-  .boxxcontent33mobile{
-    z-index: 1;
-    background: rgba(0,0,0,0.6);
-    box-sizing: border-box;
-    position: absolute;
-    color: white;
-    top: 50%;
-    text-align: center;
-    height: 100vh;
-    width: 100vw;
-    right: -100%;
-    transition: all 0.98s;
-  }
-  .boxxcontent3mobile{
-     right: 0%;
-     top: 66.66%;
-     /*// this is changing  the are you student */
-  }
- .teacherimg{
-    width: 100vw;
-    height: 100vh;
-}
-.studentimg{
-    width: 100vw;
-    height: 100vh;
-}
-.parentimg{
-    width: 100vw;
-    height: 100vh;
-} 
 
-.boxx{
-    /* width:100%; */
-    /* margin-bottom: 200px; */
-    /* position: relative; */
-    background-color: #FFBB01;
-    justify-content: center;
-    flex-wrap: wrap;
-    align-items: center;
-    position: relative;
-    height: 100vh;
+   .fa-5x{
+    font-size: 4vw;
+    padding: 2vw;
+    padding-top: 3vh;
+  } 
+  .subfooter1-2{
+    display: flex;
+
+    height: 100%;
+    width:33.33%;
   }
-  .boxx img{
-   width: 33.33vw;
-   height: 100vh;
+  .subfooter1-3{
+    display: flex;
+
+    height: 100%;
+    width:33.33%;
   }
-  .cliqlap{
+  .footer2{
+    background: rgb(144,187,197);
+    height: 33.33%;
+    width:100%;
+  }
+  .footer3{
+    background: rgb(144,187,197);
+     height: 33.33%;
+    width:100%;
+  }
+  .ljimg{
     position: absolute;
-    top: 53%;
+    width: 40%;
+    height: 217px;
   }
-  .cliq2lap{
-  
-    position: absolute;
-    top: 53%;
-  }
-  .cliq3lap{
-  
-    position: absolute;
-    top: 53%;
-  }
-  .boxxcontent{
-    z-index: 1;
-    background: rgba(0,0,0,0.6);
-    box-sizing: border-box;
-    position: absolute;
-    color: white;
-    top: 0;
-    text-align: center;
-  height: 100vh;
-    width: 100vw;
-    left: -100%;
-    transition: all 0.98s;
-  }
-  .boxxcontent1{
-    left: 0%;
-  }
-  .boxxcontent22{
-    z-index: -1;
-    background: rgba(0,0,0,0.6);
-    box-sizing: border-box;
-    position: absolute;
-    color: white;
-    top: 0;
-    text-align: center;
-     height: 100vh;
-     /* margin-left: 39.33%; */
-     /* width: 19.33%; */
-    transition: all 1.2s;
-  }
-  .boxxcontent2{
-      
-    margin-left: 0%;
-    width: 100vw;
-    z-index: 1;
-     /*// this is changing  the are you student */
-  }
-  .boxxcontent33{
-    z-index: 1;
-    background: rgba(0,0,0,0.6);
-    box-sizing: border-box;
-    position: absolute;
-    color: white;
-    top: 0;
-    text-align: center;
-    height: 100vh;
-    width: 100vw;
-    /* right: -100%; */
-    transition: all 0.98s;
-  }
-  .boxxcontent3{
-    right: 0%;
-     /*// this   is changing  the are you student */
-  
-  }
+}
