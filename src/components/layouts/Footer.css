@@ -1,140 +1,119 @@
+footer{
 
-/* css for tablets and laptop */
-@media (min-width:801px) {
-  .footer{
-    display: flex;
-    height: 260px;
-    background: rgb(242,128,14);
-    padding-top: 150px;
-    }
-    
-  .footer1{
-    flex-direction: column;
-    display: flex;
-    background: rgb(144,187,197);
-    height: 100%;
-    width: 33.33%;
-  }
-  .subfooter1-1{
-    display: flex;
-    flex-direction: row;
- 
-    height: 100%;
-    width: 100%;
-  }
-  .subfooter1-2{
-    display: flex;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgb(242,128,14);
+  height: auto;
+  width: 100vw;
 
-    height: 100%;
-    width:100%;
-  }
-  .subfooter1-3{
-    display: flex;
+  padding-top: 40px;
+  color: #000000;
+}
+.footer-content{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+}
+.footer-content h3{
+  font-size: 2.1rem;
+  font-weight: 500;
+  text-transform: capitalize;
+  line-height: 3rem;
+}
+.footer-content p{
+  max-width: 500px;
+  margin: 10px auto;
+  line-height: 28px;
+  font-size: 14px;
+  color: #000000;
+}
+.socials{
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 1rem 0 3rem 0;
+  padding-left: 0%;
+}
+.socials li{
+  margin: 0 10px;
+}
+.socials a{
+  text-decoration: none;
+  color: #000000;
+  border: 1.1px solid rgb(0, 0, 0);
+  padding: 5px;
 
-    height: 100%;
-    width:100%;
-  }
-  .footer2{
-    background: rgb(144,187,197);
-    height: 100%;
-    width: 33.33%;
-  }
-  .footer3{
-    background: rgb(144,187,197);
-    height: 100%;
-    width: 33.33%;
-  }
-  .ljimg{
-    position: absolute;
-    width: 33.33%;
-    z-index: 2;
-    height: 325px;
-    /* top: 18px; */
-    padding-bottom: 4%;
-    padding: -33px;
-    
-  }
+  border-radius: 50%;
+
+}
+.socials a i{
+  font-size: 1.1rem;
+  width: 20px;
+
+
+  transition: color .4s ease;
+
+}
+.socials a:hover i{
+  color: aqua;
 }
 
-/* this is for mobiles */
-@media (max-width: 800px){
-  .footer{
-    flex-direction: column;
-    display: flex;
-    height: 200px;
-    background: rgb(242,128,14); 
-    padding-top: 150px;
-    }
-    
-  .footer1{
-    flex-direction: column;
-    display: flex;
-     background: rgb(144,187,197);
-     height: 50%;
-    width:100%;
-  }
-  .subfooter1-1{
-    display: flex;
-    flex-direction: column;
-    height: 100%;
-    width: 60%;
-    padding-left: 40%;
-  }
-  .mailtext{
-    font-size: 17px;
-    padding-top: 0px;
-    margin: 0px;
-    padding-left: 8%;
+.footer-bottom{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  background: #000;
+  width: 100vw;
+padding-bottom: 40px;
+  text-align: center;
+}
+.footer-bottom p{
+float: left;
+  font-size: 14px;
+  word-spacing: 2px;
+  text-transform: capitalize;
+}
+.footer-bottom p a{
+color:#44bae8;
+font-size: 16px;
+text-decoration: none;
+}
+.footer-bottom span{
+  text-transform: uppercase;
+  opacity: .4;
+  font-weight: 200;
+}
+.footer-menu{
+float: right;
 
-  }
-  .mobiletext{
+}
+.footer-menu ul{
+display: flex;
+padding-left: 0%;
+}
+.footer-menu ul li{
+padding-right: 10px;
+display: block;
+}
+.footer-menu ul li a{
+color: #cfd2d6;
+text-decoration: none;
+}
+.footer-menu ul li a:hover{
+color: #27bcda;
+}
 
-    font-size: 17px;
-    padding-top: 0px;
-    margin: 0px;
-    padding-left: 8%;
+@media (max-width:500px) {
+.footer-menu ul{
+display: flex;
+margin-top: 10px;
+margin-bottom: 20px;
 
-  }
-  .contactustext{
-    font-size: 16px;
-    letter-spacing: 0.1em;
-    padding-top: 0px;
-    /* padding-left: 36px; */
-    width: 125px;
-    margin-left: 15%;
-    border-bottom: 3px solid rgb(242,128,14);
-  }
-
-   .fa-5x{
-    font-size: 4vw;
-    padding: 2vw;
-    padding-top: 3vh;
-  } 
-  .subfooter1-2{
-    display: flex;
-
-    height: 100%;
-    width:33.33%;
-  }
-  .subfooter1-3{
-    display: flex;
-
-    height: 100%;
-    width:33.33%;
-  }
-  .footer2{
-    background: rgb(144,187,197);
-    height: 33.33%;
-    width:100%;
-  }
-  .footer3{
-    background: rgb(144,187,197);
-     height: 33.33%;
-    width:100%;
-  }
-  .ljimg{
-    position: absolute;
-    width: 40%;
-    height: 217px;
-  }
+}
 }

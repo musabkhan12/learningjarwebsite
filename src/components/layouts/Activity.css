@@ -1220,7 +1220,7 @@ width : 20px
 .divbenifitsonline{
   margin-top: 10%;
   /* background: rgb(253,188,20); */
-  background: linear-gradient(176deg,rgb(242,128,14) 85%,rgb(144,187,197) 17%);
+  background: linear-gradient(176deg,rgb(242,128,14) 85%,rgb(59,105,180) 17%);
   padding: 0rem 0%;
   padding-top: 0rem;
   }
@@ -1409,7 +1409,7 @@ width : 20px
       /* from here css for benifits of online learning start */
 
       .whylj{
-       background:  linear-gradient(187deg,rgb(144,187,197) 92%,rgb(242,128,14) 38%)
+       background:  linear-gradient(184deg,rgb(59,105,180) 94%,rgb(242,128,14) 14%)
       }
       .flex-container {
         display: flex;
@@ -1420,13 +1420,13 @@ width : 20px
        margin-top: -0.7%;
       }
       .titlewhy{
-        background: rgb(144,187,197);
+        background: rgb(59,105,180);
         margin: -1px;
 
         font-weight: 900;
         padding-bottom: 60px;
         text-align: center;
-        color: rgb(0, 0, 0);
+        color: rgb(255, 255, 255);
       }
 
       .flex-item-left {
@@ -1485,7 +1485,7 @@ width : 20px
   }
   .left2{
     overflow: scroll;
-    border-color:rgb(11,162,233);
+    border-color:rgb(255, 255, 255);
     border-style: solid;
     margin-left: 110px;
     height: 100px;
@@ -1501,7 +1501,7 @@ width : 20px
   }
   .left3{
     overflow: scroll;
-    border-color: rgb(242,128,14);
+    border-color: #ffffff;
     border-style: solid;
     margin-left: 110px;
     height: 100px;
@@ -1517,7 +1517,7 @@ width : 20px
   }
   .left4{
     overflow: scroll;
-    border-color: rgb(0, 0, 0);
+    border-color: #ffffff;
     border-style: solid;
     margin-left: 110px;
     height: 100px;
@@ -1553,23 +1553,24 @@ width : 20px
           border-bottom-left-radius: 65px;
               /* margin: 60px; */
           margin-left: 16px;
+          margin-right: 16px;
         }
         .useoftechheader{
-          color: rgb(0, 0, 0);
+          color: #ffffff;
           font-size: 22px;
         }
         .onetooneheader{
 
-          color: rgb(0, 0, 0);
+          color: #ffffff;
           font-size: 22px;
         }
         .onehundperheader{
-          color: rgb(0, 0, 0);
+          color: #ffffff;
           font-size: 22px;
         }
         .left2{
           overflow: scroll;
-          border-color:rgb(11,162,233);
+          border-color:#ffffff;
           border-style: solid;
       
           margin-left: 110px;
@@ -1580,11 +1581,12 @@ width : 20px
           border-bottom-left-radius: 65px;
             /* margin: 60px; */
           margin-left: 16px;
+          margin-right: 16px;
           margin-top: 60px;
         }
         .left3{
           overflow: scroll;
-          border-color:rgb(242,128,14);
+          border-color:#ffffff;
           border-style: solid;
           
           margin-left: 110px;
@@ -1596,10 +1598,11 @@ width : 20px
                    /* margin: 60px; */
                    margin-top: 60px;
                    margin-left: 16px;
+                   margin-right: 16px;
         }
         .left4{
           overflow: scroll;
-          border-color:rgb(6, 6, 6);
+          border-color:#ffffff;
           border-style: solid;
           
           margin-left: 110px;
@@ -1611,6 +1614,7 @@ width : 20px
                    /* margin: 60px; */
                    margin-top: 60px;
                    margin-left: 16px;
+                   margin-right: 16px;
         }
       }
       p.textonetoone{
@@ -1619,7 +1623,7 @@ width : 20px
         line-height: 19px;
         margin: 12px;
         text-align: justify;
-        color: rgb(0, 0, 0);
+        color: #ffffff;
       }
       p.textuseoftech{
         font-size: 14px;
@@ -1627,7 +1631,7 @@ width : 20px
         line-height: 19px;
         margin: 12px;
         text-align: justify;
-        color: rgb(0, 0, 0);
+        color: #ffffff;
       }
       p.textonehundper{
         font-size: 14px;
@@ -1635,7 +1639,7 @@ width : 20px
         line-height: 19px;
         margin: 12px;
         text-align: justify;
-        color: rgb(0, 0, 0);
+        color: #ffffff;
       }
       .onetooneimg{
         width: 71px;
@@ -1643,7 +1647,7 @@ width : 20px
         margin-top: 11px;
         margin-left: 12px;
         float: left;
-        border-color: #ffffff;
+        border-color: #000000;
         border-style: solid;
         border-radius: 360%;
         background-color: white;
@@ -1654,7 +1658,7 @@ width : 20px
         margin-top: 11px;
         margin-left: 12px;
         float: left;
-        border-color:rgb(11,162,233);
+        border-color:rgb(0, 0, 0);
         border-style: solid;
         border-radius: 360%;
         background-color: white;
@@ -1665,7 +1669,7 @@ width : 20px
         margin-top: 11px;
         margin-left: 12px;
         float: left;
-        border-color:rgb(242,128,14);
+        border-color:rgb(0, 0, 0);
         border-style: solid;
         border-radius: 360%;
         background-color: white;
@@ -1676,7 +1680,7 @@ width : 20px
         margin-top: 11px;
         margin-left: 12px;
         float: left;
-        border-color:rgb(0, 0, 0);
+        border-color:#000000;
         border-style: solid;
         border-radius: 360%;
         background-color: white;
