@@ -58,10 +58,22 @@ footer{
   transition: color .4s ease;
 
 }
-.socials a:hover i{
-  color: aqua;
-}
+ .fa-google-plus:hover{
+  color: rgb(59,105,180);
+} 
+ .fa-facebook:hover{
+  color: rgb(59,105,180);
+} 
+ .fa-twitter:hover{
+  color: rgb(59,105,180);
+} 
+ .fa-linkedin-square:hover{
+  color: rgb(59,105,180);
+} 
 
+.fa-youtube:hover{
+ color: red;
+}
 .footer-bottom{
   display: flex;
   align-items: center;
@@ -80,7 +92,7 @@ float: left;
   text-transform: capitalize;
 }
 .footer-bottom p a{
-color:#44bae8;
+color:rgb(59,105,180);
 font-size: 16px;
 text-decoration: none;
 }
@@ -106,7 +118,7 @@ color: #cfd2d6;
 text-decoration: none;
 }
 .footer-menu ul li a:hover{
-color: #27bcda;
+color: rgb(59,105,180);
 }
 
 @media (max-width:500px) {

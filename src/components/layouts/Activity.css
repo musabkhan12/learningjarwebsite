@@ -75,10 +75,12 @@ flex-wrap: nowrap;
   
   }
   .perspective-line:nth-child(odd) {
-    transform: skew(335deg, 182deg) scaleY(0.767);
+    /* transform: skew(335deg, 182deg) scaleY(0.767); */
+    transform: scaleY(0.767);
   }
   .perspective-line:nth-child(even) {
-    transform: skew(0deg, 2deg) scaleY(1.73);
+    /* transform: skew(0deg, 2deg) scaleY(1.73) */
+    transform: scaleY(1.73);
   }
   .perspective-line {
     position: relative;
@@ -140,10 +142,12 @@ flex-wrap: nowrap;
 
 }
 .perspective-line2:nth-child(odd) {
-  transform: skew(335deg, 182deg) scaleY(0.767);
+  /* transform: skew(335deg, 182deg) scaleY(0.767); */
+  transform: scaleY(0.767);
 }
 .perspective-line2:nth-child(even) {
-  transform: skew(0deg, 2deg) scaleY(1.73);
+  /* transform: skew(0deg, 2deg) scaleY(1.73); */
+  transform: scaleY(1.73);
 }
 .perspective-line2 {
   position: relative;
@@ -570,10 +574,12 @@ flex-wrap: nowrap;
   
   }
   .perspective-line:nth-child(odd) {
-    transform: skew(335deg, 182deg) scaleY(0.767);
+    /* transform: skew(335deg, 182deg) scaleY(0.767); */
+    transform:  scaleY(0.767);
   }
   .perspective-line:nth-child(even) {
-    transform: skew(0deg, 2deg) scaleY(1.73);
+    /* transform: skew(0deg, 2deg) scaleY(1.73); */
+    transform:  scaleY(1.73);
   }
   .perspective-line {
     position: relative;
@@ -921,10 +927,12 @@ flex-wrap: nowrap;
   
   }
   .perspective-line:nth-child(odd) {
-    transform: skew(335deg, 182deg) scaleY(0.767);
+    transform:  scaleY(0.767);
+    /* transform: skew(335deg, 182deg) scaleY(0.767); */
   }
   .perspective-line:nth-child(even) {
-    transform: skew(0deg, 2deg) scaleY(1.73);
+    /* transform: skew(0deg, 2deg) scaleY(1.73); */
+    transform: scaleY(1.73);
   }
   .perspective-line {
     position: relative;
@@ -987,10 +995,12 @@ flex-wrap: nowrap;
   
   }
   .perspective-line2:nth-child(odd) {
-    transform: skew(335deg, 182deg) scaleY(0.767);
+    transform:  scaleY(0.767);
+    /* transform: skew(335deg, 182deg) scaleY(0.767); */
   }
   .perspective-line2:nth-child(even) {
-    transform: skew(0deg, 2deg) scaleY(1.73);
+    /* transform: skew(0deg, 2deg) scaleY(1.73); */
+    transform:  scaleY(1.73);
   }
   .perspective-line2 {
     position: relative;

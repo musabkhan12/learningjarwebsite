@@ -9,6 +9,7 @@ import Footer from "./components/layouts/Footer"
 import Students from './components/layouts/Students';
 import Home1 from './components/layouts/Home1';
 import Activity from './components/layouts/Activity';
+import Slider from './components/layouts/Slider';
 function App() {
    
   return (
@@ -24,6 +25,8 @@ function App() {
     <Route path="/students" element={<Students/>} exact >  </Route>
     <Route path="/home1" element={<Home1/>} exact >  </Route>
     <Route path="/Activity" element={<Activity/>} exact >  </Route>
+    <Route path="/Slider" element={<Slider/>} exact >  </Route>
+
 </Routes>
 </BrowserRouter>
   </>

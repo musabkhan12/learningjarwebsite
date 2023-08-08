@@ -25,6 +25,7 @@ function mobileMenu() {
     <li> <Link to='/contactus'>Contact Us</Link></li>
     <li> <Link to='/footer'>Footer</Link></li>
     <li> <Link to='/students'>Students</Link></li>
+    <li> <Link to='/slider'>Slider</Link></li>
   </ul>
 </header>
 
