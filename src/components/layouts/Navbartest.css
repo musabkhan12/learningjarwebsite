@@ -16,7 +16,7 @@ body {
     position: fixed;
     width: 100vw;
     top: 0%;
-    z-index: 7;
+    z-index: 17;
   }
   
   .header ul {
@@ -101,7 +101,8 @@ body {
   }
   
   .header .menu-btn:checked ~ .menu {
-    max-height: 324px;
+    /* max-height: 324px; */
+    max-height: 345px;
   }
   
   .header .menu-btn:checked ~ .menu-icon .navicon {

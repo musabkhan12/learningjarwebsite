@@ -1508,7 +1508,94 @@ width : 20px
     margin-left: 10px;
     margin-bottom: 60px;
     margin-top: 60px;
+
   }
+  
+  .left1-section{
+    overflow: scroll;
+    animation: scrollText1 10s linear infinite;
+  }
+  @keyframes scrollText1 {
+    0% {
+      transform: translateY(26%);
+  }
+  100% {
+      transform: translateY(-49%);
+  }
+}
+  .left2-section{
+    overflow: scroll;
+    animation: scrollText2 10s linear infinite;
+  }
+  @keyframes scrollText2 {
+    0% {
+      transform: translateY(16%);
+  }
+  
+  100% {
+      transform: translateY(-59%);
+  }
+}
+  .left3-section{
+    overflow: scroll;
+    animation: scrollText3 10s linear infinite;
+  }
+  @keyframes scrollText3 {
+    0% {
+      transform: translateY(21%);
+  }
+  100% {
+      transform: translateY(-33%);
+  }
+}
+  .left1-section1{
+    overflow: scroll;
+    animation: scrollText11 10s linear infinite;
+  }
+  @keyframes scrollText11 {
+    0% {
+      transform: translateY(26%);
+  }
+  100% {
+      transform: translateY(-19%);
+  }
+}
+  .left2-section2{
+    overflow: scroll;
+    animation: scrollText22 10s linear infinite;
+  }
+  @keyframes scrollText22 {
+    0% {
+      transform: translateY(26%);
+  }
+  100% {
+      transform: translateY(-19%);
+  }
+}
+  .left3-section3{
+    overflow: scroll;
+    animation: scrollText33 10s linear infinite;
+  }
+  @keyframes scrollText33 {
+    0% {
+      transform: translateY(26%);
+  }
+  100% {
+      transform: translateY(-19%);
+  }
+}
+  .left4-section4{
+    overflow: scroll;
+    animation: scrollText44 10s linear infinite;
+  }
+  @keyframes scrollText44 {
+    0% {
+      transform: translateY(26%);
+  }
+  100% {
+      transform: translateY(-19%);
+  }
+}
   .left3{
     overflow: scroll;
     border-color: #ffffff;

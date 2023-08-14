@@ -45,17 +45,61 @@
 
 @media only screen and (max-width:600px) {
   .carousel {
+    
+
+    margin-top: 10vh;
     position: relative;
     padding-top: 75%;
     filter: drop-shadow(0 0 10px #0003);
     perspective: 100px;
   }
+  .mytext {
+    z-index: 10;
+    font-family: "Bebas Neue", cursive;
+    font-size: 3em;
+    position: absolute;
+    font-size: 5vw;
+    top: 9vh;
+    left: 59vw;
+    transform: translate(-50%, -50%);
+    background: linear-gradient(to right, rgba(255, 215, 255, 0) 0%, rgba(225, 255, 255, 0.5) 20%, rgba(255, 255, 255, 0) 61%), linear-gradient(rgb(97, 183, 217) 52%, rgb(224, 246, 255) 60%, rgb(78, 99, 132) 61%);
+    background-image: linear-gradient(gold, gold);
+    background-size: 100% 10px;
+    background-repeat: no-repeat;
+    background-position: 100% 0%;
+    transition: background-size 0.7s, background-position 0.5s ease-in-out;
+}
+.carousel__prev {
+  left: -1rem;
+  margin-left: 3%;
+  top: 4%;
+}
+
+/* .carousel::after, */
+.carousel__next {
+  right: -1rem;
+  margin-right: 3%;
+  top: 4%;
+}
+.carousel::after, .carousel__next {
+  position: absolute;
+  top: 0;
+  right: 1%;
+  margin-top: 36.5vh;
+  width: 4rem;
+  height: 4rem;
+  transform: translateY(-50%);
+  border-radius: 50%;
+  font-size: 0;
+  outline: 0;
+}
 }
 
 @media only screen and (min-width:601px) {
   .carousel {
+    margin-top: 5%;
     position: relative;
-    padding-top: 85%;
+    padding-top: 45%;
     filter: drop-shadow(0 0 10px #0003);
     perspective: 100px;
   }
@@ -97,7 +141,7 @@ ol, li {
   list-style: none;
   margin: 0;
   padding: 0;
-  height: 86%;
+  height: 105%;
 }
 
 /* .carousel {
@@ -109,7 +153,7 @@ ol, li {
 
 .carousel__viewport {
   position: absolute;
-  top: 0;
+  top: -17px;
   right: 0;
   bottom: 0;
   left: 0;
@@ -124,21 +168,21 @@ ol, li {
   position: relative;
   flex: 0 0 100%;
   width: 100%;
-  background-color: #f99;
+  /* background-color: #f99; */
   counter-increment: item;
 }
-
+/* 
 .carousel__slide:nth-child(even) {
   background-color: #99f;
-}
+} */
 
 .carousel__slide:before {
-  content: counter(item);
+  /* content: counter(item); */
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate3d(-50%,-40%,70px);
-  color: #fff;
+  /* color: #f20404; */
   font-size: 2em;
 }
 
@@ -155,7 +199,7 @@ ol, li {
   .carousel__snapper {
     animation-name: tonext, snap;
     animation-timing-function: ease;
-    animation-duration: 4s;
+    /* animation-duration: 4s; */
     animation-iteration-count: infinite;
   }
 
@@ -178,7 +222,7 @@ ol, li {
 .carousel__navigation {
   position: absolute;
   right: 0;
-  bottom: 0;
+  bottom: 22px;
   left: 0;
   text-align: center;
 }
@@ -200,13 +244,27 @@ ol, li {
   transition: transform 0.1s;
 }
 
-.carousel::before,
+/* .carousel::before, */
 .carousel::after,
-.carousel__prev,
 .carousel__next {
   position: absolute;
   top: 0;
-  margin-top: 37.5%;
+  right: 1%;
+  margin-top: 37.5vh;
+  width: 4rem;
+  height: 4rem;
+  transform: translateY(-50%);
+  border-radius: 50%;
+  font-size: 0;
+  outline: 0;
+}
+.carousel::before,
+
+.carousel__prev{
+  position: absolute;
+  top: 0;
+  left: 1%;
+  margin-top: 37.5vh;
   width: 4rem;
   height: 4rem;
   transform: translateY(-50%);
@@ -215,16 +273,18 @@ ol, li {
   outline: 0;
 }
 
-.carousel::before,
+/* .carousel::before, */
 .carousel__prev {
   left: -1rem;
-  margin-left: 6%;
+  margin-left: 3%;
+  top: 4%;
 }
 
-.carousel::after,
+/* .carousel::after, */
 .carousel__next {
   right: -1rem;
-  margin-right: 6%;
+  margin-right: 3%;
+  top: 4%;
 }
 
 .carousel::before,
@@ -248,4 +308,64 @@ ol, li {
 
 .carousel::after {
   background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'%3E%3Cpolygon points='100,50 20,100 20,0' fill='%23fff'/%3E%3C/svg%3E");
+}
+
+
+.skew-img{
+  left: 70%;
+  top: 14%;
+  height: 68%;
+  position: absolute;
+  transform: rotate(2deg) skew(2deg,-31deg);
+  /* animation-name: example;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out; */
+  /* transition-timing-function: ease-in-out; */
+  /* transform: translate(50px, 100px); */
+  -webkit-animation: example 2s infinite  alternate;
+  animation: example 2s infinite  alternate;
+}
+/* @keyframes example {
+  0%   {top:17%;}
+100% {bottom: 14%;}
+
+} */
+
+
+img {
+  -webkit-animation: mover 2s infinite  alternate;
+  animation: mover 2s infinite  alternate;
+}
+@-webkit-keyframes example {
+  0% { transform: translateY(0); }
+  100% { transform: translateY(-20px); }
+}
+@keyframes example {
+  0% { transform: translateY(0); }
+  100% { transform: translateY(-20px); }
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+
+.mytext {
+  z-index: 10;
+  font-family: "Bebas Neue", cursive;
+  font-size: 3em;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: linear-gradient(to right, rgba(255, 215, 255, 0) 0%, rgba(225, 255, 255, 0.5) 20%, rgba(255, 255, 255, 0) 61%), linear-gradient(rgb(97, 183, 217) 52%, rgb(224, 246, 255) 60%, rgb(78, 99, 132) 61%); 
+  background-image: linear-gradient(gold, gold);
+  background-size: 100% 10px;
+  background-repeat: no-repeat;
+  background-position: 100% 0%;
+  transition: background-size 0.7s, background-position 0.5s ease-in-out;
+} 
+
+.mytext:hover {
+  background-size: 100% 100%;
+  background-position: 0% 100%;
+  transition: background-position 0.7s, background-size 0.5s ease-in-out;
 }

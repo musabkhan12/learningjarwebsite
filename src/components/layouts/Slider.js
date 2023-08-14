@@ -23,8 +23,10 @@ return (
     <li id="carousel__slide1"
         tabindex="0"
         class="carousel__slide">
+          <img class="skew-img" src={img2} alt="" />
+          <span class="mytext"> I love to learn more! </span>
       <div class="carousel__snapper">
-        <p>Musaib is</p>
+
         <a href="#carousel__slide4"
            class="carousel__prev">Go to last slide</a>
         <a href="#carousel__slide2"
@@ -59,7 +61,7 @@ return (
          class="carousel__next">Go to first slide</a>
     </li>
   </ol>
-  <aside class="carousel__navigation">
+  {/* <aside class="carousel__navigation">
     <ol class="carousel__navigation-list">
       <li class="carousel__navigation-item">
         <a href="#carousel__slide1"
@@ -78,7 +80,40 @@ return (
            class="carousel__navigation-button">Go to slide 4</a>
       </li>
     </ol>
-  </aside>
+  </aside> */}
+</section>
+<section>
+  <div>
+    testing is here
+    <br />
+    musaib is testing
+    <br />
+    musaib 
+  </div>
+</section>
+
+<section>
+
+  <h1>testing </h1>
+  <h1>testing </h1>
+  <h1>testing </h1>
+  <h1>testing </h1>
+  <h1>testing </h1>
+  <h1>testing </h1>
+  <h1>testing </h1>
+  <h1>testing </h1>
+  <h1>testing </h1>
+  <h1>testing </h1>
+  <h1>testing </h1>
+  <h1>testing </h1>
+  <h1>testing </h1>
+  <h1>testing </h1>
+  <h1>testing </h1>
+  <h1>testing </h1>
+  <h1>testing </h1>
+  <h1>testing </h1>
+  <h1>testing </h1>
+  <h1>testing </h1>
 </section>
 </div>
 

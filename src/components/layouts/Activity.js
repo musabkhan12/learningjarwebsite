@@ -468,6 +468,7 @@ function Activity() {
         <div class="flex-container">
           <div class="flex-item-left">
             <div class="left1">
+              <section class="left1-section">
               <img class="onetooneimg" src={onetoone} alt="" />
               <p class="textonetoone">
                 <span class="onetooneheader">1 TO 1 CLASSES : </span>
@@ -477,34 +478,42 @@ function Activity() {
                 with an experienced teacher with expertise in the subject you
                 need.
               </p>
+              </section>
+   
             </div>
             <div class="left2">
-              <img class="useoftechimg" src={useoftech} alt="" />
+            <section class="left2-section">
+            <img class="useoftechimg" src={useoftech} alt="" />
 
-              <p class="textuseoftech">
-                <span class="useoftechheader">USE OF TECHNOLOGY : </span>
-                Our 1:1 classes are a blend of traditional way of learning along
-                with use of technology. We use different learning platforms like
-                Quizizz, Kahoot, Nearpod, etc. to make our classes different.
-                This mode of learning prepare students for future and make
-                classes 100% engaging. Tutors are put through rigorous
-                development programs by our trainers from time to time. It is
-                mandatory for the tutors to update their knowledge with the
-                latest trends in online tutoring and research.
-              </p>
+<p class="textuseoftech">
+  <span class="useoftechheader">USE OF TECHNOLOGY : </span>
+  Our 1:1 classes are a blend of traditional way of learning along
+  with use of technology. We use different learning platforms like
+  Quizizz, Kahoot, Nearpod, etc. to make our classes different.
+  This mode of learning prepare students for future and make
+  classes 100% engaging. Tutors are put through rigorous
+  development programs by our trainers from time to time. It is
+  mandatory for the tutors to update their knowledge with the
+  latest trends in online tutoring and research.
+</p>
+</section>
+
             </div>
             <div class="left3">
-              <img class="onehundperimg" src={one100} alt="" />
+            <section class="left3-section">
+            <img class="onehundperimg" src={one100} alt="" />
 
-              <p class="textonehundper">
-                <span class="onehundperheader">
-                  SATISFACTION <br /> IS GUARANTEED :{" "}
-                </span>
-                Learning Jar ensures that your ward gets a perfect classroom
-                experience. Teachers are not only professional but also
-                passionate about teaching. Students get perfectly customized
-                classes according to their needs.
-              </p>
+<p class="textonehundper">
+  <span class="onehundperheader">
+    SATISFACTION <br /> IS GUARANTEED :{" "}
+  </span>
+  Learning Jar ensures that your ward gets a perfect classroom
+  experience. Teachers are not only professional but also
+  passionate about teaching. Students get perfectly customized
+  classes according to their needs.
+</p>
+</section>
+
             </div>
           </div>
           <div class="flex-item-right">
@@ -521,7 +530,8 @@ function Activity() {
           </div>
           <div class="flex-item-left">
             <div class="left1">
-              <img class="onetooneimg" src={time} alt="" />
+            <section class="left1-section1">
+            <img class="onetooneimg" src={time} alt="" />
               <p class="textonetoone">
                 <span class="onetooneheader">
                   CLASSES AS PER YOUR SCHEDULE :{" "}
@@ -530,30 +540,40 @@ function Activity() {
                 can be taken at any time of the day. In Learning Jar tutors take
                 sessions 24*6 hours and pay accordingly.
               </p>
+</section>
+
             </div>
             <div class="left2">
-              <img class="useoftechimg" src={personalize} alt="" />
+            <section class="left2-section2">
+            <img class="useoftechimg" src={personalize} alt="" />
 
-              <p class="textuseoftech">
-                <span class="useoftechheader">PERSONALISED LEARNING : </span>
-                All the classes are given in the online mode as per the
-                requirement of the students. Time-to-time doubt-clearing
-                sessions are also held. We make sure students feel comfortable
-                and reach their potential.
-              </p>
+<p class="textuseoftech">
+  <span class="useoftechheader">PERSONALISED LEARNING : </span>
+  All the classes are given in the online mode as per the
+  requirement of the students. Time-to-time doubt-clearing
+  sessions are also held. We make sure students feel comfortable
+  and reach their potential.
+</p>
+</section>
+          
+             
             </div>
             <div class="left3">
-              <img class="onehundperimg" src={onlinesafe} alt="" />
+            <section class="left3-section3">
+            <img class="onehundperimg" src={onlinesafe} alt="" />
 
-              <p class="textonehundper">
-                <span class="onehundperheader">ONLINE SAFETY : </span>
-                Learning Jar prioritizes online safety for all kids. Regular
-                inspection is done for all classes. All our tutors have been
-                thoroughly screened and provide a safe environment.
-              </p>
+<p class="textonehundper">
+  <span class="onehundperheader">ONLINE SAFETY : </span>
+  Learning Jar prioritizes online safety for all kids. Regular
+  inspection is done for all classes. All our tutors have been
+  thoroughly screened and provide a safe environment.
+</p>
+</section>
+
             </div>
             <div class="left4">
-              <img class="affordimg" src={time} alt="" />
+            <section class="left4-section4">
+            <img class="affordimg" src={time} alt="" />
               <p class="textonetoone">
                 <span class="onetooneheader">
                   CLASSES AS PER YOUR SCHEDULE :{" "}
@@ -562,6 +582,8 @@ function Activity() {
                 can be taken at any time of the day. In Learning Jar tutors take
                 sessions 24*6 hours and pay accordingly.
               </p>
+</section>
+
             </div>
           </div>
         </div>
