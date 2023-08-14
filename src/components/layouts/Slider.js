@@ -24,7 +24,7 @@ return (
         tabindex="0"
         class="carousel__slide">
           <img class="skew-img" src={img2} alt="" />
-          <span class="mytext"> I love to learn more! </span>
+          <span class="mytext"> I love to learn more </span>
       <div class="carousel__snapper">
 
         <a href="#carousel__slide4"

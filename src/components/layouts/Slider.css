@@ -46,7 +46,7 @@
 @media only screen and (max-width:600px) {
   .carousel {
     
-
+    height: 100vh;
     margin-top: 10vh;
     position: relative;
     padding-top: 75%;
@@ -69,14 +69,14 @@
     background-position: 100% 0%;
     transition: background-size 0.7s, background-position 0.5s ease-in-out;
 }
-.carousel__prev {
+/* .carousel__prev {
   left: -1rem;
   margin-left: 3%;
   top: 4%;
-}
+} */
 
 /* .carousel::after, */
-.carousel__next {
+/* .carousel__next {
   right: -1rem;
   margin-right: 3%;
   top: 4%;
@@ -92,11 +92,12 @@
   border-radius: 50%;
   font-size: 0;
   outline: 0;
-}
+} */
 }
 
 @media only screen and (min-width:601px) {
   .carousel {
+    height: 100vh;
     margin-top: 5%;
     position: relative;
     padding-top: 45%;
