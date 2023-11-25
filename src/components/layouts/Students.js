@@ -1,5 +1,6 @@
 import React from "react";
 import Navbartest from "./Navbartest.js";
+import Stickycontactus  from "./Stickycontactus.js";
 import geog from '../map/features.json'
 import './Students.css'
 import moon from '../blobs/Moon.svg'
@@ -187,7 +188,13 @@ function Students(){
  // here benifits of online learning end
 // js for benifits end //
     return(
-   <div class="studentsdiv">
+    <div>
+
+    <Stickycontactus></Stickycontactus>
+   
+<div class="studentsdiv">
+   
+   
     {/* <img alt="" class="moon" src={moon} /> */}
      <meta name="viewport" 
       content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0"></meta>
@@ -319,6 +326,8 @@ function Students(){
         <p class="blinker2"></p>
        </div>
    </div>
+    </div>
+
 )
 }
 export default Students;

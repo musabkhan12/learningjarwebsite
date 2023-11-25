@@ -7,6 +7,8 @@ import university from "../images/university.png"
 import lucas from "../images/lucas-5tRmLGguL3Q-unsplash.jpg"
 
 import Navbartest from "./Navbartest";
+import Stickycontactus from "./Stickycontactus";
+import Footer from "./Footer";
 
 // import logo from "../images/Logo.png";
 // import hamburger from "../images/hamburger.png";
@@ -28,11 +30,14 @@ function Home1() {
 
   return (
     <div class="main">
-          <meta name="viewport" 
-      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0"></meta>
-   <Navbartest></Navbartest> 
-   {/* on hover three section  */}
-        {/* <div class="three">
+      <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0"
+      ></meta>
+      <Navbartest></Navbartest>
+      <Stickycontactus></Stickycontactus>
+      {/* on hover three section  */}
+      {/* <div class="three">
           <div class="boxtest">
           <img src={img2} alt="Avatar" class="testimage" />
                <div class="box1content1test">
@@ -53,13 +58,35 @@ function Home1() {
            </div>
   
           </div> */}
-        <div>
-    
+      <div>
         <div class="imagecontainerlaptop">
           <div class="box1">
             <img src={university} alt="Avatar" class="imagelaptop1" />
             <div class="box1content1">
-              <h1>are you student?</h1>
+            
+              <div class="container">
+              <h1 class="h1home">are you student?</h1>
+              </div>
+       
+              <ul>
+                  <li>
+                    <a class="animated-arrow">
+                      <span class="the-arrow -left">
+                        <span class="shaft"></span>
+                      </span>
+                      <span class="main">
+                        <span class="text">Explore More</span>
+                        <span class="the-arrow -right">
+                          <span class="shaft"></span>
+                        </span>
+                      </span>
+                    </a>
+                  </li>
+                </ul>
+         
+         
+             
+             
             </div>
           </div>
           <div class="box2">
@@ -75,8 +102,8 @@ function Home1() {
             </div>
           </div>
         </div>
-
       </div>
+      <Footer></Footer>
     </div>
   );
 }

@@ -20,12 +20,12 @@ function mobileMenu() {
   <input class="menu-btn" type="checkbox" id="menu-btn" />
   <label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
   <ul class="menu">
-    <li> <Link to='/'>Home</Link></li>
+    <li> <Link to='/Home1'>Home</Link></li>
     <li> <Link to='/Activity'>Activity</Link></li>
     <li> <Link to='/contactus'>Contact Us</Link></li>
     <li> <Link to='/footer'>Footer</Link></li>
     <li> <Link to='/students'>Students</Link></li>
-    <li> <Link to='/slider'>Slider</Link></li>
+    {/* <li> <Link to='/slider'>Slider</Link></li> */}
   </ul>
 </header>
 
